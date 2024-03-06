@@ -10,7 +10,6 @@ defineProps({
 <template>
   <div class="header-text">
     <h1>{{ text }}</h1>
-    <h3>Information about upcoming marathons</h3>
   </div>
 </template>
 
