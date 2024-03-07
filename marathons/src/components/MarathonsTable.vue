@@ -1,4 +1,6 @@
 <script setup>
+  import CountryFlag from 'vue-country-flag'
+
   defineProps({
     marathons: {
       type: Object,
@@ -18,9 +20,14 @@
         v-for="(marathon, index) in marathons" :key="marathon.city"
         :disabled="isDateInPast(daysParsed[index])"
       >
-        {{ marathon.city }} - 
+        <div class="marathon-date">
+          {{ this.formatDate(daysParsed[index]) }}
+        </div>
+        {{ marathon.city }}
+        <div class="country-flag">
+          <country-flag :country="marathon.country" size='big'/> 
+        </div>
         {{ this.getDaysMessage(daysParsed[index]) }} 
-        {{ this.formatDate(daysParsed[index]) }}
       </b-list-group-item
       >
     </b-list-group>
@@ -43,9 +50,9 @@ export default {
       const difference = new Date() - date;
       const daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24));
       if (daysDifference > 0) {
-          return daysDifference + ' days ago on';
+          return daysDifference + ' days ago';
       } else if (daysDifference < 0) {
-          return Math.abs(daysDifference) + ' days until';
+          return Math.abs(daysDifference) + ' days to go';
       } else {
           return 'today on';
       }
@@ -62,5 +69,17 @@ export default {
 .list-group-item {
     padding: 30px 30px;
     border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.marathon-date {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.country-flag {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 </style>
