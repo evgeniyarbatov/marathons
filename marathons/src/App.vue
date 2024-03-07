@@ -1,15 +1,13 @@
 <script setup>
-import PageHeader from './components/PageHeader.vue'
 import MarathonsTable from './components/MarathonsTable.vue'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <PageHeader text="World Marathon Majors" />
       <MarathonsTable 
         :marathons="marathons"
-        :daysCounter="daysCounter"
+        :daysParsed="daysParsed"
       />
     </div>
   </header>
@@ -30,27 +28,22 @@ export default {
       ]
     }
   },
+  methods: {
+    parseDate(date) {
+      const parts = date.split('/');
+      const year = (new Date()).getFullYear();
+      const month = parseInt(parts[1]) - 1;
+      const day = parseInt(parts[0]); 
+      return new Date(year, month, day);
+    },
+  },
   computed: {
-    daysCounter: function() {
+    daysParsed: function() {
+      const self = this;
         return this.marathons.map(function(marathon) {
-          const parts = marathon.date.split('/');
-
-          const year = (new Date()).getFullYear();
-          const month = parseInt(parts[1]) - 1; // Months are zero-based in JavaScript
-          const day = parseInt(parts[0]);
-
-          const difference = new Date() - new Date(year, month, day);
-          const daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24));
-
-          if (daysDifference > 0) {
-              return daysDifference + ' days ago';
-          } else if (daysDifference < 0) {
-              return Math.abs(daysDifference) + ' days until';
-          } else {
-              return 'Today';
-          }
+          return self.parseDate(marathon.date);
         });
-    }
+    },
   }
 }
 </script>
