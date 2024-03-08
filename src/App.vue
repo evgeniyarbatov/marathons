@@ -5,10 +5,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
 <template>
   <header>
     <div class="wrapper">
-      <MarathonsTable 
-        :marathons="marathons"
-        :daysParsed="daysParsed"
-      />
+      <MarathonsTable :marathons="marathons" :daysParsed="daysParsed" />
     </div>
   </header>
 </template>
@@ -30,20 +27,20 @@ export default {
   },
   methods: {
     parseDate(date) {
-      const parts = date.split('/');
-      const year = (new Date()).getFullYear();
-      const month = parseInt(parts[1]) - 1;
-      const day = parseInt(parts[0]); 
-      return new Date(year, month, day);
-    },
+      const parts = date.split('/')
+      const year = new Date().getFullYear()
+      const month = parseInt(parts[1]) - 1
+      const day = parseInt(parts[0])
+      return new Date(year, month, day)
+    }
   },
   computed: {
-    daysParsed: function() {
-      const self = this;
-        return this.marathons.map(function(marathon) {
-          return self.parseDate(marathon.date);
-        });
-    },
+    daysParsed: function () {
+      const self = this
+      return this.marathons.map(function (marathon) {
+        return self.parseDate(marathon.date)
+      })
+    }
   }
 }
 </script>
