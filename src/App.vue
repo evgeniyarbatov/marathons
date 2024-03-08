@@ -1,4 +1,6 @@
 <script setup>
+import axios from 'axios';
+
 import MarathonsTable from './components/MarathonsTable.vue'
 </script>
 
@@ -15,16 +17,19 @@ export default {
   name: 'app',
   data() {
     return {
-      marathons: [
-        { city: 'Tokyo', country: 'jp', date: '3/3' },
-        { city: 'Boston', country: 'us', date: '15/4' },
-        { city: 'London', country: 'gb', date: '21/4' },
-        { city: 'Berlin', country: 'de', date: '22/9' },
-        { city: 'Chicago', country: 'us', date: '13/10' },
-        { city: 'New York', country: 'us', date: '3/9' }
-      ]
+      marathons: []
     }
   },
+  created() {
+    axios.get('/marathons.json')
+      .then(response => {
+        this.marathons = response.data;
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  },
+
   methods: {
     parseDate(date) {
       const parts = date.split('/')
