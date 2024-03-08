@@ -7,7 +7,10 @@ import MarathonsTable from './components/MarathonsTable.vue'
 <template>
   <header>
     <div class="wrapper">
-      <MarathonsTable :marathons="marathons" :daysParsed="daysParsed" />
+      <MarathonsTable 
+        :marathons="marathons" 
+        :bestTimes="bestTimes"
+        :daysParsed="daysParsed" />
     </div>
   </header>
 </template>
@@ -17,19 +20,19 @@ export default {
   name: 'app',
   data() {
     return {
-      marathons: []
+      marathons: [],
+      bestTimes: [],
     }
   },
-  created() {
-    axios.get('/marathons.json')
-      .then(response => {
-        this.marathons = response.data;
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
+  async created() {
+    [
+      { data: this.marathons }, 
+      { data: this.bestTimes },
+    ] = await axios.all([
+      axios.get('/marathons.json'), 
+      axios.get('/best_times.json'),
+    ]);
   },
-
   methods: {
     parseDate(date) {
       const parts = date.split('/')

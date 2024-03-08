@@ -6,6 +6,10 @@ defineProps({
     type: Object,
     required: true
   },
+  bestTimes: {
+    type: Object,
+    required: true
+  },
   daysParsed: {
     type: Object,
     required: true
@@ -20,15 +24,30 @@ defineProps({
         v-for="(marathon, index) in marathons"
         :key="marathon.city"
         :disabled="isDateInPast(daysParsed[index])"
+        class="flex-column align-items-start"
       >
-        <div class="marathon-date">
-          {{ this.formatDate(daysParsed[index]) }}
+        <div class="d-flex w-100 justify-content-between">
+          <div class="marathon-date">
+              {{ this.formatDate(daysParsed[index]) }}
+            </div>
+          {{ marathon.city }}
+          <country-flag :country="marathon.country" size="normal" />
+          <small>{{ this.getDaysMessage(daysParsed[index]) }}</small>
         </div>
-        {{ marathon.city }}
-        <div class="country-flag">
-          <country-flag :country="marathon.country" size="big" />
-        </div>
-        {{ this.getDaysMessage(daysParsed[index]) }}
+        <p class="mb-1">
+          <ul>
+            <li
+              v-for="(bestTime, index) in this.getBestRunningTime(marathon.city)"
+              :key="index"
+            >
+              {{ bestTime.Time }} - 
+              {{ bestTime.Name }}
+              <country-flag :country="bestTime.Country" size="small" />
+              -
+              {{ bestTime.Date }}
+            </li>
+          </ul>
+        </p>
       </b-list-group-item>
     </b-list-group>
   </div>
@@ -56,30 +75,20 @@ export default {
       } else {
         return 'today on'
       }
-    }
+    },
+    getBestRunningTime: function (city) {
+      return this.bestTimes.filter(time => time.City === city)
+    },
   }
 }
 </script>
 
 <style scoped>
-.marathons-table {
-  text-align: center;
-  font-size: 3vw;
-}
 .list-group-item {
-  padding: 30px 30px;
   border-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.marathon-date {
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.country-flag {
-  padding-left: 5px;
-  padding-right: 5px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 </style>
