@@ -1,0 +1,82 @@
+[
+  {
+    "Time":"2:01:09",
+    "Name":"Eliud Kipchoge",
+    "Country":"KEN",
+    "City":"Berlin",
+    "Gender":"Men",
+    "Date":"25.09.2022"
+  },
+  {
+    "Time":"2:11:53",
+    "Name":"Tigist Assefa",
+    "Country":"ETH",
+    "City":"Berlin",
+    "Gender":"Women",
+    "Date":"24.09.2023"
+  },
+  {
+    "Time":"2:03:02",
+    "Name":"Geoffrey Mutai",
+    "Country":"KEN",
+    "City":"Boston",
+    "Gender":"Men",
+    "Date":"18.04.2011"
+  },
+  {
+    "Time":"2:18:57",
+    "Name":"Rita Sitienei Jeptoo",
+    "Country":"KEN",
+    "City":"Boston",
+    "Gender":"Women",
+    "Date":"21.04.2014"
+  },
+  {
+    "Time":"2:00:35",
+    "Name":"Kelvin Kiptum",
+    "Country":"KEN",
+    "City":"Chicago",
+    "Gender":"Men",
+    "Date":"08.10.2023"
+  },
+  {
+    "Time":"2:13:44",
+    "Name":"Sifan Hassan",
+    "Country":"NED",
+    "City":"Chicago",
+    "Gender":"Women",
+    "Date":"08.10.2023"
+  },
+  {
+    "Time":"2:01:25",
+    "Name":"Kelvin Kiptum",
+    "Country":"KEN",
+    "City":"London",
+    "Gender":"Men",
+    "Date":"23.04.2023"
+  },
+  {
+    "Time":"2:15:25",
+    "Name":"Paula Radcliffe",
+    "Country":"GBR",
+    "City":"London",
+    "Gender":"Women",
+    "Date":"13.04.2003"
+  },
+  {
+    "Time":"2:02:40",
+    "Name":"Eliud Kipchoge",
+    "Country":"KEN",
+    "City":"Tokyo",
+    "Gender":"Men",
+    "Date":"06.03.2022"
+  },
+  {
+    "Time":"2:16:02",
+    "Name":"Brigid Kosgei",
+    "Country":"KEN",
+    "City":"Tokyo",
+    "Gender":"Women",
+    "Date":"06.03.2022"
+  }
+]
