@@ -1,0 +1,50 @@
+[
+  {
+    "City":"Berlin",
+    "Record Count":452,
+    "People Count":356,
+    "Country Count":34,
+    "Men":162,
+    "Women":194
+  },
+  {
+    "City":"Boston",
+    "Record Count":359,
+    "People Count":235,
+    "Country Count":42,
+    "Men":100,
+    "Women":135
+  },
+  {
+    "City":"Chicago",
+    "Record Count":368,
+    "People Count":255,
+    "Country Count":30,
+    "Men":134,
+    "Women":121
+  },
+  {
+    "City":"London",
+    "Record Count":649,
+    "People Count":350,
+    "Country Count":50,
+    "Men":146,
+    "Women":204
+  },
+  {
+    "City":"New York",
+    "Record Count":292,
+    "People Count":165,
+    "Country Count":29,
+    "Men":60,
+    "Women":105
+  },
+  {
+    "City":"Tokyo",
+    "Record Count":429,
+    "People Count":309,
+    "Country Count":33,
+    "Men":183,
+    "Women":126
+  }
+]

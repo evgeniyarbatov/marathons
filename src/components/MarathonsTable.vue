@@ -14,6 +14,10 @@ defineProps({
     type: Object,
     required: true
   },
+  summaryInfo: {
+    type: Object,
+    required: true,
+  },
   daysParsed: {
     type: Object,
     required: true
@@ -44,7 +48,7 @@ defineProps({
         <p class="mb-1">
           <ul>
             <li
-              v-for="(bestTime, index) in this.getBestRunningTime(marathon.city)"
+              v-for="(bestTime, index) in this.getCityInfo(marathon.city, this.bestTimes)"
               :key="index"
             >
               {{ bestTime.Time }} - 
@@ -59,7 +63,7 @@ defineProps({
         <p class="mb-1">
           <ul>
             <li
-              v-for="(latestTime, index) in this.getLatestRunningTime(marathon.city)"
+              v-for="(latestTime, index) in this.getCityInfo(marathon.city, this.latestTimes)"
               :key="index"
             >
               {{ latestTime.Time }} - 
@@ -69,6 +73,20 @@ defineProps({
               {{ latestTime.Date }}
             </li>
           </ul>
+        </p>
+        <p class="mb-1">
+          <b-table 
+            class="text-center"
+            :items="this.getCityInfo(marathon.city, this.summaryInfo)"
+            :fields="[
+              { key: 'Country Count', label: 'Countries' },
+              { key: 'Record Count', label: 'Records' },
+              { key: 'People Count', label: 'Athletes' },
+              { key: 'Men', label: 'Men' },
+              { key: 'Women', label: 'Women' },
+            ]"
+          >
+          </b-table>
         </p>
       </b-list-group-item>
     </b-list-group>
@@ -98,11 +116,8 @@ export default {
         return 'today on'
       }
     },
-    getBestRunningTime: function (city) {
-      return this.bestTimes.filter(time => time.City === city)
-    },
-    getLatestRunningTime: function (city) {
-      return this.latestTimes.filter(time => time.City === city)
+    getCityInfo: function (city, info) {
+      return info.filter(time => time.City === city)
     },
   }
 }
