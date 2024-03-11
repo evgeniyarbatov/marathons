@@ -26,12 +26,14 @@ defineProps({
         :disabled="isDateInPast(daysParsed[index])"
         class="flex-column align-items-start"
       >
-        <div class="d-flex w-100 justify-content-between">
+        <div class="d-flex w-100 justify-content-between align-items-center">
           <div class="marathon-date">
               {{ this.formatDate(daysParsed[index]) }}
             </div>
           {{ marathon.city }}
-          <country-flag :country="marathon.country" size="normal" />
+          <div class="flag">
+            <country-flag :country="marathon.country" size="normal" />
+          </div>
           <small>{{ this.getDaysMessage(daysParsed[index]) }}</small>
         </div>
         <p class="mb-1">
@@ -86,6 +88,10 @@ export default {
 <style scoped>
 .list-group-item {
   border-style: none;
+}
+.flag {
+  display: inline-block;
+  vertical-align: middle;
 }
 ul {
   list-style-type: none;
