@@ -10,6 +10,10 @@ defineProps({
     type: Object,
     required: true
   },
+  latestTimes: {
+    type: Object,
+    required: true
+  },
   daysParsed: {
     type: Object,
     required: true
@@ -36,6 +40,7 @@ defineProps({
           </div>
           <small>{{ this.getDaysMessage(daysParsed[index]) }}</small>
         </div>
+        <div class="h-25">Best times</div>
         <p class="mb-1">
           <ul>
             <li
@@ -47,6 +52,21 @@ defineProps({
               <country-flag :country="bestTime.Country" size="small" />
               -
               {{ bestTime.Date }}
+            </li>
+          </ul>
+        </p>
+        <div class="h-25">Latest times</div>
+        <p class="mb-1">
+          <ul>
+            <li
+              v-for="(latestTime, index) in this.getLatestRunningTime(marathon.city)"
+              :key="index"
+            >
+              {{ latestTime.Time }} - 
+              {{ latestTime.Name }}
+              <country-flag :country="latestTime.Country" size="small" />
+              -
+              {{ latestTime.Date }}
             </li>
           </ul>
         </p>
@@ -80,6 +100,9 @@ export default {
     },
     getBestRunningTime: function (city) {
       return this.bestTimes.filter(time => time.City === city)
+    },
+    getLatestRunningTime: function (city) {
+      return this.latestTimes.filter(time => time.City === city)
     },
   }
 }

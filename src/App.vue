@@ -10,6 +10,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
       <MarathonsTable 
         :marathons="marathons" 
         :bestTimes="bestTimes"
+        :latestTimes="latestTimes"
         :daysParsed="daysParsed" />
     </div>
   </header>
@@ -22,15 +23,18 @@ export default {
     return {
       marathons: [],
       bestTimes: [],
+      latestTimes: [],
     }
   },
   async created() {
     [
       { data: this.marathons }, 
       { data: this.bestTimes },
+      { data: this.latestTimes }
     ] = await axios.all([
       axios.get('/marathons.json'), 
       axios.get('/best_times.json'),
+      axios.get('/latest_times.json'),
     ]);
   },
   methods: {
