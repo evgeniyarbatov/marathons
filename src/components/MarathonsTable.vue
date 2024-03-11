@@ -44,36 +44,6 @@ defineProps({
           </div>
           <small>{{ this.getDaysMessage(daysParsed[index]) }}</small>
         </div>
-        <div class="h-25">Best times</div>
-        <p class="mb-1">
-          <ul>
-            <li
-              v-for="(bestTime, index) in this.getCityInfo(marathon.city, this.bestTimes)"
-              :key="index"
-            >
-              {{ bestTime.Time }} - 
-              {{ bestTime.Name }}
-              <country-flag :country="bestTime.Country" size="small" />
-              -
-              {{ bestTime.Date }}
-            </li>
-          </ul>
-        </p>
-        <div class="h-25">Latest times</div>
-        <p class="mb-1">
-          <ul>
-            <li
-              v-for="(latestTime, index) in this.getCityInfo(marathon.city, this.latestTimes)"
-              :key="index"
-            >
-              {{ latestTime.Time }} - 
-              {{ latestTime.Name }}
-              <country-flag :country="latestTime.Country" size="small" />
-              -
-              {{ latestTime.Date }}
-            </li>
-          </ul>
-        </p>
         <p class="mb-1">
           <b-table 
             class="text-center"
@@ -88,6 +58,40 @@ defineProps({
           >
           </b-table>
         </p>
+        <b-container fluid>
+          <b-row>
+            <b-col>
+              <p class="mb-1">
+                <ul>
+                  <li
+                    v-for="(bestTime, index) in this.getCityInfo(marathon.city, this.bestTimes)"
+                    :key="index"
+                  >
+                    {{ bestTime.Time }} - 
+                    {{ bestTime.Name }}
+                    <country-flag :country="bestTime.Country" size="small" />
+                    ({{ bestTime.Year }})
+                  </li>
+                </ul>
+              </p>
+            </b-col>
+            <b-col>
+              <p class="mb-1">
+                <ul>
+                  <li
+                    v-for="(latestTime, index) in this.getCityInfo(marathon.city, this.latestTimes)"
+                    :key="index"
+                  >
+                    {{ latestTime.Time }} - 
+                    {{ latestTime.Name }}
+                    <country-flag :country="latestTime.Country" size="small" />
+                    ({{ latestTime.Year }})
+                  </li>
+                </ul>
+              </p>
+            </b-col>
+          </b-row>
+      </b-container>
       </b-list-group-item>
     </b-list-group>
   </div>

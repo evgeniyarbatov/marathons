@@ -5,7 +5,8 @@
     "Country":"KEN",
     "City":"Berlin",
     "Gender":"Men",
-    "Date":1664064000000
+    "Date":"2022-09-25",
+    "Year":2022
   },
   {
     "Time":"2:11:53",
@@ -13,7 +14,8 @@
     "Country":"ETH",
     "City":"Berlin",
     "Gender":"Women",
-    "Date":1695513600000
+    "Date":"2023-09-24",
+    "Year":2023
   },
   {
     "Time":"2:03:02",
@@ -21,7 +23,8 @@
     "Country":"KEN",
     "City":"Boston",
     "Gender":"Men",
-    "Date":1303084800000
+    "Date":"2011-04-18",
+    "Year":2011
   },
   {
     "Time":"2:18:57",
@@ -29,7 +32,8 @@
     "Country":"KEN",
     "City":"Boston",
     "Gender":"Women",
-    "Date":1398038400000
+    "Date":"2014-04-21",
+    "Year":2014
   },
   {
     "Time":"2:00:35",
@@ -37,7 +41,8 @@
     "Country":"KEN",
     "City":"Chicago",
     "Gender":"Men",
-    "Date":1691625600000
+    "Date":"2023-08-10",
+    "Year":2023
   },
   {
     "Time":"2:13:44",
@@ -45,7 +50,8 @@
     "Country":"NED",
     "City":"Chicago",
     "Gender":"Women",
-    "Date":1691625600000
+    "Date":"2023-08-10",
+    "Year":2023
   },
   {
     "Time":"2:01:25",
@@ -53,7 +59,8 @@
     "Country":"KEN",
     "City":"London",
     "Gender":"Men",
-    "Date":1682208000000
+    "Date":"2023-04-23",
+    "Year":2023
   },
   {
     "Time":"2:15:25",
@@ -61,7 +68,8 @@
     "Country":"GBR",
     "City":"London",
     "Gender":"Women",
-    "Date":1050192000000
+    "Date":"2003-04-13",
+    "Year":2003
   },
   {
     "Time":"2:05:06",
@@ -69,7 +77,8 @@
     "Country":"KEN",
     "City":"New York",
     "Gender":"Men",
-    "Date":1307750400000
+    "Date":"2011-06-11",
+    "Year":2011
   },
   {
     "Time":"2:22:31",
@@ -77,7 +86,8 @@
     "Country":"KEN",
     "City":"New York",
     "Gender":"Women",
-    "Date":1044921600000
+    "Date":"2003-02-11",
+    "Year":2003
   },
   {
     "Time":"2:02:40",
@@ -85,7 +95,8 @@
     "Country":"KEN",
     "City":"Tokyo",
     "Gender":"Men",
-    "Date":1654214400000
+    "Date":"2022-06-03",
+    "Year":2022
   },
   {
     "Time":"2:16:02",
@@ -93,6 +104,7 @@
     "Country":"KEN",
     "City":"Tokyo",
     "Gender":"Women",
-    "Date":1654214400000
+    "Date":"2022-06-03",
+    "Year":2022
   }
 ]
