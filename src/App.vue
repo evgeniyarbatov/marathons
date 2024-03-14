@@ -52,8 +52,8 @@ export default {
       ),
       axios.get(
         process.env.NODE_ENV === 'development'
-        ? '/latest_times.json'  
-        : '/marathons/latest_times.json'  
+        ? '/marathon_summary.json'  
+        : '/marathons/marathon_summary.json'  
       ),
     ]);
   },
