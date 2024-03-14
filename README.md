@@ -14,5 +14,5 @@ npm run build
 
 ```
 aws cloudfront create-invalidation --distribution-id E2ABRC7WI48APW --paths "/marathons/index.html"
-aws cloudfront get-invalidation --id IB45G8GHV4QZAOI8CF9GM1GEMT --distribution-id E2ABRC7WI48APW
+aws cloudfront get-invalidation --id I52KHRUB8UBAJNFHUW77PRZY85 --distribution-id E2ABRC7WI48APW
 ```
