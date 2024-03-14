@@ -36,18 +36,18 @@ defineProps({
       >
         <div class="d-flex w-100 justify-content-between align-items-center">
           <div class="marathon-date">
-              {{ this.formatDate(daysParsed[index]) }}
+              {{ formatDate(daysParsed[index]) }}
             </div>
           {{ marathon.city }}
           <div class="flag">
             <country-flag :country="marathon.country" size="normal" />
           </div>
-          <small>{{ this.getDaysMessage(daysParsed[index]) }}</small>
+          <small>{{ getDaysMessage(daysParsed[index]) }}</small>
         </div>
         <p class="mb-1">
           <b-table 
             class="text-center"
-            :items="this.getCityInfo(marathon.city, this.summaryInfo)"
+            :items="getCityInfo(marathon.city, summaryInfo)"
             :fields="[
               { key: 'Country Count', label: 'Countries' },
               { key: 'Record Count', label: 'Records' },
@@ -64,7 +64,7 @@ defineProps({
               <p class="mb-1">
                 <ul>
                   <li
-                    v-for="(bestTime, index) in this.getCityInfo(marathon.city, this.bestTimes)"
+                    v-for="(bestTime, index) in getCityInfo(marathon.city, bestTimes)"
                     :key="index"
                   >
                     {{ bestTime.Time }} - 
@@ -79,7 +79,7 @@ defineProps({
               <p class="mb-1">
                 <ul>
                   <li
-                    v-for="(latestTime, index) in this.getCityInfo(marathon.city, this.latestTimes)"
+                    v-for="(latestTime, index) in getCityInfo(marathon.city, latestTimes)"
                     :key="index"
                   >
                     {{ latestTime.Time }} - 
