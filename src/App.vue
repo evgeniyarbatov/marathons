@@ -35,10 +35,26 @@ export default {
       { data: this.latestTimes },
       { data: this.summaryInfo },
     ] = await axios.all([
-      axios.get('/marathons.json'), 
-      axios.get('/best_times.json'),
-      axios.get('/latest_times.json'),
-      axios.get('/marathon_summary.json'),
+      axios.get(
+        process.env.NODE_ENV === 'development'
+        ? '/marathons.json'  
+        : '/marathons/marathons.json'
+      ), 
+      axios.get(
+        process.env.NODE_ENV === 'development'
+        ? '/best_times.json'  
+        : '/marathons/best_times.json'
+      ),
+      axios.get(
+        process.env.NODE_ENV === 'development'
+        ? '/latest_times.json'  
+        : '/marathons/latest_times.json'   
+      ),
+      axios.get(
+        process.env.NODE_ENV === 'development'
+        ? '/latest_times.json'  
+        : '/marathons/latest_times.json'  
+      ),
     ]);
   },
   methods: {
