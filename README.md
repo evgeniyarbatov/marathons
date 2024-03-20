@@ -4,17 +4,17 @@ Making marathon running times accessible as a web page to follow the current sta
 
 [arbatov.me/marathons](arbatov.me/marathons/index.html)
 
-## Data Source 
-
-The data comes from [this Kaggle dataset](https://www.kaggle.com/datasets/evgenyarbatov/running-times).
-
 ## Structure
 
 - `notebooks` contain Jupyter notebooks to parse the CSV into suitable JSON format to `public` folder
 - `src` is the VueJS source for the website
 - `terraform` are the terraform script to deploy website to S3 bucket with Github actions
 
-## Local dev
+## Data 
+
+The data comes from [this Kaggle dataset](https://www.kaggle.com/datasets/evgenyarbatov/running-times).
+
+## Dev
 
 ```
 npm run dev
