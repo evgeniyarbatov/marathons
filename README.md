@@ -1,9 +1,26 @@
-# Visualize World Marathon Majors
+# Visualize Marathon Running Records
 
-UI to render info about World Marathon Majors.
+Making marathon running times accessible as a web page to follow the current state of world records.
 
-## Running
+[arbatov.me/marathons](arbatov.me/marathons/index.html)
+
+## Data Source 
+
+The data comes from [this Kaggle dataset](https://www.kaggle.com/datasets/evgenyarbatov/running-times).
+
+## Structure
+
+- `notebooks` contain Jupyter notebooks to parse the CSV into suitable JSON format to `public` folder
+- `src` is the VueJS source for the website
+- `terraform` are the terraform script to deploy website to S3 bucket with Github actions
+
+## Local dev
 
 ```
 npm run dev
 ```
+
+## Todos
+
+- download `data` directly from Kaggle to get latest dataset version
+- merge files in `public` folder to reduce size and duplicates
