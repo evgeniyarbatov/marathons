@@ -8,7 +8,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
   <header>
     <div class="wrapper">
       <MarathonsTable 
-        :marathons="marathons" 
+        :marathons="sortedMarathons" 
         :bestTimes="bestTimes"
         :latestTimes="latestTimes"
         :daysParsed="daysParsed" />
@@ -59,6 +59,12 @@ export default {
     }
   },
   computed: {
+    sortedMarathons: function () {
+      const self = this
+      return this.marathons.sort(
+        (a, b) => self.parseDate(a.Date) - self.parseDate(b.Date)
+      );
+    },
     daysParsed: function () {
       const self = this
       return this.marathons.map(function (marathon) {
