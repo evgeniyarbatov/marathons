@@ -1,0 +1,268 @@
+[
+  {
+    "City":"London",
+    "Record Count":649.0,
+    "Country Count":50,
+    "Men":146.0,
+    "Women":204.0
+  },
+  {
+    "City":"Berlin",
+    "Record Count":452.0,
+    "Country Count":34,
+    "Men":162.0,
+    "Women":194.0
+  },
+  {
+    "City":"Tokyo",
+    "Record Count":429.0,
+    "Country Count":33,
+    "Men":183.0,
+    "Women":126.0
+  },
+  {
+    "City":"Chicago",
+    "Record Count":368.0,
+    "Country Count":30,
+    "Men":134.0,
+    "Women":121.0
+  },
+  {
+    "City":"Boston",
+    "Record Count":359.0,
+    "Country Count":42,
+    "Men":100.0,
+    "Women":135.0
+  },
+  {
+    "City":"Paris",
+    "Record Count":346.0,
+    "Country Count":23,
+    "Men":161.0,
+    "Women":113.0
+  },
+  {
+    "City":"Valencia",
+    "Record Count":344.0,
+    "Country Count":47,
+    "Men":149.0,
+    "Women":122.0
+  },
+  {
+    "City":"Amsterdam",
+    "Record Count":321.0,
+    "Country Count":29,
+    "Men":161.0,
+    "Women":90.0
+  },
+  {
+    "City":"Rotterdam",
+    "Record Count":293.0,
+    "Country Count":35,
+    "Men":150.0,
+    "Women":79.0
+  },
+  {
+    "City":"New York City",
+    "Record Count":292.0,
+    "Country Count":29,
+    "Men":60.0,
+    "Women":105.0
+  },
+  {
+    "City":"Osaka",
+    "Record Count":290.0,
+    "Country Count":25,
+    "Men":55.0,
+    "Women":158.0
+  },
+  {
+    "City":"Seoul",
+    "Record Count":284.0,
+    "Country Count":26,
+    "Men":147.0,
+    "Women":62.0
+  },
+  {
+    "City":"Dubai",
+    "Record Count":282.0,
+    "Country Count":9,
+    "Men":107.0,
+    "Women":89.0
+  },
+  {
+    "City":"Frankfurt",
+    "Record Count":269.0,
+    "Country Count":23,
+    "Men":104.0,
+    "Women":111.0
+  },
+  {
+    "City":"Nagoya",
+    "Record Count":238.0,
+    "Country Count":22,
+    "Men":null,
+    "Women":158.0
+  },
+  {
+    "City":"Hamburg",
+    "Record Count":193.0,
+    "Country Count":30,
+    "Men":86.0,
+    "Women":80.0
+  },
+  {
+    "City":"Sevilla",
+    "Record Count":176.0,
+    "Country Count":34,
+    "Men":80.0,
+    "Women":70.0
+  },
+  {
+    "City":"Fukuoka",
+    "Record Count":174.0,
+    "Country Count":27,
+    "Men":127.0,
+    "Women":null
+  },
+  {
+    "City":"Otsu",
+    "Record Count":169.0,
+    "Country Count":18,
+    "Men":139.0,
+    "Women":null
+  },
+  {
+    "City":"Praha",
+    "Record Count":143.0,
+    "Country Count":19,
+    "Men":67.0,
+    "Women":60.0
+  },
+  {
+    "City":"Beijing",
+    "Record Count":139.0,
+    "Country Count":14,
+    "Men":42.0,
+    "Women":69.0
+  },
+  {
+    "City":"Roma",
+    "Record Count":129.0,
+    "Country Count":14,
+    "Men":74.0,
+    "Women":41.0
+  },
+  {
+    "City":"Eindhoven",
+    "Record Count":122.0,
+    "Country Count":7,
+    "Men":88.0,
+    "Women":15.0
+  },
+  {
+    "City":"Toronto",
+    "Record Count":121.0,
+    "Country Count":13,
+    "Men":43.0,
+    "Women":55.0
+  },
+  {
+    "City":"Wien",
+    "Record Count":121.0,
+    "Country Count":17,
+    "Men":67.0,
+    "Women":39.0
+  },
+  {
+    "City":"Milano",
+    "Record Count":121.0,
+    "Country Count":13,
+    "Men":68.0,
+    "Women":38.0
+  },
+  {
+    "City":"Barcelona",
+    "Record Count":106.0,
+    "Country Count":10,
+    "Men":64.0,
+    "Women":35.0
+  },
+  {
+    "City":"Xiamen",
+    "Record Count":101.0,
+    "Country Count":6,
+    "Men":44.0,
+    "Women":36.0
+  },
+  {
+    "City":"Shanghai",
+    "Record Count":92.0,
+    "Country Count":10,
+    "Men":34.0,
+    "Women":40.0
+  },
+  {
+    "City":"Houston",
+    "Record Count":88.0,
+    "Country Count":11,
+    "Men":26.0,
+    "Women":47.0
+  },
+  {
+    "City":"Daegu",
+    "Record Count":88.0,
+    "Country Count":11,
+    "Men":54.0,
+    "Women":25.0
+  },
+  {
+    "City":"Ljubljana",
+    "Record Count":70.0,
+    "Country Count":7,
+    "Men":39.0,
+    "Women":25.0
+  },
+  {
+    "City":"Los Angeles",
+    "Record Count":70.0,
+    "Country Count":19,
+    "Men":25.0,
+    "Women":38.0
+  },
+  {
+    "City":"Enschede",
+    "Record Count":62.0,
+    "Country Count":12,
+    "Men":35.0,
+    "Women":25.0
+  },
+  {
+    "City":"Lisboa",
+    "Record Count":62.0,
+    "Country Count":6,
+    "Men":27.0,
+    "Women":26.0
+  },
+  {
+    "City":"Torino",
+    "Record Count":61.0,
+    "Country Count":11,
+    "Men":30.0,
+    "Women":26.0
+  },
+  {
+    "City":"Kosice",
+    "Record Count":56.0,
+    "Country Count":3,
+    "Men":32.0,
+    "Women":16.0
+  },
+  {
+    "City":"Ottawa",
+    "Record Count":52.0,
+    "Country Count":7,
+    "Men":27.0,
+    "Women":20.0
+  }
+]

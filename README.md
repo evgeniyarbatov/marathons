@@ -6,6 +6,4 @@ UI to render info about World Marathon Majors.
 
 ```
 npm run dev
-npm run format
-npm run build
 ```
