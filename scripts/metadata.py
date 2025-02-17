@@ -16,7 +16,7 @@ def main(marathon_data, marathon_dates, output_file):
     marathon_summary = [record_count, country_count, people_count]
     merged_df = reduce(lambda left, right: pd.merge(left, right, on='City', how='outer'), marathon_summary)
 
-    merged_df['Country'] = merged_df['City'].apply(lambda x: get_country_code(x))
+    # merged_df['Country'] = merged_df['City'].apply(lambda x: get_country_code(x))
     merged_df['Date'] = merged_df['City'].apply(lambda x: marathon_dates[x])
 
     merged_df.to_json(
