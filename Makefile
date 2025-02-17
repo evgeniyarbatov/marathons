@@ -6,6 +6,7 @@ KAGGLE_DATASET = evgenyarbatov/marathon-running-times
 
 DATA_DIR = data
 SITE_DIR = site
+PUBLIC_DIR = $(SITE_DIR)/public
 TERRAFORM_DIR = terraform
 
 venv:
@@ -19,8 +20,12 @@ data:
 	$(KAGGLE) datasets download -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
 
+update:
+	@source $(VENV_PATH)/bin/activate && \
+	python3 scripts/metadata.py $(DATA_DIR)/marathons.csv $(DATA_DIR)/marathon_dates.json $(PUBLIC_DIR)/marathons.json
+
 deploy:
 	cd $(SITE_DIR) && npm run build
 	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
 
-.PHONY: data venv install deploy
+.PHONY: venv install data update deploy
