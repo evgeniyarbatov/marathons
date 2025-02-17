@@ -4,6 +4,8 @@
     "Record Count":20,
     "Country Count":6,
     "People Count":20,
+    "Last Record":1734134400000,
+    "Country":"AE",
     "Date":null
   },
   {
@@ -11,6 +13,8 @@
     "Record Count":165,
     "Country Count":26,
     "People Count":165,
+    "Last Record":1729382400000,
+    "Country":"NL",
     "Date":"20\/4"
   },
   {
@@ -18,6 +22,8 @@
     "Record Count":71,
     "Country Count":14,
     "People Count":71,
+    "Last Record":1710028800000,
+    "Country":"ES",
     "Date":"10\/3"
   },
   {
@@ -25,20 +31,17 @@
     "Record Count":143,
     "Country Count":13,
     "People Count":142,
+    "Last Record":1730592000000,
+    "Country":"CN",
     "Date":"6\/9"
-  },
-  {
-    "City":"Beppu",
-    "Record Count":53,
-    "Country Count":7,
-    "People Count":53,
-    "Date":null
   },
   {
     "City":"Berlin",
     "Record Count":321,
     "Country Count":47,
     "People Count":321,
+    "Last Record":1727568000000,
+    "Country":"DE",
     "Date":"21\/9"
   },
   {
@@ -46,13 +49,8 @@
     "Record Count":60,
     "Country Count":6,
     "People Count":60,
-    "Date":null
-  },
-  {
-    "City":"Carpi",
-    "Record Count":36,
-    "Country Count":10,
-    "People Count":36,
+    "Last Record":1729382400000,
+    "Country":"ZA",
     "Date":null
   },
   {
@@ -60,6 +58,8 @@
     "Record Count":25,
     "Country Count":6,
     "People Count":25,
+    "Last Record":1729987200000,
+    "Country":"MA",
     "Date":null
   },
   {
@@ -67,13 +67,8 @@
     "Record Count":21,
     "Country Count":4,
     "People Count":21,
-    "Date":null
-  },
-  {
-    "City":"Chandler",
-    "Record Count":24,
-    "Country Count":2,
-    "People Count":24,
+    "Last Record":1708819200000,
+    "Country":"ES",
     "Date":null
   },
   {
@@ -81,6 +76,8 @@
     "Record Count":247,
     "Country Count":34,
     "People Count":247,
+    "Last Record":1728777600000,
+    "Country":"US",
     "Date":"12\/10"
   },
   {
@@ -88,20 +85,8 @@
     "Record Count":33,
     "Country Count":5,
     "People Count":33,
-    "Date":null
-  },
-  {
-    "City":"Chuncheon",
-    "Record Count":34,
-    "Country Count":5,
-    "People Count":34,
-    "Date":null
-  },
-  {
-    "City":"Cleveland",
-    "Record Count":20,
-    "Country Count":9,
-    "People Count":20,
+    "Last Record":1711238400000,
+    "Country":"CN",
     "Date":null
   },
   {
@@ -109,6 +94,8 @@
     "Record Count":50,
     "Country Count":14,
     "People Count":50,
+    "Last Record":1712448000000,
+    "Country":"KR",
     "Date":"7\/4"
   },
   {
@@ -116,13 +103,8 @@
     "Record Count":23,
     "Country Count":3,
     "People Count":23,
-    "Date":null
-  },
-  {
-    "City":"Debno",
-    "Record Count":39,
-    "Country Count":9,
-    "People Count":39,
+    "Last Record":1697328000000,
+    "Country":"CN",
     "Date":null
   },
   {
@@ -130,6 +112,8 @@
     "Record Count":145,
     "Country Count":11,
     "People Count":145,
+    "Last Record":1736640000000,
+    "Country":"AE",
     "Date":"6\/1"
   },
   {
@@ -137,6 +121,8 @@
     "Record Count":56,
     "Country Count":11,
     "People Count":56,
+    "Last Record":1729987200000,
+    "Country":"IE",
     "Date":null
   },
   {
@@ -144,6 +130,8 @@
     "Record Count":60,
     "Country Count":14,
     "People Count":60,
+    "Last Record":1686960000000,
+    "Country":"US",
     "Date":null
   },
   {
@@ -151,13 +139,8 @@
     "Record Count":23,
     "Country Count":6,
     "People Count":23,
-    "Date":null
-  },
-  {
-    "City":"D\u00fcsseldorf",
-    "Record Count":32,
-    "Country Count":15,
-    "People Count":32,
+    "Last Record":1714262400000,
+    "Country":"ZA",
     "Date":null
   },
   {
@@ -165,6 +148,8 @@
     "Record Count":99,
     "Country Count":13,
     "People Count":99,
+    "Last Record":1728777600000,
+    "Country":"NL",
     "Date":"13\/10"
   },
   {
@@ -172,20 +157,17 @@
     "Record Count":50,
     "Country Count":17,
     "People Count":50,
+    "Last Record":1713657600000,
+    "Country":"NL",
     "Date":"21\/4"
-  },
-  {
-    "City":"Eugene",
-    "Record Count":21,
-    "Country Count":6,
-    "People Count":21,
-    "Date":null
   },
   {
     "City":"Firenze",
     "Record Count":22,
     "Country Count":6,
     "People Count":22,
+    "Last Record":1700956800000,
+    "Country":"IT",
     "Date":null
   },
   {
@@ -193,6 +175,8 @@
     "Record Count":180,
     "Country Count":32,
     "People Count":180,
+    "Last Record":1729987200000,
+    "Country":"DE",
     "Date":"27\/10"
   },
   {
@@ -200,6 +184,8 @@
     "Record Count":161,
     "Country Count":30,
     "People Count":161,
+    "Last Record":1733011200000,
+    "Country":"JP",
     "Date":"10\/11"
   },
   {
@@ -207,6 +193,8 @@
     "Record Count":24,
     "Country Count":9,
     "People Count":24,
+    "Last Record":1720310400000,
+    "Country":"AU",
     "Date":null
   },
   {
@@ -214,6 +202,8 @@
     "Record Count":127,
     "Country Count":37,
     "People Count":127,
+    "Last Record":1714262400000,
+    "Country":"DE",
     "Date":"28\/4"
   },
   {
@@ -221,6 +211,8 @@
     "Record Count":47,
     "Country Count":12,
     "People Count":47,
+    "Last Record":1713052800000,
+    "Country":"DE",
     "Date":null
   },
   {
@@ -228,6 +220,8 @@
     "Record Count":47,
     "Country Count":5,
     "People Count":47,
+    "Last Record":1733011200000,
+    "Country":"JP",
     "Date":null
   },
   {
@@ -235,6 +229,8 @@
     "Record Count":136,
     "Country Count":24,
     "People Count":136,
+    "Last Record":1737244800000,
+    "Country":"US",
     "Date":"14\/1"
   },
   {
@@ -242,6 +238,8 @@
     "Record Count":38,
     "Country Count":8,
     "People Count":38,
+    "Last Record":1728172800000,
+    "Country":"SK",
     "Date":null
   },
   {
@@ -249,6 +247,8 @@
     "Record Count":21,
     "Country Count":3,
     "People Count":21,
+    "Last Record":1696118400000,
+    "Country":"DE",
     "Date":null
   },
   {
@@ -256,6 +256,8 @@
     "Record Count":26,
     "Country Count":5,
     "People Count":26,
+    "Last Record":1732406400000,
+    "Country":"FR",
     "Date":null
   },
   {
@@ -263,6 +265,8 @@
     "Record Count":22,
     "Country Count":6,
     "People Count":22,
+    "Last Record":1712448000000,
+    "Country":"AT",
     "Date":null
   },
   {
@@ -270,6 +274,8 @@
     "Record Count":25,
     "Country Count":8,
     "People Count":25,
+    "Last Record":1728172800000,
+    "Country":"PT",
     "Date":"17\/3"
   },
   {
@@ -277,6 +283,8 @@
     "Record Count":23,
     "Country Count":7,
     "People Count":23,
+    "Last Record":1729382400000,
+    "Country":"SI",
     "Date":"20\/10"
   },
   {
@@ -284,20 +292,17 @@
     "Record Count":265,
     "Country Count":46,
     "People Count":265,
+    "Last Record":1713657600000,
+    "Country":"GB",
     "Date":"27\/4"
-  },
-  {
-    "City":"Los Angeles",
-    "Record Count":39,
-    "Country Count":15,
-    "People Count":39,
-    "Date":"17\/3"
   },
   {
     "City":"Madrid",
     "Record Count":28,
     "Country Count":7,
     "People Count":28,
+    "Last Record":1714262400000,
+    "Country":"ES",
     "Date":null
   },
   {
@@ -305,6 +310,8 @@
     "Record Count":72,
     "Country Count":11,
     "People Count":72,
+    "Last Record":1737849600000,
+    "Country":"MA",
     "Date":null
   },
   {
@@ -312,27 +319,17 @@
     "Record Count":74,
     "Country Count":20,
     "People Count":74,
+    "Last Record":1712448000000,
+    "Country":"IT",
     "Date":"7\/4"
-  },
-  {
-    "City":"Mombasa",
-    "Record Count":24,
-    "Country Count":2,
-    "People Count":24,
-    "Date":null
-  },
-  {
-    "City":"Moskva",
-    "Record Count":35,
-    "Country Count":3,
-    "People Count":35,
-    "Date":null
   },
   {
     "City":"M\u00e1laga",
     "Record Count":25,
     "Country Count":6,
     "People Count":25,
+    "Last Record":1734220800000,
+    "Country":"ES",
     "Date":null
   },
   {
@@ -340,6 +337,8 @@
     "Record Count":20,
     "Country Count":3,
     "People Count":20,
+    "Last Record":1725753600000,
+    "Country":"DE",
     "Date":null
   },
   {
@@ -347,6 +346,8 @@
     "Record Count":23,
     "Country Count":6,
     "People Count":23,
+    "Last Record":1682208000000,
+    "Country":"JP",
     "Date":null
   },
   {
@@ -354,6 +355,8 @@
     "Record Count":170,
     "Country Count":14,
     "People Count":170,
+    "Last Record":1710028800000,
+    "Country":"JP",
     "Date":"10\/3"
   },
   {
@@ -361,6 +364,8 @@
     "Record Count":68,
     "Country Count":1,
     "People Count":68,
+    "Last Record":1729987200000,
+    "Country":"KE",
     "Date":null
   },
   {
@@ -368,6 +373,8 @@
     "Record Count":30,
     "Country Count":3,
     "People Count":30,
+    "Last Record":1730592000000,
+    "Country":"US",
     "Date":null
   },
   {
@@ -375,6 +382,8 @@
     "Record Count":48,
     "Country Count":1,
     "People Count":48,
+    "Last Record":1707609600000,
+    "Country":"JP",
     "Date":null
   },
   {
@@ -382,20 +391,8 @@
     "Record Count":96,
     "Country Count":12,
     "People Count":96,
-    "Date":null
-  },
-  {
-    "City":"Olympiastadion",
-    "Record Count":21,
-    "Country Count":16,
-    "People Count":21,
-    "Date":null
-  },
-  {
-    "City":"Olympic Stadium",
-    "Record Count":20,
-    "Country Count":16,
-    "People Count":20,
+    "Last Record":1738454400000,
+    "Country":"JP",
     "Date":null
   },
   {
@@ -403,20 +400,17 @@
     "Record Count":203,
     "Country Count":21,
     "People Count":202,
+    "Last Record":1737849600000,
+    "Country":"JP",
     "Date":"25\/2"
-  },
-  {
-    "City":"Otsu",
-    "Record Count":198,
-    "Country Count":12,
-    "People Count":198,
-    "Date":null
   },
   {
     "City":"Ottawa",
     "Record Count":27,
     "Country Count":8,
     "People Count":27,
+    "Last Record":1716681600000,
+    "Country":"CA",
     "Date":"25\/5"
   },
   {
@@ -424,41 +418,26 @@
     "Record Count":197,
     "Country Count":27,
     "People Count":197,
+    "Last Record":1712448000000,
+    "Country":"FR",
     "Date":"7\/4"
-  },
-  {
-    "City":"Port Elizabeth",
-    "Record Count":26,
-    "Country Count":2,
-    "People Count":26,
-    "Date":null
   },
   {
     "City":"Praha",
     "Record Count":41,
     "Country Count":13,
     "People Count":41,
+    "Last Record":1714867200000,
+    "Country":"CZ",
     "Date":"5\/5"
-  },
-  {
-    "City":"Pyongyang",
-    "Record Count":87,
-    "Country Count":10,
-    "People Count":87,
-    "Date":null
   },
   {
     "City":"Rabat",
     "Record Count":27,
     "Country Count":5,
     "People Count":27,
-    "Date":null
-  },
-  {
-    "City":"Reims",
-    "Record Count":46,
-    "Country Count":14,
-    "People Count":46,
+    "Last Record":1713657600000,
+    "Country":"MA",
     "Date":null
   },
   {
@@ -466,6 +445,8 @@
     "Record Count":94,
     "Country Count":16,
     "People Count":94,
+    "Last Record":1710633600000,
+    "Country":"IT",
     "Date":"17\/3"
   },
   {
@@ -473,34 +454,17 @@
     "Record Count":192,
     "Country Count":36,
     "People Count":192,
+    "Last Record":1713052800000,
+    "Country":"NL",
     "Date":"13\/4"
-  },
-  {
-    "City":"Sacramento",
-    "Record Count":26,
-    "Country Count":9,
-    "People Count":26,
-    "Date":null
-  },
-  {
-    "City":"San Sebasti\u00e1n",
-    "Record Count":33,
-    "Country Count":10,
-    "People Count":33,
-    "Date":null
   },
   {
     "City":"Sapporo",
     "Record Count":27,
     "Country Count":3,
     "People Count":27,
-    "Date":null
-  },
-  {
-    "City":"See Genezareth",
-    "Record Count":22,
-    "Country Count":3,
-    "People Count":22,
+    "Last Record":1724544000000,
+    "Country":"JP",
     "Date":null
   },
   {
@@ -508,6 +472,8 @@
     "Record Count":152,
     "Country Count":22,
     "People Count":152,
+    "Last Record":1730592000000,
+    "Country":"KR",
     "Date":"17\/3"
   },
   {
@@ -515,6 +481,8 @@
     "Record Count":199,
     "Country Count":48,
     "People Count":199,
+    "Last Record":1708214400000,
+    "Country":"ES",
     "Date":"23\/2"
   },
   {
@@ -522,6 +490,8 @@
     "Record Count":34,
     "Country Count":4,
     "People Count":34,
+    "Last Record":1733011200000,
+    "Country":"CN",
     "Date":"21\/4"
   },
   {
@@ -529,13 +499,8 @@
     "Record Count":69,
     "Country Count":16,
     "People Count":69,
-    "Date":null
-  },
-  {
-    "City":"Tianjin",
-    "Record Count":29,
-    "Country Count":1,
-    "People Count":29,
+    "Last Record":1728172800000,
+    "Country":"US",
     "Date":null
   },
   {
@@ -543,6 +508,8 @@
     "Record Count":229,
     "Country Count":27,
     "People Count":228,
+    "Last Record":1709424000000,
+    "Country":"JP",
     "Date":"2\/3"
   },
   {
@@ -550,6 +517,8 @@
     "Record Count":60,
     "Country Count":16,
     "People Count":60,
+    "Last Record":1733011200000,
+    "Country":"IT",
     "Date":"1\/12"
   },
   {
@@ -557,27 +526,17 @@
     "Record Count":50,
     "Country Count":11,
     "People Count":50,
+    "Last Record":1729382400000,
+    "Country":"CA",
     "Date":"5\/5"
-  },
-  {
-    "City":"Torre\u00f3n",
-    "Record Count":35,
-    "Country Count":3,
-    "People Count":35,
-    "Date":null
-  },
-  {
-    "City":"Uzhgorod",
-    "Record Count":25,
-    "Country Count":2,
-    "People Count":25,
-    "Date":null
   },
   {
     "City":"Valencia",
     "Record Count":289,
     "Country Count":59,
     "People Count":289,
+    "Last Record":1733011200000,
+    "Country":"ES",
     "Date":"1\/12"
   },
   {
@@ -585,6 +544,8 @@
     "Record Count":55,
     "Country Count":12,
     "People Count":55,
+    "Last Record":1729987200000,
+    "Country":"IT",
     "Date":null
   },
   {
@@ -592,6 +553,8 @@
     "Record Count":35,
     "Country Count":10,
     "People Count":35,
+    "Last Record":1727568000000,
+    "Country":"PL",
     "Date":null
   },
   {
@@ -599,6 +562,8 @@
     "Record Count":82,
     "Country Count":26,
     "People Count":82,
+    "Last Record":1713657600000,
+    "Country":"AT",
     "Date":"21\/4"
   },
   {
@@ -606,6 +571,8 @@
     "Record Count":38,
     "Country Count":4,
     "People Count":38,
+    "Last Record":1711238400000,
+    "Country":"CN",
     "Date":null
   },
   {
@@ -613,20 +580,17 @@
     "Record Count":49,
     "Country Count":8,
     "People Count":49,
+    "Last Record":1736035200000,
+    "Country":"CN",
     "Date":"7\/1"
-  },
-  {
-    "City":"Zhengzhou",
-    "Record Count":22,
-    "Country Count":4,
-    "People Count":22,
-    "Date":null
   },
   {
     "City":"Z\u00fcrich",
     "Record Count":53,
     "Country Count":12,
     "People Count":53,
+    "Last Record":1713657600000,
+    "Country":"CH",
     "Date":null
   }
 ]

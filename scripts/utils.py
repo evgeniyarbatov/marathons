@@ -1,7 +1,6 @@
-import requests
 import json
 
-from urllib.parse import quote
+from geopy.geocoders import Nominatim
 
 def cache(file_name):
     def decorator(original_func):
@@ -20,15 +19,18 @@ def cache(file_name):
 
     return decorator
 
-@cache('cache/api.geonames.org.json')
-def call_geonames_api(city_name):
-    city_name = quote(city_name)
-    response = requests.get(
-        f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username=arbatov'
-    )
-    return response.json()
+@cache('cache/nomimatim-api.json')
+def call_nominatim_api(city_name):
+    geolocator = Nominatim(user_agent="get-country-codes")
+    location = geolocator.geocode(city_name, exactly_one=True, language="en", addressdetails=True)
+    return location.raw if location else None
 
 def get_country_code(city_name):
-    data = call_geonames_api(city_name)
-    country_code = data['geonames'][0]['countryCode']
-    return country_code
+    location = call_nominatim_api(city_name)
+    if not location:
+        return None
+    
+    address = location['address']
+    country_code = address.get('country_code', None)
+    
+    return country_code.upper()
