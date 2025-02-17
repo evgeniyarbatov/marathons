@@ -3,12 +3,12 @@ variable "aws_region" {
   default = "ap-southeast-1"
 }
 
-variable "domain_name" {
+variable "s3_bucket" {
   type    = string
-  default = "arbatov.me"
+  default = "marathons.gritcuriosityandperseverance.org"
 }
 
-variable "bucket_name" {
+variable "s3_bucket_dir" {
   type    = string
-  default = "arbatov.me-marathons"
+  default = "../blog/public"
 }

@@ -5,6 +5,8 @@ KAGGLE = ~/Library/Python/3.12/bin/kaggle
 KAGGLE_DATASET = evgenyarbatov/marathon-running-times
 
 DATA_DIR = data
+SITE_DIR = site
+TERRAFORM_DIR = terraform
 
 venv:
 	@python3 -m venv $(VENV_PATH)
@@ -17,4 +19,8 @@ data:
 	$(KAGGLE) datasets download -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
 
-.PHONY: data venv install
+deploy:
+	cd $(SITE_DIR) && npm run build
+	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
+
+.PHONY: data venv install deploy

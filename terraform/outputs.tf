@@ -1,3 +1,3 @@
-output "website_url" {
-  value = "https://${var.domain_name}/marathons/index.html"
+output "url" {
+  value = "https://${var.s3_bucket}"
 }
