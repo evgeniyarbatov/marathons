@@ -6,7 +6,7 @@
     "People Count":20,
     "Last Record":1734134400000,
     "Country":"AE",
-    "Date":null
+    "Date":"7\/12"
   },
   {
     "City":"Amsterdam",
@@ -15,7 +15,7 @@
     "People Count":165,
     "Last Record":1729382400000,
     "Country":"NL",
-    "Date":"20\/4"
+    "Date":"19\/10"
   },
   {
     "City":"Barcelona",
@@ -24,7 +24,7 @@
     "People Count":71,
     "Last Record":1710028800000,
     "Country":"ES",
-    "Date":"10\/3"
+    "Date":"9\/2"
   },
   {
     "City":"Beijing",
@@ -33,7 +33,7 @@
     "People Count":142,
     "Last Record":1730592000000,
     "Country":"CN",
-    "Date":"6\/9"
+    "Date":"21\/9"
   },
   {
     "City":"Berlin",
@@ -51,7 +51,7 @@
     "People Count":60,
     "Last Record":1729382400000,
     "Country":"ZA",
-    "Date":null
+    "Date":"16\/3"
   },
   {
     "City":"Casablanca",
@@ -60,7 +60,7 @@
     "People Count":25,
     "Last Record":1729987200000,
     "Country":"MA",
-    "Date":null
+    "Date":"26\/1"
   },
   {
     "City":"Castell\u00f3n",
@@ -69,7 +69,7 @@
     "People Count":21,
     "Last Record":1708819200000,
     "Country":"ES",
-    "Date":null
+    "Date":"1\/2"
   },
   {
     "City":"Chicago",
@@ -87,7 +87,7 @@
     "People Count":33,
     "Last Record":1711238400000,
     "Country":"CN",
-    "Date":null
+    "Date":"26\/1"
   },
   {
     "City":"Daegu",
@@ -96,7 +96,7 @@
     "People Count":50,
     "Last Record":1712448000000,
     "Country":"KR",
-    "Date":"7\/4"
+    "Date":"23\/2"
   },
   {
     "City":"Dalian",
@@ -105,7 +105,7 @@
     "People Count":23,
     "Last Record":1697328000000,
     "Country":"CN",
-    "Date":null
+    "Date":"26\/10"
   },
   {
     "City":"Dubai",
@@ -114,7 +114,7 @@
     "People Count":145,
     "Last Record":1736640000000,
     "Country":"AE",
-    "Date":"6\/1"
+    "Date":"25\/1"
   },
   {
     "City":"Dublin",
@@ -123,7 +123,7 @@
     "People Count":56,
     "Last Record":1729987200000,
     "Country":"IE",
-    "Date":null
+    "Date":"26\/10"
   },
   {
     "City":"Duluth",
@@ -132,7 +132,7 @@
     "People Count":60,
     "Last Record":1686960000000,
     "Country":"US",
-    "Date":null
+    "Date":"21\/6"
   },
   {
     "City":"Durban",
@@ -141,7 +141,7 @@
     "People Count":23,
     "Last Record":1714262400000,
     "Country":"ZA",
-    "Date":null
+    "Date":"15\/6"
   },
   {
     "City":"Eindhoven",
@@ -150,7 +150,7 @@
     "People Count":99,
     "Last Record":1728777600000,
     "Country":"NL",
-    "Date":"13\/10"
+    "Date":"5\/10"
   },
   {
     "City":"Enschede",
@@ -159,7 +159,7 @@
     "People Count":50,
     "Last Record":1713657600000,
     "Country":"NL",
-    "Date":"21\/4"
+    "Date":"19\/4"
   },
   {
     "City":"Firenze",
@@ -168,7 +168,7 @@
     "People Count":22,
     "Last Record":1700956800000,
     "Country":"IT",
-    "Date":null
+    "Date":"30\/11"
   },
   {
     "City":"Frankfurt",
@@ -177,7 +177,7 @@
     "People Count":180,
     "Last Record":1729987200000,
     "Country":"DE",
-    "Date":"27\/10"
+    "Date":"26\/10"
   },
   {
     "City":"Fukuoka",
@@ -186,7 +186,7 @@
     "People Count":161,
     "Last Record":1733011200000,
     "Country":"JP",
-    "Date":"10\/11"
+    "Date":"7\/12"
   },
   {
     "City":"Gold Coast",
@@ -195,7 +195,7 @@
     "People Count":24,
     "Last Record":1720310400000,
     "Country":"AU",
-    "Date":null
+    "Date":"6\/7"
   },
   {
     "City":"Hamburg",
@@ -204,7 +204,7 @@
     "People Count":127,
     "Last Record":1714262400000,
     "Country":"DE",
-    "Date":"28\/4"
+    "Date":"27\/4"
   },
   {
     "City":"Hannover",
@@ -213,7 +213,7 @@
     "People Count":47,
     "Last Record":1713052800000,
     "Country":"DE",
-    "Date":null
+    "Date":"5\/4"
   },
   {
     "City":"Hofu",
@@ -222,7 +222,7 @@
     "People Count":47,
     "Last Record":1733011200000,
     "Country":"JP",
-    "Date":null
+    "Date":"16\/11"
   },
   {
     "City":"Houston",
@@ -231,7 +231,7 @@
     "People Count":136,
     "Last Record":1737244800000,
     "Country":"US",
-    "Date":"14\/1"
+    "Date":"18\/1"
   },
   {
     "City":"Ko\u0161ice",
@@ -240,7 +240,7 @@
     "People Count":38,
     "Last Record":1728172800000,
     "Country":"SK",
-    "Date":null
+    "Date":"5\/10"
   },
   {
     "City":"K\u00f6ln",
@@ -249,7 +249,7 @@
     "People Count":21,
     "Last Record":1696118400000,
     "Country":"DE",
-    "Date":null
+    "Date":"5\/10"
   },
   {
     "City":"La Rochelle",
@@ -258,7 +258,7 @@
     "People Count":26,
     "Last Record":1732406400000,
     "Country":"FR",
-    "Date":null
+    "Date":"26\/10"
   },
   {
     "City":"Linz",
@@ -267,7 +267,7 @@
     "People Count":22,
     "Last Record":1712448000000,
     "Country":"AT",
-    "Date":null
+    "Date":"5\/10"
   },
   {
     "City":"Lisboa",
@@ -276,7 +276,7 @@
     "People Count":25,
     "Last Record":1728172800000,
     "Country":"PT",
-    "Date":"17\/3"
+    "Date":"5\/10"
   },
   {
     "City":"Ljubljana",
@@ -285,7 +285,7 @@
     "People Count":23,
     "Last Record":1729382400000,
     "Country":"SI",
-    "Date":"20\/10"
+    "Date":"5\/10"
   },
   {
     "City":"London",
@@ -303,7 +303,7 @@
     "People Count":28,
     "Last Record":1714262400000,
     "Country":"ES",
-    "Date":null
+    "Date":"26\/4"
   },
   {
     "City":"Marrakech",
@@ -312,7 +312,7 @@
     "People Count":72,
     "Last Record":1737849600000,
     "Country":"MA",
-    "Date":null
+    "Date":"26\/1"
   },
   {
     "City":"Milano",
@@ -321,7 +321,7 @@
     "People Count":74,
     "Last Record":1712448000000,
     "Country":"IT",
-    "Date":"7\/4"
+    "Date":"5\/10"
   },
   {
     "City":"M\u00e1laga",
@@ -330,7 +330,7 @@
     "People Count":25,
     "Last Record":1734220800000,
     "Country":"ES",
-    "Date":null
+    "Date":"26\/1"
   },
   {
     "City":"M\u00fcnster",
@@ -339,7 +339,7 @@
     "People Count":20,
     "Last Record":1725753600000,
     "Country":"DE",
-    "Date":null
+    "Date":"5\/10"
   },
   {
     "City":"Nagano",
@@ -348,7 +348,7 @@
     "People Count":23,
     "Last Record":1682208000000,
     "Country":"JP",
-    "Date":null
+    "Date":"21\/9"
   },
   {
     "City":"Nagoya",
@@ -357,7 +357,7 @@
     "People Count":170,
     "Last Record":1710028800000,
     "Country":"JP",
-    "Date":"10\/3"
+    "Date":"9\/3"
   },
   {
     "City":"Nairobi",
@@ -366,7 +366,7 @@
     "People Count":68,
     "Last Record":1729987200000,
     "Country":"KE",
-    "Date":null
+    "Date":"1\/11"
   },
   {
     "City":"New York",
@@ -375,7 +375,7 @@
     "People Count":30,
     "Last Record":1730592000000,
     "Country":"US",
-    "Date":null
+    "Date":"2\/11"
   },
   {
     "City":"Nobeoka",
@@ -384,7 +384,7 @@
     "People Count":48,
     "Last Record":1707609600000,
     "Country":"JP",
-    "Date":null
+    "Date":"26\/10"
   },
   {
     "City":"Oita",
@@ -393,7 +393,7 @@
     "People Count":96,
     "Last Record":1738454400000,
     "Country":"JP",
-    "Date":null
+    "Date":"26\/10"
   },
   {
     "City":"Osaka",
@@ -402,7 +402,7 @@
     "People Count":202,
     "Last Record":1737849600000,
     "Country":"JP",
-    "Date":"25\/2"
+    "Date":"26\/10"
   },
   {
     "City":"Ottawa",
@@ -420,7 +420,7 @@
     "People Count":197,
     "Last Record":1712448000000,
     "Country":"FR",
-    "Date":"7\/4"
+    "Date":"6\/4"
   },
   {
     "City":"Praha",
@@ -429,7 +429,7 @@
     "People Count":41,
     "Last Record":1714867200000,
     "Country":"CZ",
-    "Date":"5\/5"
+    "Date":"5\/10"
   },
   {
     "City":"Rabat",
@@ -438,7 +438,7 @@
     "People Count":27,
     "Last Record":1713657600000,
     "Country":"MA",
-    "Date":null
+    "Date":"26\/1"
   },
   {
     "City":"Roma",
@@ -447,7 +447,7 @@
     "People Count":94,
     "Last Record":1710633600000,
     "Country":"IT",
-    "Date":"17\/3"
+    "Date":"23\/3"
   },
   {
     "City":"Rotterdam",
@@ -456,7 +456,7 @@
     "People Count":192,
     "Last Record":1713052800000,
     "Country":"NL",
-    "Date":"13\/4"
+    "Date":"5\/10"
   },
   {
     "City":"Sapporo",
@@ -465,7 +465,7 @@
     "People Count":27,
     "Last Record":1724544000000,
     "Country":"JP",
-    "Date":null
+    "Date":"20\/9"
   },
   {
     "City":"Seoul",
@@ -474,7 +474,7 @@
     "People Count":152,
     "Last Record":1730592000000,
     "Country":"KR",
-    "Date":"17\/3"
+    "Date":"5\/10"
   },
   {
     "City":"Sevilla",
@@ -492,7 +492,7 @@
     "People Count":34,
     "Last Record":1733011200000,
     "Country":"CN",
-    "Date":"21\/4"
+    "Date":"26\/1"
   },
   {
     "City":"St. Paul",
@@ -501,7 +501,7 @@
     "People Count":69,
     "Last Record":1728172800000,
     "Country":"US",
-    "Date":null
+    "Date":"5\/10"
   },
   {
     "City":"Tokyo",
@@ -510,7 +510,7 @@
     "People Count":228,
     "Last Record":1709424000000,
     "Country":"JP",
-    "Date":"2\/3"
+    "Date":"21\/9"
   },
   {
     "City":"Torino",
@@ -519,7 +519,7 @@
     "People Count":60,
     "Last Record":1733011200000,
     "Country":"IT",
-    "Date":"1\/12"
+    "Date":"5\/10"
   },
   {
     "City":"Toronto",
@@ -528,7 +528,7 @@
     "People Count":50,
     "Last Record":1729382400000,
     "Country":"CA",
-    "Date":"5\/5"
+    "Date":"5\/10"
   },
   {
     "City":"Valencia",
@@ -546,7 +546,7 @@
     "People Count":55,
     "Last Record":1729987200000,
     "Country":"IT",
-    "Date":null
+    "Date":"26\/10"
   },
   {
     "City":"Warszawa",
@@ -555,7 +555,7 @@
     "People Count":35,
     "Last Record":1727568000000,
     "Country":"PL",
-    "Date":null
+    "Date":"5\/10"
   },
   {
     "City":"Wien",
@@ -564,7 +564,7 @@
     "People Count":82,
     "Last Record":1713657600000,
     "Country":"AT",
-    "Date":"21\/4"
+    "Date":"5\/10"
   },
   {
     "City":"Wuxi",
@@ -573,7 +573,7 @@
     "People Count":38,
     "Last Record":1711238400000,
     "Country":"CN",
-    "Date":null
+    "Date":"26\/1"
   },
   {
     "City":"Xiamen",
@@ -582,7 +582,7 @@
     "People Count":49,
     "Last Record":1736035200000,
     "Country":"CN",
-    "Date":"7\/1"
+    "Date":"26\/1"
   },
   {
     "City":"Z\u00fcrich",
@@ -591,6 +591,6 @@
     "People Count":53,
     "Last Record":1713657600000,
     "Country":"CH",
-    "Date":null
+    "Date":"5\/10"
   }
 ]

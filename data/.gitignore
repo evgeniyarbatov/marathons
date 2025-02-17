@@ -1,3 +1,2 @@
-*
-!.gitignore
-!marathon_dates.json
+*.zip
+marathon.csv
