@@ -1,12 +1,8 @@
-import Vue, { createApp } from '@vue/compat'
-import { BootstrapVue } from 'bootstrap-vue-next'
+import { createApp } from 'vue'
 
 import './assets/main.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
+import 'flag-icons/css/flag-icons.min.css'
 
 import App from './App.vue'
-
-Vue.use(BootstrapVue)
 
 createApp(App).mount('#app')

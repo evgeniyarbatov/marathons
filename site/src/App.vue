@@ -32,21 +32,9 @@ export default {
       { data: this.bestTimes },
       { data: this.latestTimes },
     ] = await axios.all([
-      axios.get(
-        process.env.NODE_ENV === 'development'
-        ? '/marathons.json'  
-        : '/marathons/marathons.json'
-      ), 
-      axios.get(
-        process.env.NODE_ENV === 'development'
-        ? '/best_times.json'  
-        : '/marathons/best_times.json'
-      ),
-      axios.get(
-        process.env.NODE_ENV === 'development'
-        ? '/latest_times.json'  
-        : '/marathons/latest_times.json'   
-      ),
+      axios.get('/marathons.json'), 
+      axios.get('/best_times.json'),
+      axios.get('/latest_times.json'),
     ]);
   },
   methods: {
