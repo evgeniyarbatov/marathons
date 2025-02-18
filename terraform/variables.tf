@@ -10,5 +10,5 @@ variable "s3_bucket" {
 
 variable "s3_bucket_dir" {
   type    = string
-  default = "../blog/public"
+  default = "../site/dist"
 }
