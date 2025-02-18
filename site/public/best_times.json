@@ -1,0 +1,1152 @@
+[
+  {
+    "Time":"2:06:33",
+    "Name":"Ibrahim Hassan",
+    "Country":"dj",
+    "City":"Abu Dhabi",
+    "Date":"2024-12-14",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":20
+  },
+  {
+    "Time":"2:20:34",
+    "Name":"Catherine Reline Amanang'Ole",
+    "Country":"ke",
+    "City":"Abu Dhabi",
+    "Date":"2024-12-14",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":20
+  },
+  {
+    "Time":"2:03:39",
+    "Name":"Tamirat Tola",
+    "Country":"et",
+    "City":"Amsterdam",
+    "Date":"2021-10-17",
+    "Year":2021,
+    "Gender":"Men",
+    "Record Count":165
+  },
+  {
+    "Time":"2:16:52",
+    "Name":"Yalemzerf Yehualaw",
+    "Country":"et",
+    "City":"Amsterdam",
+    "Date":"2024-10-20",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":165
+  },
+  {
+    "Time":"2:05:06",
+    "Name":"Marius Kimutai",
+    "Country":"bn",
+    "City":"Barcelona",
+    "Date":"2023-03-19",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":71
+  },
+  {
+    "Time":"2:20:03",
+    "Name":"Selly Chepyego Kaptich",
+    "Country":"ke",
+    "City":"Barcelona",
+    "Date":"2023-03-19",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":71
+  },
+  {
+    "Time":"2:07:35",
+    "Name":"Abebe Mekonnen",
+    "Country":"et",
+    "City":"Beijing",
+    "Date":"1988-10-16",
+    "Year":1988,
+    "Gender":"Men",
+    "Record Count":143
+  },
+  {
+    "Time":"2:19:39",
+    "Name":"Yingjie Sun",
+    "Country":"cn",
+    "City":"Beijing",
+    "Date":"2003-10-19",
+    "Year":2003,
+    "Gender":"Women",
+    "Record Count":143
+  },
+  {
+    "Time":"2:01:09",
+    "Name":"Eliud Kipchoge",
+    "Country":"ke",
+    "City":"Berlin",
+    "Date":"2022-09-25",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":321
+  },
+  {
+    "Time":"2:11:53",
+    "Name":"Tigst Assefa",
+    "Country":"et",
+    "City":"Berlin",
+    "Date":"2023-09-24",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":321
+  },
+  {
+    "Time":"2:08:47",
+    "Name":"Emmanuel Tirop Keter",
+    "Country":"ke",
+    "City":"Cape Town",
+    "Date":"2016-09-18",
+    "Year":2016,
+    "Gender":"Men",
+    "Record Count":60
+  },
+  {
+    "Time":"2:22:22",
+    "Name":"Glenrose Xaba",
+    "Country":null,
+    "City":"Cape Town",
+    "Date":"2024-10-20",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":60
+  },
+  {
+    "Time":"2:08:55",
+    "Name":"Milton Rotich Kiplagat",
+    "Country":"ke",
+    "City":"Casablanca",
+    "Date":"2013-10-27",
+    "Year":2013,
+    "Gender":"Men",
+    "Record Count":25
+  },
+  {
+    "Time":"2:27:41",
+    "Name":"Joan Chepkosgei",
+    "Country":"ke",
+    "City":"Casablanca",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":25
+  },
+  {
+    "Time":"2:07:25",
+    "Name":"Kibrom Weldemicael",
+    "Country":"er",
+    "City":"Castell\u00f3n",
+    "Date":"2024-02-25",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":21
+  },
+  {
+    "Time":"2:27:39",
+    "Name":"Webalem Bazanew",
+    "Country":"et",
+    "City":"Castell\u00f3n",
+    "Date":"2020-02-16",
+    "Year":2020,
+    "Gender":"Women",
+    "Record Count":21
+  },
+  {
+    "Time":"2:00:35",
+    "Name":"Kelvin Kiptum",
+    "Country":"ke",
+    "City":"Chicago",
+    "Date":"2023-10-08",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":247
+  },
+  {
+    "Time":"2:09:56",
+    "Name":"Ruth Chepngetich",
+    "Country":"ke",
+    "City":"Chicago",
+    "Date":"2024-10-13",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":247
+  },
+  {
+    "Time":"2:10:28",
+    "Name":"Jimma Shambel",
+    "Country":"et",
+    "City":"Chongqing",
+    "Date":"2019-03-31",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":33
+  },
+  {
+    "Time":"2:21:27",
+    "Name":"Jackline Sakilu",
+    "Country":null,
+    "City":"Chongqing",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":33
+  },
+  {
+    "Time":"2:05:33",
+    "Name":"Filex Kipchirchir Kiprotich",
+    "Country":"ke",
+    "City":"Daegu",
+    "Date":"2019-04-07",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":50
+  },
+  {
+    "Time":"2:22:43",
+    "Name":"Pamela Rotich",
+    "Country":"ke",
+    "City":"Daegu",
+    "Date":"2022-04-03",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":50
+  },
+  {
+    "Time":"2:03:34",
+    "Name":"Getaneh Molla",
+    "Country":"et",
+    "City":"Dubai",
+    "Date":"2019-01-25",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":145
+  },
+  {
+    "Time":"2:16:07",
+    "Name":"Tigist Ketema",
+    "Country":"et",
+    "City":"Dubai",
+    "Date":"2024-01-07",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":145
+  },
+  {
+    "Time":"2:06:52",
+    "Name":"Kemal Husen",
+    "Country":"et",
+    "City":"Dublin",
+    "Date":"2023-10-29",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":56
+  },
+  {
+    "Time":"2:24:13",
+    "Name":"Asimarech Naga",
+    "Country":"et",
+    "City":"Dublin",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":56
+  },
+  {
+    "Time":"2:09:47",
+    "Name":"Mathews Leeto",
+    "Country":null,
+    "City":"Durban",
+    "Date":"2024-04-28",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":23
+  },
+  {
+    "Time":"2:30:31",
+    "Name":"Annie Bothma",
+    "Country":null,
+    "City":"Durban",
+    "Date":"2023-03-12",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":23
+  },
+  {
+    "Time":"2:04:52",
+    "Name":"Kenneth Kiprop Kipkemoi",
+    "Country":"ke",
+    "City":"Eindhoven",
+    "Date":"2023-10-08",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":99
+  },
+  {
+    "Time":"2:22:47",
+    "Name":"Pascalia Jepkogei",
+    "Country":"ke",
+    "City":"Eindhoven",
+    "Date":"2022-10-09",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":99
+  },
+  {
+    "Time":"2:07:43",
+    "Name":"Julius Tuwei",
+    "Country":"ke",
+    "City":"Enschede",
+    "Date":"2022-04-24",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":50
+  },
+  {
+    "Time":"2:22:45",
+    "Name":"Shyline Jepkorir Toroitich",
+    "Country":"ke",
+    "City":"Enschede",
+    "Date":"2023-04-16",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":50
+  },
+  {
+    "Time":"2:04:53",
+    "Name":"Brimin Kipkorir",
+    "Country":"ke",
+    "City":"Frankfurt",
+    "Date":"2023-10-29",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":180
+  },
+  {
+    "Time":"2:17:25",
+    "Name":"Hawi Feysa",
+    "Country":"et",
+    "City":"Frankfurt",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":180
+  },
+  {
+    "Time":"2:05:16",
+    "Name":"Yuya Yoshida",
+    "Country":"jp",
+    "City":"Fukuoka",
+    "Date":"2024-12-01",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":161
+  },
+  {
+    "Time":"2:31:02",
+    "Name":"Yuka Yano",
+    "Country":"jp",
+    "City":"Fukuoka",
+    "Date":"2014-02-09",
+    "Year":2014,
+    "Gender":"Women",
+    "Record Count":161
+  },
+  {
+    "Time":"2:08:19",
+    "Name":"Zane Robertson",
+    "Country":"nz",
+    "City":"Gold Coast",
+    "Date":"2019-07-07",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":24
+  },
+  {
+    "Time":"2:24:22",
+    "Name":"Yuki Nakamura",
+    "Country":"jp",
+    "City":"Gold Coast",
+    "Date":"2024-07-07",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":24
+  },
+  {
+    "Time":"2:04:33",
+    "Name":"Joshua Belet",
+    "Country":"ke",
+    "City":"Hamburg",
+    "Date":"2023-04-23",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":127
+  },
+  {
+    "Time":"2:18:25",
+    "Name":"Winfridah Moraa Moseti",
+    "Country":"ke",
+    "City":"Hamburg",
+    "Date":"2024-04-28",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":127
+  },
+  {
+    "Time":"2:07:06",
+    "Name":"Boaz Kipkemei",
+    "Country":"ke",
+    "City":"Hannover",
+    "Date":"2024-04-14",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":47
+  },
+  {
+    "Time":"2:25:45",
+    "Name":"Matea Parlov Ko\u0161tro",
+    "Country":null,
+    "City":"Hannover",
+    "Date":"2023-03-26",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":47
+  },
+  {
+    "Time":"2:08:16",
+    "Name":"Hailu Negussie",
+    "Country":"et",
+    "City":"Hofu",
+    "Date":"2002-12-15",
+    "Year":2002,
+    "Gender":"Men",
+    "Record Count":47
+  },
+  {
+    "Time":"2:06:39",
+    "Name":"Zouhair Talbi",
+    "Country":"ma",
+    "City":"Houston",
+    "Date":"2024-01-14",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":136
+  },
+  {
+    "Time":"2:19:12",
+    "Name":"Keira D'Amato",
+    "Country":"us",
+    "City":"Houston",
+    "Date":"2022-01-16",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":136
+  },
+  {
+    "Time":"2:07:01",
+    "Name":"Lawrence Kimayo",
+    "Country":"ke",
+    "City":"Ko\u0161ice",
+    "Date":"2012-10-07",
+    "Year":2012,
+    "Gender":"Men",
+    "Record Count":38
+  },
+  {
+    "Time":"2:21:08",
+    "Name":"Rebbeca Sirwanei Tanui",
+    "Country":"ke",
+    "City":"Ko\u0161ice",
+    "Date":"2024-10-06",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":38
+  },
+  {
+    "Time":"2:07:13",
+    "Name":"John Kipkorir Komen",
+    "Country":"ke",
+    "City":"La Rochelle",
+    "Date":"2011-11-27",
+    "Year":2011,
+    "Gender":"Men",
+    "Record Count":26
+  },
+  {
+    "Time":"2:27:54",
+    "Name":"Emily Chebet Kipchumba",
+    "Country":"ke",
+    "City":"La Rochelle",
+    "Date":"2024-11-24",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":26
+  },
+  {
+    "Time":"2:06:16",
+    "Name":"Fikre Bekele",
+    "Country":"et",
+    "City":"Linz",
+    "Date":"2022-10-23",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":22
+  },
+  {
+    "Time":"2:27:18",
+    "Name":"Tecla Chebet",
+    "Country":"ke",
+    "City":"Linz",
+    "Date":"2023-04-16",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":22
+  },
+  {
+    "Time":"2:06:02",
+    "Name":"Samuel Ndungu",
+    "Country":"ke",
+    "City":"Lisboa",
+    "Date":"2019-10-20",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":25
+  },
+  {
+    "Time":"2:27:14",
+    "Name":"Almaz Negede",
+    "Country":"et",
+    "City":"Lisboa",
+    "Date":"2021-10-17",
+    "Year":2021,
+    "Gender":"Women",
+    "Record Count":25
+  },
+  {
+    "Time":"2:06:47",
+    "Name":"Edmond Kipngetich",
+    "Country":"ke",
+    "City":"Ljubljana",
+    "Date":"2023-10-22",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":23
+  },
+  {
+    "Time":"2:20:17",
+    "Name":"Joyce Chepkemoi Tele",
+    "Country":"ke",
+    "City":"Ljubljana",
+    "Date":"2024-10-20",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":23
+  },
+  {
+    "Time":"2:02:55",
+    "Name":"Mosinet Geremew",
+    "Country":"et",
+    "City":"London",
+    "Date":"2019-04-28",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":265
+  },
+  {
+    "Time":"2:15:25",
+    "Name":"Paula Radcliffe",
+    "Country":"gb",
+    "City":"London",
+    "Date":"2003-04-13",
+    "Year":2003,
+    "Gender":"Women",
+    "Record Count":265
+  },
+  {
+    "Time":"2:09:41",
+    "Name":"Kenneth Kiplagat",
+    "Country":"ke",
+    "City":"Madrid",
+    "Date":"2022-04-24",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":28
+  },
+  {
+    "Time":"2:26:18",
+    "Name":"Kasu Bitew",
+    "Country":"et",
+    "City":"Madrid",
+    "Date":"2022-04-24",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":28
+  },
+  {
+    "Time":"2:06:32",
+    "Name":"Hicham Laqouahi",
+    "Country":"ma",
+    "City":"Marrakech",
+    "Date":"2020-01-26",
+    "Year":2020,
+    "Gender":"Men",
+    "Record Count":72
+  },
+  {
+    "Time":"2:27:22",
+    "Name":"Kaltoum Bouaasayriya",
+    "Country":"ma",
+    "City":"Marrakech",
+    "Date":"2023-01-29",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":72
+  },
+  {
+    "Time":"2:03:55",
+    "Name":"Reuben Kiprop Kipyego",
+    "Country":"ke",
+    "City":"Milano",
+    "Date":"2021-05-16",
+    "Year":2021,
+    "Gender":"Men",
+    "Record Count":74
+  },
+  {
+    "Time":"2:20:18",
+    "Name":"Vivian Kiplagat",
+    "Country":"ke",
+    "City":"Milano",
+    "Date":"2022-04-03",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":74
+  },
+  {
+    "Time":"2:08:05",
+    "Name":"Vincent Kigen",
+    "Country":"ke",
+    "City":"M\u00e1laga",
+    "Date":"2024-12-15",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":25
+  },
+  {
+    "Time":"2:24:50",
+    "Name":"Tseginesh Mekonnin",
+    "Country":"et",
+    "City":"M\u00e1laga",
+    "Date":"2021-12-12",
+    "Year":2021,
+    "Gender":"Women",
+    "Record Count":25
+  },
+  {
+    "Time":"2:09:28",
+    "Name":"Justus Kiprotich",
+    "Country":"ke",
+    "City":"M\u00fcnster",
+    "Date":"2018-09-09",
+    "Year":2018,
+    "Gender":"Men",
+    "Record Count":20
+  },
+  {
+    "Time":"2:27:39",
+    "Name":"Lillian Jelagat",
+    "Country":"ke",
+    "City":"M\u00fcnster",
+    "Date":"2022-09-11",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":20
+  },
+  {
+    "Time":"2:20:29",
+    "Name":"Mao Ichiyama",
+    "Country":"jp",
+    "City":"Nagoya",
+    "Date":"2020-03-08",
+    "Year":2020,
+    "Gender":"Women",
+    "Record Count":170
+  },
+  {
+    "Time":"2:10:12",
+    "Name":"Moses Kigen",
+    "Country":"ke",
+    "City":"Nairobi",
+    "Date":"2009-10-25",
+    "Year":2009,
+    "Gender":"Men",
+    "Record Count":68
+  },
+  {
+    "Time":"2:27:16",
+    "Name":"Sheila Chepkech",
+    "Country":"ke",
+    "City":"Nairobi",
+    "Date":"2023-10-29",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":68
+  },
+  {
+    "Time":"2:06:57",
+    "Name":"Albert Korir",
+    "Country":"ke",
+    "City":"New York",
+    "Date":"2023-11-05",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":30
+  },
+  {
+    "Time":"2:22:44",
+    "Name":"Violah Cheptoo",
+    "Country":"ke",
+    "City":"New York",
+    "Date":"2021-11-07",
+    "Year":2021,
+    "Gender":"Women",
+    "Record Count":30
+  },
+  {
+    "Time":"2:06:07",
+    "Name":"Hiroki Wakabayasi",
+    "Country":"jp",
+    "City":"Oita",
+    "Date":"2025-02-02",
+    "Year":2025,
+    "Gender":"Men",
+    "Record Count":96
+  },
+  {
+    "Time":"2:06:18",
+    "Name":"Kiyoto Hirabayashi",
+    "Country":"jp",
+    "City":"Osaka",
+    "Date":"2024-02-25",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":203
+  },
+  {
+    "Time":"2:18:59",
+    "Name":"Honami Maeda",
+    "Country":"jp",
+    "City":"Osaka",
+    "Date":"2024-01-28",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":203
+  },
+  {
+    "Time":"2:08:12",
+    "Name":"Luka Rotich",
+    "Country":"ke",
+    "City":"Ottawa",
+    "Date":"2013-05-26",
+    "Year":2013,
+    "Gender":"Men",
+    "Record Count":27
+  },
+  {
+    "Time":"2:25:45",
+    "Name":"Misikir Demisse",
+    "Country":"et",
+    "City":"Ottawa",
+    "Date":"2013-05-26",
+    "Year":2013,
+    "Gender":"Women",
+    "Record Count":27
+  },
+  {
+    "Time":"2:04:21",
+    "Name":"Elisha Rotich",
+    "Country":"ke",
+    "City":"Paris",
+    "Date":"2021-10-17",
+    "Year":2021,
+    "Gender":"Men",
+    "Record Count":197
+  },
+  {
+    "Time":"2:20:48",
+    "Name":"Enatnesh Alamrew Tirusew",
+    "Country":"et",
+    "City":"Paris",
+    "Date":"2024-04-07",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":197
+  },
+  {
+    "Time":"2:06:07",
+    "Name":"Galen Rupp",
+    "Country":"us",
+    "City":"Praha",
+    "Date":"2018-05-06",
+    "Year":2018,
+    "Gender":"Men",
+    "Record Count":41
+  },
+  {
+    "Time":"2:20:14",
+    "Name":"Purity Cherotich Rionoripo",
+    "Country":"ke",
+    "City":"Praha",
+    "Date":"2021-05-30",
+    "Year":2021,
+    "Gender":"Women",
+    "Record Count":41
+  },
+  {
+    "Time":"2:08:42",
+    "Name":"Emmanuel Kibet",
+    "Country":"ke",
+    "City":"Rabat",
+    "Date":"2019-04-21",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":27
+  },
+  {
+    "Time":"2:25:35",
+    "Name":"Kaoutar Farkoussi",
+    "Country":"ma",
+    "City":"Rabat",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":27
+  },
+  {
+    "Time":"2:06:24",
+    "Name":"Asbel Rutto",
+    "Country":"ke",
+    "City":"Roma",
+    "Date":"2024-03-17",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":94
+  },
+  {
+    "Time":"2:23:02",
+    "Name":"Betty Chepkwony",
+    "Country":"ke",
+    "City":"Roma",
+    "Date":"2023-03-19",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":94
+  },
+  {
+    "Time":"2:03:36",
+    "Name":"Bashir Abdi",
+    "Country":"be",
+    "City":"Rotterdam",
+    "Date":"2021-10-24",
+    "Year":2021,
+    "Gender":"Men",
+    "Record Count":192
+  },
+  {
+    "Time":"2:18:58",
+    "Name":"Tiki Gelana",
+    "Country":"et",
+    "City":"Rotterdam",
+    "Date":"2012-04-15",
+    "Year":2012,
+    "Gender":"Women",
+    "Record Count":192
+  },
+  {
+    "Time":"2:10:49",
+    "Name":"Luka Musembi",
+    "Country":"ke",
+    "City":"Sapporo",
+    "Date":"2022-08-28",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":27
+  },
+  {
+    "Time":"2:25:10",
+    "Name":"Kiyoko Shimahara",
+    "Country":"jp",
+    "City":"Sapporo",
+    "Date":"2009-08-30",
+    "Year":2009,
+    "Gender":"Women",
+    "Record Count":27
+  },
+  {
+    "Time":"2:04:51",
+    "Name":"Daniel Do Nascimento",
+    "Country":"br",
+    "City":"Seoul",
+    "Date":"2022-04-17",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":152
+  },
+  {
+    "Time":"2:18:04",
+    "Name":"Joan Chelimo Melly",
+    "Country":"ro",
+    "City":"Seoul",
+    "Date":"2022-04-17",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":152
+  },
+  {
+    "Time":"2:05:35",
+    "Name":"Philimon Kiptoo Kipchumba",
+    "Country":"ke",
+    "City":"Shanghai",
+    "Date":"2023-11-26",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":34
+  },
+  {
+    "Time":"2:21:52",
+    "Name":"Tigist Tufa",
+    "Country":"et",
+    "City":"Shanghai",
+    "Date":"2014-11-02",
+    "Year":2014,
+    "Gender":"Women",
+    "Record Count":34
+  },
+  {
+    "Time":"2:10:05",
+    "Name":"Phil Coppess",
+    "Country":"us",
+    "City":"St. Paul",
+    "Date":"1985-10-06",
+    "Year":1985,
+    "Gender":"Men",
+    "Record Count":69
+  },
+  {
+    "Time":"2:26:51",
+    "Name":"Zinayida Semyonova",
+    "Country":"ru",
+    "City":"St. Paul",
+    "Date":"2001-10-07",
+    "Year":2001,
+    "Gender":"Women",
+    "Record Count":69
+  },
+  {
+    "Time":"2:02:16",
+    "Name":"Benson Kipruto",
+    "Country":"ke",
+    "City":"Tokyo",
+    "Date":"2024-03-03",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":229
+  },
+  {
+    "Time":"2:15:55",
+    "Name":"Sutume Asefa Kebede",
+    "Country":"et",
+    "City":"Tokyo",
+    "Date":"2024-03-03",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":229
+  },
+  {
+    "Time":"2:07:45",
+    "Name":"Simretu Alemayehu",
+    "Country":"et",
+    "City":"Torino",
+    "Date":"2001-04-01",
+    "Year":2001,
+    "Gender":"Men",
+    "Record Count":60
+  },
+  {
+    "Time":"2:27:04",
+    "Name":"Jane Salum\u00e4e",
+    "Country":"ee",
+    "City":"Torino",
+    "Date":"1997-05-11",
+    "Year":1997,
+    "Gender":"Women",
+    "Record Count":60
+  },
+  {
+    "Time":"2:05:00",
+    "Name":"Philemon Rono",
+    "Country":"ke",
+    "City":"Toronto",
+    "Date":"2019-10-20",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":50
+  },
+  {
+    "Time":"2:20:44",
+    "Name":"Waganesh Mekasha",
+    "Country":"et",
+    "City":"Toronto",
+    "Date":"2024-10-20",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":50
+  },
+  {
+    "Time":"2:01:48",
+    "Name":"Sisay Lemma",
+    "Country":"et",
+    "City":"Valencia",
+    "Date":"2023-12-03",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":289
+  },
+  {
+    "Time":"2:14:58",
+    "Name":"Amane Beriso Shankule",
+    "Country":"et",
+    "City":"Valencia",
+    "Date":"2022-12-04",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":289
+  },
+  {
+    "Time":"2:07:41",
+    "Name":"Solomon Mutai",
+    "Country":"ug",
+    "City":"Venezia",
+    "Date":"2023-10-22",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":55
+  },
+  {
+    "Time":"2:26:39",
+    "Name":"Kebene Chala",
+    "Country":"et",
+    "City":"Venezia",
+    "Date":"2023-10-22",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":55
+  },
+  {
+    "Time":"2:08:05",
+    "Name":"Robert Chemosin",
+    "Country":"ke",
+    "City":"Warszawa",
+    "Date":"2015-04-26",
+    "Year":2015,
+    "Gender":"Men",
+    "Record Count":35
+  },
+  {
+    "Time":"2:28:23",
+    "Name":"Milka Jerotich",
+    "Country":"ke",
+    "City":"Warszawa",
+    "Date":"2013-04-21",
+    "Year":2013,
+    "Gender":"Women",
+    "Record Count":35
+  },
+  {
+    "Time":"2:05:08",
+    "Name":"Samwel Nyamai Mailu",
+    "Country":"ke",
+    "City":"Wien",
+    "Date":"2023-04-23",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":82
+  },
+  {
+    "Time":"2:20:59",
+    "Name":"Vibian Chepkurui",
+    "Country":"ke",
+    "City":"Wien",
+    "Date":"2022-04-24",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":82
+  },
+  {
+    "Time":"2:06:50",
+    "Name":"Abay Alemu",
+    "Country":"et",
+    "City":"Wuxi",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":38
+  },
+  {
+    "Time":"2:24:46",
+    "Name":"Veronica Maina",
+    "Country":"ke",
+    "City":"Wuxi",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":38
+  },
+  {
+    "Time":"2:06:18",
+    "Name":"Tebello Ramakongoana",
+    "Country":null,
+    "City":"Xiamen",
+    "Date":"2025-01-05",
+    "Year":2025,
+    "Gender":"Men",
+    "Record Count":49
+  },
+  {
+    "Time":"2:22:38",
+    "Name":"Yingying Zhang",
+    "Country":"cn",
+    "City":"Xiamen",
+    "Date":"2008-01-05",
+    "Year":2008,
+    "Gender":"Women",
+    "Record Count":49
+  },
+  {
+    "Time":"2:07:13",
+    "Name":"Olivier Irabaruta",
+    "Country":"bi",
+    "City":"Z\u00fcrich",
+    "Date":"2022-04-10",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":53
+  },
+  {
+    "Time":"2:25:44",
+    "Name":"Lisa Christina Nemec",
+    "Country":null,
+    "City":"Z\u00fcrich",
+    "Date":"2013-04-07",
+    "Year":2013,
+    "Gender":"Women",
+    "Record Count":53
+  }
+]

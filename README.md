@@ -1,26 +1,27 @@
-# Visualize Marathon Running Records
+# Marathons
 
-Making marathon running times accessible as a web page to follow the current state of world records.
+Example of hosting static site on S3 with data from Python scripts.
 
-[arbatov.me/marathons](arbatov.me/marathons/index.html)
+### Pros
 
-## Structure
+- Zero cost. Host on S3
+- Build reasonably fast but struggle a bit with JS / Vue
 
-- `notebooks` contain Jupyter notebooks to parse the CSV into suitable JSON format to `public` folder
-- `src` is the VueJS source for the website
-- `terraform` are the terraform script to deploy website to S3 bucket with Github actions
+### Cons
 
-## Data 
+- A lot of data pre-processing
+- Very time consuming for such lightweight project
 
-The data comes from [this Kaggle dataset](https://www.kaggle.com/datasets/evgenyarbatov/running-times).
+### What can be better
 
-## Dev
+- Write scripts instead of Jupyter notebooks?
+- Cloudflare DNS is in the separate repo. How to keep it here?
+- Time has to pass for me to see how it can be refactored. Delete a lot of code
 
-```
-npm run dev
-```
+### Todo
 
-## Todos
-
-- download `data` directly from Kaggle to get latest dataset version
-- merge files in `public` folder to reduce size and duplicates
+- LLM does not give correct Marathon dates. Fix that
+- Add SEO tags and Google Analytics tracking to the page
+- Reduce size. Country logos are too heavy.
+- Add more marathons
+- Add GPX file for each marathon
