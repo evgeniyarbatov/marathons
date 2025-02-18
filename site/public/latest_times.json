@@ -1,659 +1,1282 @@
 [
   {
-    "Time":"2:04:18",
-    "Name":"Joshua Belet",
+    "Time":"2:06:33",
+    "Name":"Ibrahim Hassan",
+    "Country":"DJI",
+    "City":"Abu Dhabi",
+    "Date":"2024-12-14",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":20
+  },
+  {
+    "Time":"2:20:34",
+    "Name":"Catherine Reline Amanang'Ole",
     "Country":"KEN",
+    "City":"Abu Dhabi",
+    "Date":"2024-12-14",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":20
+  },
+  {
+    "Time":"2:05:40",
+    "Name":"Asefa Boki",
+    "Country":"ETH",
     "City":"Amsterdam",
+    "Date":"2024-10-20",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-10-15",
-    "Year":2023
+    "Record Count":165
   },
   {
-    "Time":"2:18:21",
-    "Name":"Meseret Belete",
+    "Time":"2:16:52",
+    "Name":"Yalemzerf Yehualaw",
     "Country":"ETH",
     "City":"Amsterdam",
+    "Date":"2024-10-20",
+    "Year":2024,
     "Gender":"Women",
+    "Record Count":165
+  },
+  {
+    "Time":"2:06:44",
+    "Name":"Collins Kipkirui Kipkorir",
+    "Country":"KEN",
+    "City":"Barcelona",
+    "Date":"2024-03-10",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":71
+  },
+  {
+    "Time":"2:21:35",
+    "Name":"Shuko Genemo",
+    "Country":"ETH",
+    "City":"Barcelona",
+    "Date":"2024-03-10",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":71
+  },
+  {
+    "Time":"2:10:23",
+    "Name":"Wenjie Wang",
+    "Country":"CHN",
+    "City":"Beijing",
+    "Date":"2024-11-03",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":143
+  },
+  {
+    "Time":"2:28:36",
+    "Name":"Min Liu",
+    "Country":"CHN",
+    "City":"Beijing",
+    "Date":"2024-11-03",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":143
+  },
+  {
+    "Time":"2:03:17",
+    "Name":"Milkesa Mengesha",
+    "Country":"ETH",
+    "City":"Berlin",
+    "Date":"2024-09-29",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":321
+  },
+  {
+    "Time":"2:18:48",
+    "Name":"Mestawut Fikir",
+    "Country":"ETH",
+    "City":"Berlin",
+    "Date":"2024-09-29",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":321
+  },
+  {
+    "Time":"2:11:24",
+    "Name":"Edward Konana Koonyo",
+    "Country":"KEN",
+    "City":"Cape Town",
+    "Date":"2024-10-20",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":60
+  },
+  {
+    "Time":"2:22:22",
+    "Name":"Glenrose Xaba",
+    "Country":"RSA",
+    "City":"Cape Town",
+    "Date":"2024-10-20",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":60
+  },
+  {
+    "Time":"2:13:13",
+    "Name":"Felix Kipsang",
+    "Country":"KEN",
+    "City":"Casablanca",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":25
+  },
+  {
+    "Time":"2:27:41",
+    "Name":"Joan Chepkosgei",
+    "Country":"KEN",
+    "City":"Casablanca",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":25
+  },
+  {
+    "Time":"2:07:25",
+    "Name":"Kibrom Weldemicael",
+    "Country":"ERI",
+    "City":"Castell\u00f3n",
+    "Date":"2024-02-25",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":21
+  },
+  {
+    "Time":"2:29:39",
+    "Name":"Dorine Jerop Murkomen",
+    "Country":"KEN",
+    "City":"Castell\u00f3n",
+    "Date":"2024-02-25",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":21
+  },
+  {
+    "Time":"2:02:44",
+    "Name":"John Korir",
+    "Country":"KEN",
+    "City":"Chicago",
+    "Date":"2024-10-13",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":247
+  },
+  {
+    "Time":"2:09:56",
+    "Name":"Ruth Chepngetich",
+    "Country":"KEN",
+    "City":"Chicago",
+    "Date":"2024-10-13",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":247
+  },
+  {
+    "Time":"2:14:18",
+    "Name":"Murimi Muthikepeter",
+    "Country":"KEN",
+    "City":"Chongqing",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":33
+  },
+  {
+    "Time":"2:21:27",
+    "Name":"Jackline Sakilu",
+    "Country":"TAN",
+    "City":"Chongqing",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":33
+  },
+  {
+    "Time":"2:08:03",
+    "Name":"Ben Chelimo Somikwo",
+    "Country":"UGA",
+    "City":"Daegu",
+    "Date":"2024-04-07",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":50
+  },
+  {
+    "Time":"2:24:01",
+    "Name":"Jessica Stenson",
+    "Country":"AUS",
+    "City":"Daegu",
+    "Date":"2024-04-07",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":50
+  },
+  {
+    "Time":"2:11:45",
+    "Name":"Mathew Kiptoo",
+    "Country":"KEN",
+    "City":"Dalian",
+    "Date":"2019-05-12",
+    "Year":2019,
+    "Gender":"Men",
+    "Record Count":23
+  },
+  {
+    "Time":"2:33:55",
+    "Name":"Melese Birhanu",
+    "Country":"ETH",
+    "City":"Dalian",
     "Date":"2023-10-15",
-    "Year":2023
-  },
-  {
-    "Time":"2:05:06",
-    "Name":"Marius Kimutai",
-    "Country":"BRN",
-    "City":"Barcelona",
-    "Gender":"Men",
-    "Date":"2023-03-19",
-    "Year":2023
-  },
-  {
-    "Time":"2:19:44",
-    "Name":"Zeineba Yimer",
-    "Country":"ETH",
-    "City":"Barcelona",
+    "Year":2023,
     "Gender":"Women",
-    "Date":"2023-03-19",
-    "Year":2023
+    "Record Count":23
   },
   {
-    "Time":"2:07:42",
-    "Name":"Yihunilign Adane",
+    "Time":"2:04:51",
+    "Name":"Bute Gemechu",
     "Country":"ETH",
-    "City":"Beijing",
+    "City":"Dubai",
+    "Date":"2025-01-12",
+    "Year":2025,
     "Gender":"Men",
-    "Date":"2023-10-29",
-    "Year":2023
+    "Record Count":145
   },
   {
-    "Time":"2:21:57",
-    "Name":"Vibian Chepkurui",
+    "Time":"2:18:27",
+    "Name":"Bedatu Hirpa",
+    "Country":"ETH",
+    "City":"Dubai",
+    "Date":"2025-01-12",
+    "Year":2025,
+    "Gender":"Women",
+    "Record Count":145
+  },
+  {
+    "Time":"2:08:47",
+    "Name":"Moses Kemei",
     "Country":"KEN",
-    "City":"Beijing",
-    "Gender":"Women",
-    "Date":"2023-10-29",
-    "Year":2023
-  },
-  {
-    "Time":"2:02:42",
-    "Name":"Eliud Kipchoge",
-    "Country":"KEN",
-    "City":"Berlin",
+    "City":"Dublin",
+    "Date":"2024-10-27",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-09-24",
-    "Year":2023
+    "Record Count":56
   },
   {
-    "Time":"2:11:53",
-    "Name":"Tigist Assefa",
+    "Time":"2:24:13",
+    "Name":"Asimarech Naga",
     "Country":"ETH",
-    "City":"Berlin",
+    "City":"Dublin",
+    "Date":"2024-10-27",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-09-24",
-    "Year":2023
+    "Record Count":56
+  },
+  {
+    "Time":"2:09:14",
+    "Name":"Elisha Kiprop Barno",
+    "Country":"KEN",
+    "City":"Duluth",
+    "Date":"2023-06-17",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":60
+  },
+  {
+    "Time":"2:29:45",
+    "Name":"Kathy Vandehy",
+    "Country":"USA",
+    "City":"Duluth",
+    "Date":"2023-06-17",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":60
+  },
+  {
+    "Time":"2:09:47",
+    "Name":"Mathews Leeto",
+    "Country":"RSA",
+    "City":"Durban",
+    "Date":"2024-04-28",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":23
+  },
+  {
+    "Time":"2:30:31",
+    "Name":"Annie Bothma",
+    "Country":"RSA",
+    "City":"Durban",
+    "Date":"2023-03-12",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":23
+  },
+  {
+    "Time":"2:06:28",
+    "Name":"Enock Kinyamal",
+    "Country":"KEN",
+    "City":"Eindhoven",
+    "Date":"2024-10-13",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":99
+  },
+  {
+    "Time":"2:26:41",
+    "Name":"Vivian Jerotich",
+    "Country":"KEN",
+    "City":"Eindhoven",
+    "Date":"2024-10-13",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":99
+  },
+  {
+    "Time":"2:09:21",
+    "Name":"Tafere Adisu",
+    "Country":"ETH",
+    "City":"Enschede",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":50
+  },
+  {
+    "Time":"2:27:16",
+    "Name":"Souad Kabouchia",
+    "Country":"MAR",
+    "City":"Enschede",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":50
+  },
+  {
+    "Time":"2:12:38",
+    "Name":"Said El Otmani",
+    "Country":"ITA",
+    "City":"Firenze",
+    "Date":"2023-11-26",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":22
+  },
+  {
+    "Time":"2:25:54",
+    "Name":"Clementine Mukandanga",
+    "Country":"RWA",
+    "City":"Firenze",
+    "Date":"2023-11-26",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":22
   },
   {
     "Time":"2:05:54",
-    "Name":"Evans Chebet",
+    "Name":"Benard Biwott",
     "Country":"KEN",
-    "City":"Boston",
+    "City":"Frankfurt",
+    "Date":"2024-10-27",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-04-17",
-    "Year":2023
+    "Record Count":180
   },
   {
-    "Time":"2:21:38",
-    "Name":"Helen Obiri",
-    "Country":"KEN",
-    "City":"Boston",
-    "Gender":"Women",
-    "Date":"2023-04-17",
-    "Year":2023
-  },
-  {
-    "Time":"2:00:35",
-    "Name":"Kelvin Kiptum",
-    "Country":"KEN",
-    "City":"Chicago",
-    "Gender":"Men",
-    "Date":"2023-08-10",
-    "Year":2023
-  },
-  {
-    "Time":"2:13:44",
-    "Name":"Sifan Hassan",
-    "Country":"NED",
-    "City":"Chicago",
-    "Gender":"Women",
-    "Date":"2023-08-10",
-    "Year":2023
-  },
-  {
-    "Time":"2:06:49",
-    "Name":"Milkesa Mengesha",
+    "Time":"2:17:25",
+    "Name":"Hawi Feysa",
     "Country":"ETH",
-    "City":"Daegu",
-    "Gender":"Men",
-    "Date":"2023-02-04",
-    "Year":2023
-  },
-  {
-    "Time":"2:28:10",
-    "Name":"Pamela Rotich",
-    "Country":"KEN",
-    "City":"Daegu",
+    "City":"Frankfurt",
+    "Date":"2024-10-27",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2019-07-04",
-    "Year":2019
+    "Record Count":180
   },
   {
-    "Time":"2:05:42",
-    "Name":"Abdisa Tola",
-    "Country":"ETH",
-    "City":"Dubai",
+    "Time":"2:05:16",
+    "Name":"Yuya Yoshida",
+    "Country":"JPN",
+    "City":"Fukuoka",
+    "Date":"2024-12-01",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-12-02",
-    "Year":2023
+    "Record Count":161
   },
   {
-    "Time":"2:21:11",
-    "Name":"Dera Dida",
-    "Country":"ETH",
-    "City":"Dubai",
+    "Time":"2:31:02",
+    "Name":"Yuka Yano",
+    "Country":"JPN",
+    "City":"Fukuoka",
+    "Date":"2014-02-09",
+    "Year":2014,
     "Gender":"Women",
-    "Date":"2023-12-02",
-    "Year":2023
+    "Record Count":161
   },
   {
-    "Time":"2:04:52",
-    "Name":"Kenneth Kipkemoi",
-    "Country":"KEN",
-    "City":"Eindhoven",
+    "Time":"2:08:58",
+    "Name":"Belay Tilahun Bezabeh",
+    "Country":"ETH",
+    "City":"Gold Coast",
+    "Date":"2024-07-07",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-08-10",
-    "Year":2023
+    "Record Count":24
+  },
+  {
+    "Time":"2:24:22",
+    "Name":"Yuki Nakamura",
+    "Country":"JPN",
+    "City":"Gold Coast",
+    "Date":"2024-07-07",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":24
+  },
+  {
+    "Time":"2:08:42",
+    "Name":"Martin Musau",
+    "Country":"UGA",
+    "City":"Hamburg",
+    "Date":"2024-04-28",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":127
+  },
+  {
+    "Time":"2:18:25",
+    "Name":"Winfridah Moraa Moseti",
+    "Country":"KEN",
+    "City":"Hamburg",
+    "Date":"2024-04-28",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":127
+  },
+  {
+    "Time":"2:07:06",
+    "Name":"Boaz Kipkemei",
+    "Country":"KEN",
+    "City":"Hannover",
+    "Date":"2024-04-14",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":47
+  },
+  {
+    "Time":"2:27:13",
+    "Name":"Lilian Jebitok",
+    "Country":"KEN",
+    "City":"Hannover",
+    "Date":"2024-04-14",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":47
+  },
+  {
+    "Time":"2:11:55",
+    "Name":"Shinta Miyazawa",
+    "Country":"JPN",
+    "City":"Hofu",
+    "Date":"2024-12-01",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":47
+  },
+  {
+    "Time":"2:08:25",
+    "Name":"Yemane Haileselassie",
+    "Country":"ERI",
+    "City":"Houston",
+    "Date":"2025-01-19",
+    "Year":2025,
+    "Gender":"Men",
+    "Record Count":136
+  },
+  {
+    "Time":"2:20:42",
+    "Name":"Sichala Kumeshi",
+    "Country":"ETH",
+    "City":"Houston",
+    "Date":"2025-01-19",
+    "Year":2025,
+    "Gender":"Women",
+    "Record Count":136
+  },
+  {
+    "Time":"2:07:58",
+    "Name":"Mesfin Negus",
+    "Country":"ETH",
+    "City":"Ko\u0161ice",
+    "Date":"2024-10-06",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":38
+  },
+  {
+    "Time":"2:21:08",
+    "Name":"Rebbeca Sirwanei Tanui",
+    "Country":"KEN",
+    "City":"Ko\u0161ice",
+    "Date":"2024-10-06",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":38
+  },
+  {
+    "Time":"2:14:43",
+    "Name":"Amos Changwony",
+    "Country":"KEN",
+    "City":"K\u00f6ln",
+    "Date":"2023-10-01",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":21
+  },
+  {
+    "Time":"2:31:07",
+    "Name":"Judy Kiplimo",
+    "Country":"KEN",
+    "City":"K\u00f6ln",
+    "Date":"2001-10-07",
+    "Year":2001,
+    "Gender":"Women",
+    "Record Count":21
+  },
+  {
+    "Time":"2:13:43",
+    "Name":"Kelvin Kimutai",
+    "Country":"KEN",
+    "City":"La Rochelle",
+    "Date":"2024-11-24",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":26
   },
   {
     "Time":"2:27:54",
-    "Name":"Chloe Herbiet",
-    "Country":"BEL",
-    "City":"Eindhoven",
+    "Name":"Emily Chebet Kipchumba",
+    "Country":"KEN",
+    "City":"La Rochelle",
+    "Date":"2024-11-24",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-08-10",
-    "Year":2023
+    "Record Count":26
   },
   {
-    "Time":"2:08:51",
-    "Name":"Alfred Barkach",
+    "Time":"2:09:53",
+    "Name":"Victor Kiplagat Serem",
     "Country":"KEN",
-    "City":"Enschede",
+    "City":"Linz",
+    "Date":"2024-04-07",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-04-16",
-    "Year":2023
+    "Record Count":22
   },
   {
-    "Time":"2:22:45",
-    "Name":"Shyline Jepkorir",
-    "Country":"KEN",
-    "City":"Enschede",
-    "Gender":"Women",
-    "Date":"2023-04-16",
-    "Year":2023
-  },
-  {
-    "Time":"2:04:53",
-    "Name":"Brimin Misoi",
-    "Country":"KEN",
-    "City":"Frankfurt",
-    "Gender":"Men",
-    "Date":"2023-10-29",
-    "Year":2023
-  },
-  {
-    "Time":"2:19:27",
-    "Name":"Bezunesh Getachew",
+    "Time":"2:34:13",
+    "Name":"Arado Gulume",
     "Country":"ETH",
-    "City":"Frankfurt",
+    "City":"Linz",
+    "Date":"2024-04-07",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-10-29",
-    "Year":2023
+    "Record Count":22
   },
   {
-    "Time":"2:07:08",
-    "Name":"Michael Githae",
+    "Time":"2:08:33",
+    "Name":"Wisley Kimeli",
     "Country":"KEN",
-    "City":"Fukuoka",
-    "Gender":"Men",
-    "Date":"2023-03-12",
-    "Year":2023
-  },
-  {
-    "Time":"2:04:09",
-    "Name":"Bernard Koech",
-    "Country":"KEN",
-    "City":"Hamburg",
-    "Gender":"Men",
-    "Date":"2023-04-23",
-    "Year":2023
-  },
-  {
-    "Time":"2:20:18",
-    "Name":"Tiruye Mesfin",
-    "Country":"ETH",
-    "City":"Hamburg",
-    "Gender":"Women",
-    "Date":"2023-04-23",
-    "Year":2023
-  },
-  {
-    "Time":"2:08:36",
-    "Name":"Kelkile Gezahegn",
-    "Country":"ETH",
-    "City":"Houston",
-    "Gender":"Men",
-    "Date":"2020-01-19",
-    "Year":2020
-  },
-  {
-    "Time":"2:19:12",
-    "Name":"Keira D'Amato",
-    "Country":"USA",
-    "City":"Houston",
-    "Gender":"Women",
-    "Date":"2022-01-16",
-    "Year":2022
-  },
-  {
-    "Time":"2:07:16",
-    "Name":"Reuben Kerio",
-    "Country":"KEN",
-    "City":"Kosice",
-    "Gender":"Men",
-    "Date":"2022-02-10",
-    "Year":2022
-  },
-  {
-    "Time":"2:24:04",
-    "Name":"Margaret Agai",
-    "Country":"KEN",
-    "City":"Kosice",
-    "Gender":"Women",
-    "Date":"2022-02-10",
-    "Year":2022
-  },
-  {
-    "Time":"2:09:31",
-    "Name":"Birhan Nebebew",
-    "Country":"ETH",
     "City":"Lisboa",
+    "Date":"2024-10-06",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-08-10",
-    "Year":2023
+    "Record Count":25
   },
   {
-    "Time":"2:25:06",
-    "Name":"Aberu Ayana",
-    "Country":"ETH",
+    "Time":"2:33:48",
+    "Name":"Sheila Chebet",
+    "Country":"KEN",
     "City":"Lisboa",
+    "Date":"2024-10-06",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-08-10",
-    "Year":2023
+    "Record Count":25
   },
   {
     "Time":"2:06:47",
     "Name":"Edmond Kipngetich",
     "Country":"KEN",
     "City":"Ljubljana",
-    "Gender":"Men",
     "Date":"2023-10-22",
-    "Year":2023
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":23
   },
   {
-    "Time":"2:21:05",
-    "Name":"Zinah Senbeta",
-    "Country":"ETH",
+    "Time":"2:20:17",
+    "Name":"Joyce Chepkemoi Tele",
+    "Country":"KEN",
     "City":"Ljubljana",
+    "Date":"2024-10-20",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-10-22",
-    "Year":2023
+    "Record Count":23
   },
   {
-    "Time":"2:01:25",
-    "Name":"Kelvin Kiptum",
+    "Time":"2:06:46",
+    "Name":"Emile Cairess",
+    "Country":"GBR",
+    "City":"London",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":265
+  },
+  {
+    "Time":"2:16:16",
+    "Name":"Peres Jepchirchir",
     "Country":"KEN",
     "City":"London",
-    "Gender":"Men",
-    "Date":"2023-04-23",
-    "Year":2023
-  },
-  {
-    "Time":"2:18:33",
-    "Name":"Sifan Hassan",
-    "Country":"NED",
-    "City":"London",
+    "Date":"2024-04-21",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-04-23",
-    "Year":2023
+    "Record Count":265
   },
   {
-    "Time":"2:09:08",
-    "Name":"John Kipkosgei",
-    "Country":"KEN",
-    "City":"Los Angeles",
-    "Gender":"Men",
-    "Date":"2022-03-20",
-    "Year":2022
-  },
-  {
-    "Time":"2:25:04",
-    "Name":"Delvin Meringor",
-    "Country":"KEN",
-    "City":"Los Angeles",
-    "Gender":"Women",
-    "Date":"2022-03-20",
-    "Year":2022
-  },
-  {
-    "Time":"2:07:14",
-    "Name":"Andrew Kwemoi",
-    "Country":"UGA",
-    "City":"Milano",
-    "Gender":"Men",
-    "Date":"2023-02-04",
-    "Year":2023
-  },
-  {
-    "Time":"2:26:13",
-    "Name":"Sharon Cherop",
-    "Country":"KEN",
-    "City":"Milano",
-    "Gender":"Women",
-    "Date":"2023-02-04",
-    "Year":2023
-  },
-  {
-    "Time":"2:18:08",
-    "Name":"Ruth Chepngetich",
-    "Country":"KEN",
-    "City":"Nagoya",
-    "Gender":"Women",
-    "Date":"2023-12-03",
-    "Year":2023
-  },
-  {
-    "Time":"2:08:41",
-    "Name":"Evans Chebet",
-    "Country":"KEN",
-    "City":"New York",
-    "Gender":"Men",
-    "Date":"2022-06-11",
-    "Year":2022
-  },
-  {
-    "Time":"2:23:23",
-    "Name":"Sharon Lokedi",
-    "Country":"KEN",
-    "City":"New York",
-    "Gender":"Women",
-    "Date":"2022-06-11",
-    "Year":2022
-  },
-  {
-    "Time":"2:06:01",
-    "Name":"Hailemariyam Kiros",
+    "Time":"2:09:52",
+    "Name":"Gaddisa Tafa Dekebe",
     "Country":"ETH",
-    "City":"Osaka",
+    "City":"Madrid",
+    "Date":"2024-04-28",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-02-26",
-    "Year":2023
+    "Record Count":28
   },
   {
-    "Time":"2:22:16",
-    "Name":"Helen Tola",
-    "Country":"ETH",
-    "City":"Osaka",
-    "Gender":"Women",
-    "Date":"2023-02-26",
-    "Year":2023
-  },
-  {
-    "Time":"2:04:56",
-    "Name":"Kengo Suzuki",
-    "Country":"JPN",
-    "City":"Otsu",
-    "Gender":"Men",
-    "Date":"2021-02-28",
-    "Year":2021
-  },
-  {
-    "Time":"2:06:04",
-    "Name":"Andualem Belay",
-    "Country":"ETH",
-    "City":"Ottawa",
-    "Gender":"Men",
-    "Date":"2022-05-29",
-    "Year":2022
-  },
-  {
-    "Time":"2:26:34",
-    "Name":"Tigist Girma",
-    "Country":"ETH",
-    "City":"Ottawa",
-    "Gender":"Women",
-    "Date":"2019-05-26",
-    "Year":2019
-  },
-  {
-    "Time":"2:07:25",
-    "Name":"Ayana Gizealew",
-    "Country":"ETH",
-    "City":"Paris",
-    "Gender":"Men",
-    "Date":"2023-02-04",
-    "Year":2023
-  },
-  {
-    "Time":"2:23:19",
-    "Name":"Helah Kiprop",
+    "Time":"2:26:20",
+    "Name":"Naom Jebet",
     "Country":"KEN",
-    "City":"Paris",
+    "City":"Madrid",
+    "Date":"2024-04-28",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-02-04",
-    "Year":2023
+    "Record Count":28
   },
   {
-    "Time":"2:05:09",
-    "Name":"Alexander Mutiso",
+    "Time":"2:08:50",
+    "Name":"Alfonce Kibiwott Kigen",
     "Country":"KEN",
-    "City":"Praha",
+    "City":"Marrakech",
+    "Date":"2025-01-26",
+    "Year":2025,
     "Gender":"Men",
-    "Date":"2023-07-05",
-    "Year":2023
+    "Record Count":72
   },
   {
-    "Time":"2:20:42",
-    "Name":"Worknesh Edesa",
-    "Country":"ETH",
-    "City":"Praha",
-    "Gender":"Women",
-    "Date":"2023-07-05",
-    "Year":2023
-  },
-  {
-    "Time":"2:07:43",
-    "Name":"Taoufik Al Allam",
+    "Time":"2:29:53",
+    "Name":"Oumaima Saoud",
     "Country":"MAR",
-    "City":"Roma",
-    "Gender":"Men",
-    "Date":"2023-03-19",
-    "Year":2023
+    "City":"Marrakech",
+    "Date":"2025-01-26",
+    "Year":2025,
+    "Gender":"Women",
+    "Record Count":72
   },
   {
-    "Time":"2:23:02",
-    "Name":"Betty Chepkwony",
+    "Time":"2:07:12",
+    "Name":"Titus Kimutai Kipkosgei",
+    "Country":"KEN",
+    "City":"Milano",
+    "Date":"2024-04-07",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":74
+  },
+  {
+    "Time":"2:20:18",
+    "Name":"Vivian Kiplagat",
+    "Country":"KEN",
+    "City":"Milano",
+    "Date":"2022-04-03",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":74
+  },
+  {
+    "Time":"2:08:05",
+    "Name":"Vincent Kigen",
+    "Country":"KEN",
+    "City":"M\u00e1laga",
+    "Date":"2024-12-15",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":25
+  },
+  {
+    "Time":"2:25:10",
+    "Name":"Aynalem Desta",
+    "Country":"ETH",
+    "City":"M\u00e1laga",
+    "Date":"2024-12-15",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":25
+  },
+  {
+    "Time":"2:10:52",
+    "Name":"Collins Kemboi",
+    "Country":"KEN",
+    "City":"M\u00fcnster",
+    "Date":"2024-09-08",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":20
+  },
+  {
+    "Time":"2:29:13",
+    "Name":"Rebecca Jeruto",
+    "Country":"KEN",
+    "City":"M\u00fcnster",
+    "Date":"2023-09-03",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":20
+  },
+  {
+    "Time":"2:10:57",
+    "Name":"Shun Sadakata",
+    "Country":"JPN",
+    "City":"Nagano",
+    "Date":"2023-04-23",
+    "Year":2023,
+    "Gender":"Men",
+    "Record Count":23
+  },
+  {
+    "Time":"2:33:32",
+    "Name":"Meskerem Hunde",
+    "Country":"ETH",
+    "City":"Nagano",
+    "Date":"2019-04-21",
+    "Year":2019,
+    "Gender":"Women",
+    "Record Count":23
+  },
+  {
+    "Time":"2:21:18",
+    "Name":"Yuka Ando",
+    "Country":"JPN",
+    "City":"Nagoya",
+    "Date":"2024-03-10",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":170
+  },
+  {
+    "Time":"2:13:13",
+    "Name":"Dominick Kipkirui Bett",
+    "Country":"KEN",
+    "City":"Nairobi",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":68
+  },
+  {
+    "Time":"2:35:00",
+    "Name":"Caroline Koech",
+    "Country":"KEN",
+    "City":"Nairobi",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":68
+  },
+  {
+    "Time":"2:11:08",
+    "Name":"Ryan Ford",
+    "Country":"USA",
+    "City":"New York",
+    "Date":"2024-11-03",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":30
+  },
+  {
+    "Time":"2:31:54",
+    "Name":"Jenny Simpson",
+    "Country":"USA",
+    "City":"New York",
+    "Date":"2024-11-03",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":30
+  },
+  {
+    "Time":"2:09:26",
+    "Name":"Yota Ifuku",
+    "Country":"JPN",
+    "City":"Nobeoka",
+    "Date":"2024-02-11",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":48
+  },
+  {
+    "Time":"2:06:07",
+    "Name":"Hiroki Wakabayasi",
+    "Country":"JPN",
+    "City":"Oita",
+    "Date":"2025-02-02",
+    "Year":2025,
+    "Gender":"Men",
+    "Record Count":96
+  },
+  {
+    "Time":"2:06:18",
+    "Name":"Kiyoto Hirabayashi",
+    "Country":"JPN",
+    "City":"Osaka",
+    "Date":"2024-02-25",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":203
+  },
+  {
+    "Time":"2:21:19",
+    "Name":"Kana Kobayashi",
+    "Country":"JPN",
+    "City":"Osaka",
+    "Date":"2025-01-26",
+    "Year":2025,
+    "Gender":"Women",
+    "Record Count":203
+  },
+  {
+    "Time":"2:14:00",
+    "Name":"Mutai Kipkemboi",
+    "Country":"KEN",
+    "City":"Ottawa",
+    "Date":"2024-05-26",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":27
+  },
+  {
+    "Time":"2:33:27",
+    "Name":"\u00c9lissa Legault",
+    "Country":"CAN",
+    "City":"Ottawa",
+    "Date":"2022-05-29",
+    "Year":2022,
+    "Gender":"Women",
+    "Record Count":27
+  },
+  {
+    "Time":"2:05:33",
+    "Name":"Mulugeta Asefa Uma",
+    "Country":"ETH",
+    "City":"Paris",
+    "Date":"2024-04-07",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":197
+  },
+  {
+    "Time":"2:20:48",
+    "Name":"Enatnesh Alamrew Tirusew",
+    "Country":"ETH",
+    "City":"Paris",
+    "Date":"2024-04-07",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":197
+  },
+  {
+    "Time":"2:11:37",
+    "Name":"Abel Chebet",
+    "Country":"UGA",
+    "City":"Praha",
+    "Date":"2024-05-05",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":41
+  },
+  {
+    "Time":"2:23:52",
+    "Name":"Margaret Wangari Muriuki",
+    "Country":"KEN",
+    "City":"Praha",
+    "Date":"2023-05-07",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":41
+  },
+  {
+    "Time":"2:09:25",
+    "Name":"Alemu Kokeb",
+    "Country":"ETH",
+    "City":"Rabat",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":27
+  },
+  {
+    "Time":"2:25:35",
+    "Name":"Kaoutar Farkoussi",
+    "Country":"MAR",
+    "City":"Rabat",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":27
+  },
+  {
+    "Time":"2:06:24",
+    "Name":"Asbel Rutto",
     "Country":"KEN",
     "City":"Roma",
+    "Date":"2024-03-17",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":94
+  },
+  {
+    "Time":"2:25:10",
+    "Name":"Lydia Naliaka Simiyu",
+    "Country":"KEN",
+    "City":"Roma",
+    "Date":"2024-03-17",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-03-19",
-    "Year":2023
+    "Record Count":94
+  },
+  {
+    "Time":"2:04:45",
+    "Name":"Abdi Nageeye",
+    "Country":"NED",
+    "City":"Rotterdam",
+    "Date":"2024-04-14",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":192
+  },
+  {
+    "Time":"2:20:57",
+    "Name":"Viola Jelagat Kibiwot",
+    "Country":"KEN",
+    "City":"Rotterdam",
+    "Date":"2024-04-14",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":192
+  },
+  {
+    "Time":"2:10:49",
+    "Name":"Luka Musembi",
+    "Country":"KEN",
+    "City":"Sapporo",
+    "Date":"2022-08-28",
+    "Year":2022,
+    "Gender":"Men",
+    "Record Count":27
+  },
+  {
+    "Time":"2:31:04",
+    "Name":"Pauline Kamulu",
+    "Country":"KEN",
+    "City":"Sapporo",
+    "Date":"2024-08-25",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":27
+  },
+  {
+    "Time":"2:08:06",
+    "Name":"Gilbert Kibet",
+    "Country":"KEN",
+    "City":"Seoul",
+    "Date":"2024-11-03",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":152
+  },
+  {
+    "Time":"2:31:55",
+    "Name":"Jung Yoon Choi",
+    "Country":"KOR",
+    "City":"Seoul",
+    "Date":"2024-11-03",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":152
   },
   {
     "Time":"2:03:47",
-    "Name":"Bashir Abdi",
-    "Country":"BEL",
-    "City":"Rotterdam",
+    "Name":"Morhad Amdouni",
+    "Country":"FRA",
+    "City":"Sevilla",
+    "Date":"2024-02-18",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-04-16",
-    "Year":2023
+    "Record Count":199
   },
   {
-    "Time":"2:20:31",
-    "Name":"Eunice Chumba",
-    "Country":"BRN",
-    "City":"Rotterdam",
-    "Gender":"Women",
-    "Date":"2023-04-16",
-    "Year":2023
-  },
-  {
-    "Time":"2:05:27",
-    "Name":"Amdework Walelegn",
-    "Country":"ETH",
-    "City":"Seoul",
-    "Gender":"Men",
-    "Date":"2023-03-19",
-    "Year":2023
-  },
-  {
-    "Time":"2:28:32",
-    "Name":"Jeong Da-Eun",
-    "Country":"KOR",
-    "City":"Seoul",
-    "Gender":"Women",
-    "Date":"2023-03-19",
-    "Year":2023
-  },
-  {
-    "Time":"2:04:59",
-    "Name":"Gadissa Berhanu Shume",
+    "Time":"2:23:18",
+    "Name":"Derartu Hailu",
     "Country":"ETH",
     "City":"Sevilla",
-    "Gender":"Men",
-    "Date":"2023-02-19",
-    "Year":2023
-  },
-  {
-    "Time":"2:21:54",
-    "Name":"Ayana Mulisa",
-    "Country":"ETH",
-    "City":"Sevilla",
+    "Date":"2024-02-18",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-02-19",
-    "Year":2023
+    "Record Count":199
   },
   {
-    "Time":"2:05:35",
-    "Name":"Philimon Kipchumba",
-    "Country":"KEN",
+    "Time":"2:06:26",
+    "Name":"Samsom Amare",
+    "Country":"ERI",
     "City":"Shanghai",
+    "Date":"2024-12-01",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-11-26",
-    "Year":2023
+    "Record Count":34
   },
   {
-    "Time":"2:21:28",
-    "Name":"Siranesh Yirga",
+    "Time":"2:26:28",
+    "Name":"Tejitu Siyum",
     "Country":"ETH",
     "City":"Shanghai",
+    "Date":"2024-12-01",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-11-26",
-    "Year":2023
+    "Record Count":34
   },
   {
-    "Time":"2:08:57",
-    "Name":"Naoki Koyama",
-    "Country":"JPN",
-    "City":"Tokyo",
+    "Time":"2:10:21",
+    "Name":"Tesfu Tewelde",
+    "Country":"ERI",
+    "City":"St. Paul",
+    "Date":"2024-10-06",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-10-15",
-    "Year":2023
+    "Record Count":69
   },
   {
-    "Time":"2:23:09",
-    "Name":"Yuka Suzuki",
-    "Country":"JPN",
-    "City":"Tokyo",
+    "Time":"2:28:52",
+    "Name":"Molly Bookmyer",
+    "Country":"USA",
+    "City":"St. Paul",
+    "Date":"2024-10-06",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-10-15",
-    "Year":2023
+    "Record Count":69
   },
   {
-    "Time":"2:10:00",
-    "Name":"Samuel Rutto",
+    "Time":"2:02:16",
+    "Name":"Benson Kipruto",
+    "Country":"KEN",
+    "City":"Tokyo",
+    "Date":"2024-03-03",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":229
+  },
+  {
+    "Time":"2:15:55",
+    "Name":"Sutume Asefa Kebede",
+    "Country":"ETH",
+    "City":"Tokyo",
+    "Date":"2024-03-03",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":229
+  },
+  {
+    "Time":"2:11:14",
+    "Name":"Pasquale Selvarolo",
+    "Country":"ITA",
+    "City":"Torino",
+    "Date":"2024-12-01",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":60
+  },
+  {
+    "Time":"2:33:52",
+    "Name":"Rael Cherop",
     "Country":"KEN",
     "City":"Torino",
-    "Gender":"Men",
-    "Date":"2014-11-16",
-    "Year":2014
-  },
-  {
-    "Time":"2:28:41",
-    "Name":"Esther Chemutai",
-    "Country":"KEN",
-    "City":"Torino",
+    "Date":"2024-12-01",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2014-11-16",
-    "Year":2014
+    "Record Count":60
   },
   {
-    "Time":"2:09:20",
-    "Name":"Elvis Cheboi",
+    "Time":"2:07:23",
+    "Name":"Dominic Ngeno",
     "Country":"KEN",
     "City":"Toronto",
+    "Date":"2024-10-20",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-10-15",
-    "Year":2023
+    "Record Count":50
   },
   {
-    "Time":"2:23:11",
-    "Name":"Buze Diriba",
+    "Time":"2:20:44",
+    "Name":"Waganesh Mekasha",
     "Country":"ETH",
     "City":"Toronto",
+    "Date":"2024-10-20",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-10-15",
-    "Year":2023
+    "Record Count":50
   },
   {
-    "Time":"2:01:48",
-    "Name":"Sisay Lemma",
-    "Country":"ETH",
+    "Time":"2:02:05",
+    "Name":"Sabastian Kimaru Sawe",
+    "Country":"KEN",
     "City":"Valencia",
+    "Date":"2024-12-01",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-03-12",
-    "Year":2023
+    "Record Count":289
   },
   {
-    "Time":"2:15:51",
-    "Name":"Worknesh Degefa",
-    "Country":"ETH",
+    "Time":"2:18:26",
+    "Name":"Stella Chesang",
+    "Country":"UGA",
     "City":"Valencia",
+    "Date":"2024-12-01",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-03-12",
-    "Year":2023
+    "Record Count":289
   },
   {
-    "Time":"2:05:08",
-    "Name":"Samuel Nyamae",
+    "Time":"2:09:08",
+    "Name":"Abebe Tilahun",
+    "Country":"ETH",
+    "City":"Venezia",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":55
+  },
+  {
+    "Time":"2:32:40",
+    "Name":"Birkutan Abera",
+    "Country":"ETH",
+    "City":"Venezia",
+    "Date":"2024-10-27",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":55
+  },
+  {
+    "Time":"2:10:43",
+    "Name":"Levente Szemerei",
+    "Country":"HUN",
+    "City":"Warszawa",
+    "Date":"2024-09-29",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":35
+  },
+  {
+    "Time":"2:34:43",
+    "Name":"Ewa Jagielska",
+    "Country":"POL",
+    "City":"Warszawa",
+    "Date":"2023-09-24",
+    "Year":2023,
+    "Gender":"Women",
+    "Record Count":35
+  },
+  {
+    "Time":"2:10:42",
+    "Name":"Bernard Muia",
     "Country":"KEN",
     "City":"Wien",
+    "Date":"2024-04-21",
+    "Year":2024,
     "Gender":"Men",
-    "Date":"2023-04-23",
-    "Year":2023
+    "Record Count":82
   },
   {
-    "Time":"2:24:12",
-    "Name":"Magdalene Masai",
+    "Time":"2:26:22",
+    "Name":"Faith Chepkoech",
     "Country":"KEN",
     "City":"Wien",
+    "Date":"2024-04-21",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-04-23",
-    "Year":2023
+    "Record Count":82
   },
   {
-    "Time":"2:08:04",
-    "Name":"Philimon Kipchumba",
+    "Time":"2:06:50",
+    "Name":"Abay Alemu",
+    "Country":"ETH",
+    "City":"Wuxi",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":38
+  },
+  {
+    "Time":"2:24:46",
+    "Name":"Veronica Maina",
+    "Country":"KEN",
+    "City":"Wuxi",
+    "Date":"2024-03-24",
+    "Year":2024,
+    "Gender":"Women",
+    "Record Count":38
+  },
+  {
+    "Time":"2:06:18",
+    "Name":"Tebello Ramakongoana",
+    "Country":"LES",
+    "City":"Xiamen",
+    "Date":"2025-01-05",
+    "Year":2025,
+    "Gender":"Men",
+    "Record Count":49
+  },
+  {
+    "Time":"2:23:58",
+    "Name":"Mercy Kwambai",
     "Country":"KEN",
     "City":"Xiamen",
-    "Gender":"Men",
-    "Date":"2023-02-04",
-    "Year":2023
+    "Date":"2025-01-05",
+    "Year":2025,
+    "Gender":"Women",
+    "Record Count":49
   },
   {
-    "Time":"2:24:42",
-    "Name":"Meseret Abebayehu",
-    "Country":"ETH",
-    "City":"Xiamen",
+    "Time":"2:14:06",
+    "Name":"Rugut Kipchumba",
+    "Country":"KEN",
+    "City":"Z\u00fcrich",
+    "Date":"2024-04-21",
+    "Year":2024,
+    "Gender":"Men",
+    "Record Count":53
+  },
+  {
+    "Time":"2:29:00",
+    "Name":"Dina Aleksandrova",
+    "Country":"RUS",
+    "City":"Z\u00fcrich",
+    "Date":"2024-04-21",
+    "Year":2024,
     "Gender":"Women",
-    "Date":"2023-02-04",
-    "Year":2023
+    "Record Count":53
   }
 ]

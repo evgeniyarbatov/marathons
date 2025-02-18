@@ -22,7 +22,7 @@ data:
 
 update:
 	@source $(VENV_PATH)/bin/activate && \
-	python3 scripts/metadata.py $(DATA_DIR)/marathon.csv $(DATA_DIR)/marathon_dates.json $(DATA_DIR)/cities.txt $(PUBLIC_DIR)/marathons.json
+	python3 scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json 
 
 deploy:
 	cd $(SITE_DIR) && npm run build

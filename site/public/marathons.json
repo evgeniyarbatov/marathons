@@ -1,596 +1,662 @@
 [
   {
     "City":"Abu Dhabi",
-    "Record Count":20,
-    "Country Count":6,
     "People Count":20,
-    "Last Record":1734134400000,
-    "Country":"AE",
-    "Date":"7\/12"
+    "Country Count":6,
+    "Men":12.0,
+    "Women":8.0,
+    "Record Count":20,
+    "Date":"7\/12",
+    "Country":"AE"
   },
   {
     "City":"Amsterdam",
-    "Record Count":165,
-    "Country Count":26,
     "People Count":165,
-    "Last Record":1729382400000,
-    "Country":"NL",
-    "Date":"19\/10"
+    "Country Count":26,
+    "Men":116.0,
+    "Women":49.0,
+    "Record Count":165,
+    "Date":"19\/10",
+    "Country":"NL"
   },
   {
     "City":"Barcelona",
-    "Record Count":71,
-    "Country Count":14,
     "People Count":71,
-    "Last Record":1710028800000,
-    "Country":"ES",
-    "Date":"9\/2"
+    "Country Count":14,
+    "Men":48.0,
+    "Women":23.0,
+    "Record Count":71,
+    "Date":"9\/2",
+    "Country":"ES"
   },
   {
     "City":"Beijing",
-    "Record Count":143,
-    "Country Count":13,
     "People Count":142,
-    "Last Record":1730592000000,
-    "Country":"CN",
-    "Date":"21\/9"
+    "Country Count":13,
+    "Men":79.0,
+    "Women":63.0,
+    "Record Count":143,
+    "Date":"21\/9",
+    "Country":"CN"
   },
   {
     "City":"Berlin",
-    "Record Count":321,
-    "Country Count":47,
     "People Count":321,
-    "Last Record":1727568000000,
-    "Country":"DE",
-    "Date":"21\/9"
+    "Country Count":47,
+    "Men":194.0,
+    "Women":127.0,
+    "Record Count":321,
+    "Date":"21\/9",
+    "Country":"DE"
   },
   {
     "City":"Cape Town",
-    "Record Count":60,
-    "Country Count":6,
     "People Count":60,
-    "Last Record":1729382400000,
-    "Country":"ZA",
-    "Date":"16\/3"
+    "Country Count":6,
+    "Men":46.0,
+    "Women":14.0,
+    "Record Count":60,
+    "Date":"16\/3",
+    "Country":"ZA"
   },
   {
     "City":"Casablanca",
-    "Record Count":25,
-    "Country Count":6,
     "People Count":25,
-    "Last Record":1729987200000,
-    "Country":"MA",
-    "Date":"26\/1"
+    "Country Count":6,
+    "Men":23.0,
+    "Women":2.0,
+    "Record Count":25,
+    "Date":"26\/1",
+    "Country":"MA"
   },
   {
     "City":"Castell\u00f3n",
-    "Record Count":21,
-    "Country Count":4,
     "People Count":21,
-    "Last Record":1708819200000,
-    "Country":"ES",
-    "Date":"1\/2"
+    "Country Count":4,
+    "Men":13.0,
+    "Women":8.0,
+    "Record Count":21,
+    "Date":"1\/2",
+    "Country":"ES"
   },
   {
     "City":"Chicago",
-    "Record Count":247,
-    "Country Count":34,
     "People Count":247,
-    "Last Record":1728777600000,
-    "Country":"US",
-    "Date":"12\/10"
+    "Country Count":34,
+    "Men":156.0,
+    "Women":91.0,
+    "Record Count":247,
+    "Date":"12\/10",
+    "Country":"US"
   },
   {
     "City":"Chongqing",
-    "Record Count":33,
-    "Country Count":5,
     "People Count":33,
-    "Last Record":1711238400000,
-    "Country":"CN",
-    "Date":"26\/1"
+    "Country Count":5,
+    "Men":17.0,
+    "Women":16.0,
+    "Record Count":33,
+    "Date":"26\/1",
+    "Country":"CN"
   },
   {
     "City":"Daegu",
-    "Record Count":50,
-    "Country Count":14,
     "People Count":50,
-    "Last Record":1712448000000,
-    "Country":"KR",
-    "Date":"23\/2"
+    "Country Count":14,
+    "Men":30.0,
+    "Women":20.0,
+    "Record Count":50,
+    "Date":"23\/2",
+    "Country":"KR"
   },
   {
     "City":"Dalian",
-    "Record Count":23,
-    "Country Count":3,
     "People Count":23,
-    "Last Record":1697328000000,
-    "Country":"CN",
-    "Date":"26\/10"
+    "Country Count":3,
+    "Men":10.0,
+    "Women":13.0,
+    "Record Count":23,
+    "Date":"26\/10",
+    "Country":"CN"
   },
   {
     "City":"Dubai",
-    "Record Count":145,
-    "Country Count":11,
     "People Count":145,
-    "Last Record":1736640000000,
-    "Country":"AE",
-    "Date":"25\/1"
+    "Country Count":11,
+    "Men":105.0,
+    "Women":40.0,
+    "Record Count":145,
+    "Date":"25\/1",
+    "Country":"AE"
   },
   {
     "City":"Dublin",
-    "Record Count":56,
-    "Country Count":11,
     "People Count":56,
-    "Last Record":1729987200000,
-    "Country":"IE",
-    "Date":"26\/10"
+    "Country Count":11,
+    "Men":36.0,
+    "Women":20.0,
+    "Record Count":56,
+    "Date":"26\/10",
+    "Country":"IE"
   },
   {
     "City":"Duluth",
-    "Record Count":60,
-    "Country Count":14,
     "People Count":60,
-    "Last Record":1686960000000,
-    "Country":"US",
-    "Date":"21\/6"
+    "Country Count":14,
+    "Men":36.0,
+    "Women":24.0,
+    "Record Count":60,
+    "Date":"21\/6",
+    "Country":"US"
   },
   {
     "City":"Durban",
-    "Record Count":23,
-    "Country Count":6,
     "People Count":23,
-    "Last Record":1714262400000,
-    "Country":"ZA",
-    "Date":"15\/6"
+    "Country Count":6,
+    "Men":20.0,
+    "Women":3.0,
+    "Record Count":23,
+    "Date":"15\/6",
+    "Country":"ZA"
   },
   {
     "City":"Eindhoven",
-    "Record Count":99,
-    "Country Count":13,
     "People Count":99,
-    "Last Record":1728777600000,
-    "Country":"NL",
-    "Date":"5\/10"
+    "Country Count":13,
+    "Men":83.0,
+    "Women":16.0,
+    "Record Count":99,
+    "Date":"5\/10",
+    "Country":"NL"
   },
   {
     "City":"Enschede",
-    "Record Count":50,
-    "Country Count":17,
     "People Count":50,
-    "Last Record":1713657600000,
-    "Country":"NL",
-    "Date":"19\/4"
+    "Country Count":17,
+    "Men":31.0,
+    "Women":19.0,
+    "Record Count":50,
+    "Date":"19\/4",
+    "Country":"NL"
   },
   {
     "City":"Firenze",
-    "Record Count":22,
-    "Country Count":6,
     "People Count":22,
-    "Last Record":1700956800000,
-    "Country":"IT",
-    "Date":"30\/11"
+    "Country Count":6,
+    "Men":14.0,
+    "Women":8.0,
+    "Record Count":22,
+    "Date":"30\/11",
+    "Country":"IT"
   },
   {
     "City":"Frankfurt",
-    "Record Count":180,
-    "Country Count":32,
     "People Count":180,
-    "Last Record":1729987200000,
-    "Country":"DE",
-    "Date":"26\/10"
+    "Country Count":32,
+    "Men":108.0,
+    "Women":72.0,
+    "Record Count":180,
+    "Date":"26\/10",
+    "Country":"DE"
   },
   {
     "City":"Fukuoka",
-    "Record Count":161,
-    "Country Count":30,
     "People Count":161,
-    "Last Record":1733011200000,
-    "Country":"JP",
-    "Date":"7\/12"
+    "Country Count":30,
+    "Men":160.0,
+    "Women":1.0,
+    "Record Count":161,
+    "Date":"7\/12",
+    "Country":"JP"
   },
   {
     "City":"Gold Coast",
-    "Record Count":24,
-    "Country Count":9,
     "People Count":24,
-    "Last Record":1720310400000,
-    "Country":"AU",
-    "Date":"6\/7"
+    "Country Count":9,
+    "Men":18.0,
+    "Women":6.0,
+    "Record Count":24,
+    "Date":"6\/7",
+    "Country":"AU"
   },
   {
     "City":"Hamburg",
-    "Record Count":127,
-    "Country Count":37,
     "People Count":127,
-    "Last Record":1714262400000,
-    "Country":"DE",
-    "Date":"27\/4"
+    "Country Count":37,
+    "Men":76.0,
+    "Women":51.0,
+    "Record Count":127,
+    "Date":"27\/4",
+    "Country":"DE"
   },
   {
     "City":"Hannover",
-    "Record Count":47,
-    "Country Count":12,
     "People Count":47,
-    "Last Record":1713052800000,
-    "Country":"DE",
-    "Date":"5\/4"
+    "Country Count":12,
+    "Men":28.0,
+    "Women":19.0,
+    "Record Count":47,
+    "Date":"5\/4",
+    "Country":"DE"
   },
   {
     "City":"Hofu",
-    "Record Count":47,
-    "Country Count":5,
     "People Count":47,
-    "Last Record":1733011200000,
-    "Country":"JP",
-    "Date":"16\/11"
+    "Country Count":5,
+    "Men":47.0,
+    "Women":null,
+    "Record Count":47,
+    "Date":"16\/11",
+    "Country":"JP"
   },
   {
     "City":"Houston",
-    "Record Count":136,
-    "Country Count":24,
     "People Count":136,
-    "Last Record":1737244800000,
-    "Country":"US",
-    "Date":"18\/1"
+    "Country Count":24,
+    "Men":85.0,
+    "Women":51.0,
+    "Record Count":136,
+    "Date":"18\/1",
+    "Country":"US"
   },
   {
     "City":"Ko\u0161ice",
-    "Record Count":38,
-    "Country Count":8,
     "People Count":38,
-    "Last Record":1728172800000,
-    "Country":"SK",
-    "Date":"5\/10"
+    "Country Count":8,
+    "Men":25.0,
+    "Women":13.0,
+    "Record Count":38,
+    "Date":"5\/10",
+    "Country":"SK"
   },
   {
     "City":"K\u00f6ln",
-    "Record Count":21,
-    "Country Count":3,
     "People Count":21,
-    "Last Record":1696118400000,
-    "Country":"DE",
-    "Date":"5\/10"
+    "Country Count":3,
+    "Men":20.0,
+    "Women":1.0,
+    "Record Count":21,
+    "Date":"5\/10",
+    "Country":"DE"
   },
   {
     "City":"La Rochelle",
-    "Record Count":26,
-    "Country Count":5,
     "People Count":26,
-    "Last Record":1732406400000,
-    "Country":"FR",
-    "Date":"26\/10"
+    "Country Count":5,
+    "Men":20.0,
+    "Women":6.0,
+    "Record Count":26,
+    "Date":"26\/10",
+    "Country":"FR"
   },
   {
     "City":"Linz",
-    "Record Count":22,
-    "Country Count":6,
     "People Count":22,
-    "Last Record":1712448000000,
-    "Country":"AT",
-    "Date":"5\/10"
+    "Country Count":6,
+    "Men":15.0,
+    "Women":7.0,
+    "Record Count":22,
+    "Date":"5\/10",
+    "Country":"AT"
   },
   {
     "City":"Lisboa",
-    "Record Count":25,
-    "Country Count":8,
     "People Count":25,
-    "Last Record":1728172800000,
-    "Country":"PT",
-    "Date":"5\/10"
+    "Country Count":8,
+    "Men":19.0,
+    "Women":6.0,
+    "Record Count":25,
+    "Date":"5\/10",
+    "Country":"PT"
   },
   {
     "City":"Ljubljana",
-    "Record Count":23,
-    "Country Count":7,
     "People Count":23,
-    "Last Record":1729382400000,
-    "Country":"SI",
-    "Date":"5\/10"
+    "Country Count":7,
+    "Men":11.0,
+    "Women":12.0,
+    "Record Count":23,
+    "Date":"5\/10",
+    "Country":"SI"
   },
   {
     "City":"London",
-    "Record Count":265,
-    "Country Count":46,
     "People Count":265,
-    "Last Record":1713657600000,
-    "Country":"GB",
-    "Date":"27\/4"
+    "Country Count":46,
+    "Men":165.0,
+    "Women":100.0,
+    "Record Count":265,
+    "Date":"27\/4",
+    "Country":"GB"
   },
   {
     "City":"Madrid",
-    "Record Count":28,
-    "Country Count":7,
     "People Count":28,
-    "Last Record":1714262400000,
-    "Country":"ES",
-    "Date":"26\/4"
+    "Country Count":7,
+    "Men":18.0,
+    "Women":10.0,
+    "Record Count":28,
+    "Date":"26\/4",
+    "Country":"ES"
   },
   {
     "City":"Marrakech",
-    "Record Count":72,
-    "Country Count":11,
     "People Count":72,
-    "Last Record":1737849600000,
-    "Country":"MA",
-    "Date":"26\/1"
+    "Country Count":11,
+    "Men":57.0,
+    "Women":15.0,
+    "Record Count":72,
+    "Date":"26\/1",
+    "Country":"MA"
   },
   {
     "City":"Milano",
-    "Record Count":74,
-    "Country Count":20,
     "People Count":74,
-    "Last Record":1712448000000,
-    "Country":"IT",
-    "Date":"5\/10"
+    "Country Count":20,
+    "Men":50.0,
+    "Women":24.0,
+    "Record Count":74,
+    "Date":"5\/10",
+    "Country":"IT"
   },
   {
     "City":"M\u00e1laga",
-    "Record Count":25,
-    "Country Count":6,
     "People Count":25,
-    "Last Record":1734220800000,
-    "Country":"ES",
-    "Date":"26\/1"
+    "Country Count":6,
+    "Men":14.0,
+    "Women":11.0,
+    "Record Count":25,
+    "Date":"26\/1",
+    "Country":"ES"
   },
   {
     "City":"M\u00fcnster",
-    "Record Count":20,
-    "Country Count":3,
     "People Count":20,
-    "Last Record":1725753600000,
-    "Country":"DE",
-    "Date":"5\/10"
+    "Country Count":3,
+    "Men":12.0,
+    "Women":8.0,
+    "Record Count":20,
+    "Date":"5\/10",
+    "Country":"DE"
   },
   {
     "City":"Nagano",
-    "Record Count":23,
-    "Country Count":6,
     "People Count":23,
-    "Last Record":1682208000000,
-    "Country":"JP",
-    "Date":"21\/9"
+    "Country Count":6,
+    "Men":17.0,
+    "Women":6.0,
+    "Record Count":23,
+    "Date":"21\/9",
+    "Country":"JP"
   },
   {
     "City":"Nagoya",
-    "Record Count":170,
-    "Country Count":14,
     "People Count":170,
-    "Last Record":1710028800000,
-    "Country":"JP",
-    "Date":"9\/3"
+    "Country Count":14,
+    "Men":null,
+    "Women":170.0,
+    "Record Count":170,
+    "Date":"9\/3",
+    "Country":"JP"
   },
   {
     "City":"Nairobi",
-    "Record Count":68,
-    "Country Count":1,
     "People Count":68,
-    "Last Record":1729987200000,
-    "Country":"KE",
-    "Date":"1\/11"
+    "Country Count":1,
+    "Men":58.0,
+    "Women":10.0,
+    "Record Count":68,
+    "Date":"1\/11",
+    "Country":"KE"
   },
   {
     "City":"New York",
-    "Record Count":30,
-    "Country Count":3,
     "People Count":30,
-    "Last Record":1730592000000,
-    "Country":"US",
-    "Date":"2\/11"
+    "Country Count":3,
+    "Men":17.0,
+    "Women":13.0,
+    "Record Count":30,
+    "Date":"2\/11",
+    "Country":"US"
   },
   {
     "City":"Nobeoka",
-    "Record Count":48,
-    "Country Count":1,
     "People Count":48,
-    "Last Record":1707609600000,
-    "Country":"JP",
-    "Date":"26\/10"
+    "Country Count":1,
+    "Men":48.0,
+    "Women":null,
+    "Record Count":48,
+    "Date":"26\/10",
+    "Country":"JP"
   },
   {
     "City":"Oita",
-    "Record Count":96,
-    "Country Count":12,
     "People Count":96,
-    "Last Record":1738454400000,
-    "Country":"JP",
-    "Date":"26\/10"
+    "Country Count":12,
+    "Men":96.0,
+    "Women":null,
+    "Record Count":96,
+    "Date":"26\/10",
+    "Country":"JP"
   },
   {
     "City":"Osaka",
-    "Record Count":203,
-    "Country Count":21,
     "People Count":202,
-    "Last Record":1737849600000,
-    "Country":"JP",
-    "Date":"26\/10"
+    "Country Count":21,
+    "Men":68.0,
+    "Women":134.0,
+    "Record Count":203,
+    "Date":"26\/10",
+    "Country":"JP"
   },
   {
     "City":"Ottawa",
-    "Record Count":27,
-    "Country Count":8,
     "People Count":27,
-    "Last Record":1716681600000,
-    "Country":"CA",
-    "Date":"25\/5"
+    "Country Count":8,
+    "Men":17.0,
+    "Women":10.0,
+    "Record Count":27,
+    "Date":"25\/5",
+    "Country":"CA"
   },
   {
     "City":"Paris",
-    "Record Count":197,
-    "Country Count":27,
     "People Count":197,
-    "Last Record":1712448000000,
-    "Country":"FR",
-    "Date":"6\/4"
+    "Country Count":27,
+    "Men":140.0,
+    "Women":57.0,
+    "Record Count":197,
+    "Date":"6\/4",
+    "Country":"FR"
   },
   {
     "City":"Praha",
-    "Record Count":41,
-    "Country Count":13,
     "People Count":41,
-    "Last Record":1714867200000,
-    "Country":"CZ",
-    "Date":"5\/10"
+    "Country Count":13,
+    "Men":34.0,
+    "Women":7.0,
+    "Record Count":41,
+    "Date":"5\/10",
+    "Country":"CZ"
   },
   {
     "City":"Rabat",
-    "Record Count":27,
-    "Country Count":5,
     "People Count":27,
-    "Last Record":1713657600000,
-    "Country":"MA",
-    "Date":"26\/1"
+    "Country Count":5,
+    "Men":18.0,
+    "Women":9.0,
+    "Record Count":27,
+    "Date":"26\/1",
+    "Country":"MA"
   },
   {
     "City":"Roma",
-    "Record Count":94,
-    "Country Count":16,
     "People Count":94,
-    "Last Record":1710633600000,
-    "Country":"IT",
-    "Date":"23\/3"
+    "Country Count":16,
+    "Men":64.0,
+    "Women":30.0,
+    "Record Count":94,
+    "Date":"23\/3",
+    "Country":"IT"
   },
   {
     "City":"Rotterdam",
-    "Record Count":192,
-    "Country Count":36,
     "People Count":192,
-    "Last Record":1713052800000,
-    "Country":"NL",
-    "Date":"5\/10"
+    "Country Count":36,
+    "Men":130.0,
+    "Women":62.0,
+    "Record Count":192,
+    "Date":"5\/10",
+    "Country":"NL"
   },
   {
     "City":"Sapporo",
-    "Record Count":27,
-    "Country Count":3,
     "People Count":27,
-    "Last Record":1724544000000,
-    "Country":"JP",
-    "Date":"20\/9"
+    "Country Count":3,
+    "Men":13.0,
+    "Women":14.0,
+    "Record Count":27,
+    "Date":"20\/9",
+    "Country":"JP"
   },
   {
     "City":"Seoul",
-    "Record Count":152,
-    "Country Count":22,
     "People Count":152,
-    "Last Record":1730592000000,
-    "Country":"KR",
-    "Date":"5\/10"
+    "Country Count":22,
+    "Men":111.0,
+    "Women":41.0,
+    "Record Count":152,
+    "Date":"5\/10",
+    "Country":"KR"
   },
   {
     "City":"Sevilla",
-    "Record Count":199,
-    "Country Count":48,
     "People Count":199,
-    "Last Record":1708214400000,
-    "Country":"ES",
-    "Date":"23\/2"
+    "Country Count":48,
+    "Men":130.0,
+    "Women":69.0,
+    "Record Count":199,
+    "Date":"23\/2",
+    "Country":"ES"
   },
   {
     "City":"Shanghai",
-    "Record Count":34,
-    "Country Count":4,
     "People Count":34,
-    "Last Record":1733011200000,
-    "Country":"CN",
-    "Date":"26\/1"
+    "Country Count":4,
+    "Men":17.0,
+    "Women":17.0,
+    "Record Count":34,
+    "Date":"26\/1",
+    "Country":"CN"
   },
   {
     "City":"St. Paul",
-    "Record Count":69,
-    "Country Count":16,
     "People Count":69,
-    "Last Record":1728172800000,
-    "Country":"US",
-    "Date":"5\/10"
+    "Country Count":16,
+    "Men":37.0,
+    "Women":32.0,
+    "Record Count":69,
+    "Date":"5\/10",
+    "Country":"US"
   },
   {
     "City":"Tokyo",
-    "Record Count":229,
-    "Country Count":27,
     "People Count":228,
-    "Last Record":1709424000000,
-    "Country":"JP",
-    "Date":"21\/9"
+    "Country Count":27,
+    "Men":172.0,
+    "Women":56.0,
+    "Record Count":229,
+    "Date":"21\/9",
+    "Country":"JP"
   },
   {
     "City":"Torino",
-    "Record Count":60,
-    "Country Count":16,
     "People Count":60,
-    "Last Record":1733011200000,
-    "Country":"IT",
-    "Date":"5\/10"
+    "Country Count":16,
+    "Men":43.0,
+    "Women":17.0,
+    "Record Count":60,
+    "Date":"5\/10",
+    "Country":"IT"
   },
   {
     "City":"Toronto",
-    "Record Count":50,
-    "Country Count":11,
     "People Count":50,
-    "Last Record":1729382400000,
-    "Country":"CA",
-    "Date":"5\/10"
+    "Country Count":11,
+    "Men":30.0,
+    "Women":20.0,
+    "Record Count":50,
+    "Date":"5\/10",
+    "Country":"CA"
   },
   {
     "City":"Valencia",
-    "Record Count":289,
-    "Country Count":59,
     "People Count":289,
-    "Last Record":1733011200000,
-    "Country":"ES",
-    "Date":"1\/12"
+    "Country Count":59,
+    "Men":175.0,
+    "Women":114.0,
+    "Record Count":289,
+    "Date":"1\/12",
+    "Country":"ES"
   },
   {
     "City":"Venezia",
-    "Record Count":55,
-    "Country Count":12,
     "People Count":55,
-    "Last Record":1729987200000,
-    "Country":"IT",
-    "Date":"26\/10"
+    "Country Count":12,
+    "Men":40.0,
+    "Women":15.0,
+    "Record Count":55,
+    "Date":"26\/10",
+    "Country":"IT"
   },
   {
     "City":"Warszawa",
-    "Record Count":35,
-    "Country Count":10,
     "People Count":35,
-    "Last Record":1727568000000,
-    "Country":"PL",
-    "Date":"5\/10"
+    "Country Count":10,
+    "Men":24.0,
+    "Women":11.0,
+    "Record Count":35,
+    "Date":"5\/10",
+    "Country":"PL"
   },
   {
     "City":"Wien",
-    "Record Count":82,
-    "Country Count":26,
     "People Count":82,
-    "Last Record":1713657600000,
-    "Country":"AT",
-    "Date":"5\/10"
+    "Country Count":26,
+    "Men":62.0,
+    "Women":20.0,
+    "Record Count":82,
+    "Date":"5\/10",
+    "Country":"AT"
   },
   {
     "City":"Wuxi",
-    "Record Count":38,
-    "Country Count":4,
     "People Count":38,
-    "Last Record":1711238400000,
-    "Country":"CN",
-    "Date":"26\/1"
+    "Country Count":4,
+    "Men":19.0,
+    "Women":19.0,
+    "Record Count":38,
+    "Date":"26\/1",
+    "Country":"CN"
   },
   {
     "City":"Xiamen",
-    "Record Count":49,
-    "Country Count":8,
     "People Count":49,
-    "Last Record":1736035200000,
-    "Country":"CN",
-    "Date":"26\/1"
+    "Country Count":8,
+    "Men":30.0,
+    "Women":19.0,
+    "Record Count":49,
+    "Date":"26\/1",
+    "Country":"CN"
   },
   {
     "City":"Z\u00fcrich",
-    "Record Count":53,
-    "Country Count":12,
     "People Count":53,
-    "Last Record":1713657600000,
-    "Country":"CH",
-    "Date":"5\/10"
+    "Country Count":12,
+    "Men":39.0,
+    "Women":14.0,
+    "Record Count":53,
+    "Date":"5\/10",
+    "Country":"CH"
   }
 ]
