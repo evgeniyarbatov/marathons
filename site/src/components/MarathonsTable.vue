@@ -145,7 +145,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .flag {
@@ -159,8 +159,6 @@ export default {
 }
 
 .table-container th, .table-container td {
-  border: 1px solid #ddd;
-  padding: 8px;
   text-align: center;
 }
 
