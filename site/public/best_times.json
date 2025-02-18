@@ -2,7 +2,7 @@
   {
     "Time":"2:06:33",
     "Name":"Ibrahim Hassan",
-    "Country":"DJI",
+    "Country":"dj",
     "City":"Abu Dhabi",
     "Date":"2024-12-14",
     "Year":2024,
@@ -12,7 +12,7 @@
   {
     "Time":"2:20:34",
     "Name":"Catherine Reline Amanang'Ole",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Abu Dhabi",
     "Date":"2024-12-14",
     "Year":2024,
@@ -22,7 +22,7 @@
   {
     "Time":"2:03:39",
     "Name":"Tamirat Tola",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Amsterdam",
     "Date":"2021-10-17",
     "Year":2021,
@@ -32,7 +32,7 @@
   {
     "Time":"2:16:52",
     "Name":"Yalemzerf Yehualaw",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Amsterdam",
     "Date":"2024-10-20",
     "Year":2024,
@@ -42,7 +42,7 @@
   {
     "Time":"2:05:06",
     "Name":"Marius Kimutai",
-    "Country":"BRN",
+    "Country":"bn",
     "City":"Barcelona",
     "Date":"2023-03-19",
     "Year":2023,
@@ -52,7 +52,7 @@
   {
     "Time":"2:20:03",
     "Name":"Selly Chepyego Kaptich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Barcelona",
     "Date":"2023-03-19",
     "Year":2023,
@@ -62,7 +62,7 @@
   {
     "Time":"2:07:35",
     "Name":"Abebe Mekonnen",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Beijing",
     "Date":"1988-10-16",
     "Year":1988,
@@ -72,7 +72,7 @@
   {
     "Time":"2:19:39",
     "Name":"Yingjie Sun",
-    "Country":"CHN",
+    "Country":"cn",
     "City":"Beijing",
     "Date":"2003-10-19",
     "Year":2003,
@@ -82,7 +82,7 @@
   {
     "Time":"2:01:09",
     "Name":"Eliud Kipchoge",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Berlin",
     "Date":"2022-09-25",
     "Year":2022,
@@ -92,7 +92,7 @@
   {
     "Time":"2:11:53",
     "Name":"Tigst Assefa",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Berlin",
     "Date":"2023-09-24",
     "Year":2023,
@@ -102,7 +102,7 @@
   {
     "Time":"2:08:47",
     "Name":"Emmanuel Tirop Keter",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Cape Town",
     "Date":"2016-09-18",
     "Year":2016,
@@ -112,7 +112,7 @@
   {
     "Time":"2:22:22",
     "Name":"Glenrose Xaba",
-    "Country":"RSA",
+    "Country":null,
     "City":"Cape Town",
     "Date":"2024-10-20",
     "Year":2024,
@@ -122,7 +122,7 @@
   {
     "Time":"2:08:55",
     "Name":"Milton Rotich Kiplagat",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Casablanca",
     "Date":"2013-10-27",
     "Year":2013,
@@ -132,7 +132,7 @@
   {
     "Time":"2:27:41",
     "Name":"Joan Chepkosgei",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Casablanca",
     "Date":"2024-10-27",
     "Year":2024,
@@ -142,7 +142,7 @@
   {
     "Time":"2:07:25",
     "Name":"Kibrom Weldemicael",
-    "Country":"ERI",
+    "Country":"er",
     "City":"Castell\u00f3n",
     "Date":"2024-02-25",
     "Year":2024,
@@ -152,7 +152,7 @@
   {
     "Time":"2:27:39",
     "Name":"Webalem Bazanew",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Castell\u00f3n",
     "Date":"2020-02-16",
     "Year":2020,
@@ -162,7 +162,7 @@
   {
     "Time":"2:00:35",
     "Name":"Kelvin Kiptum",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Chicago",
     "Date":"2023-10-08",
     "Year":2023,
@@ -172,7 +172,7 @@
   {
     "Time":"2:09:56",
     "Name":"Ruth Chepngetich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Chicago",
     "Date":"2024-10-13",
     "Year":2024,
@@ -182,7 +182,7 @@
   {
     "Time":"2:10:28",
     "Name":"Jimma Shambel",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Chongqing",
     "Date":"2019-03-31",
     "Year":2019,
@@ -192,7 +192,7 @@
   {
     "Time":"2:21:27",
     "Name":"Jackline Sakilu",
-    "Country":"TAN",
+    "Country":null,
     "City":"Chongqing",
     "Date":"2024-03-24",
     "Year":2024,
@@ -202,7 +202,7 @@
   {
     "Time":"2:05:33",
     "Name":"Filex Kipchirchir Kiprotich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Daegu",
     "Date":"2019-04-07",
     "Year":2019,
@@ -212,7 +212,7 @@
   {
     "Time":"2:22:43",
     "Name":"Pamela Rotich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Daegu",
     "Date":"2022-04-03",
     "Year":2022,
@@ -220,29 +220,9 @@
     "Record Count":50
   },
   {
-    "Time":"2:10:31",
-    "Name":"Willy Ngelel",
-    "Country":"KEN",
-    "City":"Dalian",
-    "Date":"2018-05-13",
-    "Year":2018,
-    "Gender":"Men",
-    "Record Count":23
-  },
-  {
-    "Time":"2:26:49",
-    "Name":"Rong Chen",
-    "Country":"CHN",
-    "City":"Dalian",
-    "Date":"2011-04-30",
-    "Year":2011,
-    "Gender":"Women",
-    "Record Count":23
-  },
-  {
     "Time":"2:03:34",
     "Name":"Getaneh Molla",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Dubai",
     "Date":"2019-01-25",
     "Year":2019,
@@ -252,7 +232,7 @@
   {
     "Time":"2:16:07",
     "Name":"Tigist Ketema",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Dubai",
     "Date":"2024-01-07",
     "Year":2024,
@@ -262,7 +242,7 @@
   {
     "Time":"2:06:52",
     "Name":"Kemal Husen",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Dublin",
     "Date":"2023-10-29",
     "Year":2023,
@@ -272,7 +252,7 @@
   {
     "Time":"2:24:13",
     "Name":"Asimarech Naga",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Dublin",
     "Date":"2024-10-27",
     "Year":2024,
@@ -280,29 +260,9 @@
     "Record Count":56
   },
   {
-    "Time":"2:09:14",
-    "Name":"Elisha Kiprop Barno",
-    "Country":"KEN",
-    "City":"Duluth",
-    "Date":"2023-06-17",
-    "Year":2023,
-    "Gender":"Men",
-    "Record Count":60
-  },
-  {
-    "Time":"2:24:29",
-    "Name":"Kellyn Taylor",
-    "Country":"USA",
-    "City":"Duluth",
-    "Date":"2018-06-16",
-    "Year":2018,
-    "Gender":"Women",
-    "Record Count":60
-  },
-  {
     "Time":"2:09:47",
     "Name":"Mathews Leeto",
-    "Country":"RSA",
+    "Country":null,
     "City":"Durban",
     "Date":"2024-04-28",
     "Year":2024,
@@ -312,7 +272,7 @@
   {
     "Time":"2:30:31",
     "Name":"Annie Bothma",
-    "Country":"RSA",
+    "Country":null,
     "City":"Durban",
     "Date":"2023-03-12",
     "Year":2023,
@@ -322,7 +282,7 @@
   {
     "Time":"2:04:52",
     "Name":"Kenneth Kiprop Kipkemoi",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Eindhoven",
     "Date":"2023-10-08",
     "Year":2023,
@@ -332,7 +292,7 @@
   {
     "Time":"2:22:47",
     "Name":"Pascalia Jepkogei",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Eindhoven",
     "Date":"2022-10-09",
     "Year":2022,
@@ -342,7 +302,7 @@
   {
     "Time":"2:07:43",
     "Name":"Julius Tuwei",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Enschede",
     "Date":"2022-04-24",
     "Year":2022,
@@ -352,7 +312,7 @@
   {
     "Time":"2:22:45",
     "Name":"Shyline Jepkorir Toroitich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Enschede",
     "Date":"2023-04-16",
     "Year":2023,
@@ -360,29 +320,9 @@
     "Record Count":50
   },
   {
-    "Time":"2:10:14",
-    "Name":"Sahlessilae Bekele",
-    "Country":"ETH",
-    "City":"Firenze",
-    "Date":"2019-11-24",
-    "Year":2019,
-    "Gender":"Men",
-    "Record Count":22
-  },
-  {
-    "Time":"2:25:54",
-    "Name":"Clementine Mukandanga",
-    "Country":"RWA",
-    "City":"Firenze",
-    "Date":"2023-11-26",
-    "Year":2023,
-    "Gender":"Women",
-    "Record Count":22
-  },
-  {
     "Time":"2:04:53",
     "Name":"Brimin Kipkorir",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Frankfurt",
     "Date":"2023-10-29",
     "Year":2023,
@@ -392,7 +332,7 @@
   {
     "Time":"2:17:25",
     "Name":"Hawi Feysa",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Frankfurt",
     "Date":"2024-10-27",
     "Year":2024,
@@ -402,7 +342,7 @@
   {
     "Time":"2:05:16",
     "Name":"Yuya Yoshida",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Fukuoka",
     "Date":"2024-12-01",
     "Year":2024,
@@ -412,7 +352,7 @@
   {
     "Time":"2:31:02",
     "Name":"Yuka Yano",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Fukuoka",
     "Date":"2014-02-09",
     "Year":2014,
@@ -422,7 +362,7 @@
   {
     "Time":"2:08:19",
     "Name":"Zane Robertson",
-    "Country":"NZL",
+    "Country":"nz",
     "City":"Gold Coast",
     "Date":"2019-07-07",
     "Year":2019,
@@ -432,7 +372,7 @@
   {
     "Time":"2:24:22",
     "Name":"Yuki Nakamura",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Gold Coast",
     "Date":"2024-07-07",
     "Year":2024,
@@ -442,7 +382,7 @@
   {
     "Time":"2:04:33",
     "Name":"Joshua Belet",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Hamburg",
     "Date":"2023-04-23",
     "Year":2023,
@@ -452,7 +392,7 @@
   {
     "Time":"2:18:25",
     "Name":"Winfridah Moraa Moseti",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Hamburg",
     "Date":"2024-04-28",
     "Year":2024,
@@ -462,7 +402,7 @@
   {
     "Time":"2:07:06",
     "Name":"Boaz Kipkemei",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Hannover",
     "Date":"2024-04-14",
     "Year":2024,
@@ -472,7 +412,7 @@
   {
     "Time":"2:25:45",
     "Name":"Matea Parlov Ko\u0161tro",
-    "Country":"CRO",
+    "Country":null,
     "City":"Hannover",
     "Date":"2023-03-26",
     "Year":2023,
@@ -482,7 +422,7 @@
   {
     "Time":"2:08:16",
     "Name":"Hailu Negussie",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Hofu",
     "Date":"2002-12-15",
     "Year":2002,
@@ -492,7 +432,7 @@
   {
     "Time":"2:06:39",
     "Name":"Zouhair Talbi",
-    "Country":"MAR",
+    "Country":"ma",
     "City":"Houston",
     "Date":"2024-01-14",
     "Year":2024,
@@ -502,7 +442,7 @@
   {
     "Time":"2:19:12",
     "Name":"Keira D'Amato",
-    "Country":"USA",
+    "Country":"us",
     "City":"Houston",
     "Date":"2022-01-16",
     "Year":2022,
@@ -512,7 +452,7 @@
   {
     "Time":"2:07:01",
     "Name":"Lawrence Kimayo",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Ko\u0161ice",
     "Date":"2012-10-07",
     "Year":2012,
@@ -522,7 +462,7 @@
   {
     "Time":"2:21:08",
     "Name":"Rebbeca Sirwanei Tanui",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Ko\u0161ice",
     "Date":"2024-10-06",
     "Year":2024,
@@ -530,29 +470,9 @@
     "Record Count":38
   },
   {
-    "Time":"2:07:53",
-    "Name":"Duncan Cheruiyot Koech",
-    "Country":"KEN",
-    "City":"K\u00f6ln",
-    "Date":"2012-10-14",
-    "Year":2012,
-    "Gender":"Men",
-    "Record Count":21
-  },
-  {
-    "Time":"2:31:07",
-    "Name":"Judy Kiplimo",
-    "Country":"KEN",
-    "City":"K\u00f6ln",
-    "Date":"2001-10-07",
-    "Year":2001,
-    "Gender":"Women",
-    "Record Count":21
-  },
-  {
     "Time":"2:07:13",
     "Name":"John Kipkorir Komen",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"La Rochelle",
     "Date":"2011-11-27",
     "Year":2011,
@@ -562,7 +482,7 @@
   {
     "Time":"2:27:54",
     "Name":"Emily Chebet Kipchumba",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"La Rochelle",
     "Date":"2024-11-24",
     "Year":2024,
@@ -572,7 +492,7 @@
   {
     "Time":"2:06:16",
     "Name":"Fikre Bekele",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Linz",
     "Date":"2022-10-23",
     "Year":2022,
@@ -582,7 +502,7 @@
   {
     "Time":"2:27:18",
     "Name":"Tecla Chebet",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Linz",
     "Date":"2023-04-16",
     "Year":2023,
@@ -592,7 +512,7 @@
   {
     "Time":"2:06:02",
     "Name":"Samuel Ndungu",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Lisboa",
     "Date":"2019-10-20",
     "Year":2019,
@@ -602,7 +522,7 @@
   {
     "Time":"2:27:14",
     "Name":"Almaz Negede",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Lisboa",
     "Date":"2021-10-17",
     "Year":2021,
@@ -612,7 +532,7 @@
   {
     "Time":"2:06:47",
     "Name":"Edmond Kipngetich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Ljubljana",
     "Date":"2023-10-22",
     "Year":2023,
@@ -622,7 +542,7 @@
   {
     "Time":"2:20:17",
     "Name":"Joyce Chepkemoi Tele",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Ljubljana",
     "Date":"2024-10-20",
     "Year":2024,
@@ -632,7 +552,7 @@
   {
     "Time":"2:02:55",
     "Name":"Mosinet Geremew",
-    "Country":"ETH",
+    "Country":"et",
     "City":"London",
     "Date":"2019-04-28",
     "Year":2019,
@@ -642,7 +562,7 @@
   {
     "Time":"2:15:25",
     "Name":"Paula Radcliffe",
-    "Country":"GBR",
+    "Country":"gb",
     "City":"London",
     "Date":"2003-04-13",
     "Year":2003,
@@ -652,7 +572,7 @@
   {
     "Time":"2:09:41",
     "Name":"Kenneth Kiplagat",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Madrid",
     "Date":"2022-04-24",
     "Year":2022,
@@ -662,7 +582,7 @@
   {
     "Time":"2:26:18",
     "Name":"Kasu Bitew",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Madrid",
     "Date":"2022-04-24",
     "Year":2022,
@@ -672,7 +592,7 @@
   {
     "Time":"2:06:32",
     "Name":"Hicham Laqouahi",
-    "Country":"MAR",
+    "Country":"ma",
     "City":"Marrakech",
     "Date":"2020-01-26",
     "Year":2020,
@@ -682,7 +602,7 @@
   {
     "Time":"2:27:22",
     "Name":"Kaltoum Bouaasayriya",
-    "Country":"MAR",
+    "Country":"ma",
     "City":"Marrakech",
     "Date":"2023-01-29",
     "Year":2023,
@@ -692,7 +612,7 @@
   {
     "Time":"2:03:55",
     "Name":"Reuben Kiprop Kipyego",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Milano",
     "Date":"2021-05-16",
     "Year":2021,
@@ -702,7 +622,7 @@
   {
     "Time":"2:20:18",
     "Name":"Vivian Kiplagat",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Milano",
     "Date":"2022-04-03",
     "Year":2022,
@@ -712,7 +632,7 @@
   {
     "Time":"2:08:05",
     "Name":"Vincent Kigen",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"M\u00e1laga",
     "Date":"2024-12-15",
     "Year":2024,
@@ -722,7 +642,7 @@
   {
     "Time":"2:24:50",
     "Name":"Tseginesh Mekonnin",
-    "Country":"ETH",
+    "Country":"et",
     "City":"M\u00e1laga",
     "Date":"2021-12-12",
     "Year":2021,
@@ -732,7 +652,7 @@
   {
     "Time":"2:09:28",
     "Name":"Justus Kiprotich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"M\u00fcnster",
     "Date":"2018-09-09",
     "Year":2018,
@@ -742,7 +662,7 @@
   {
     "Time":"2:27:39",
     "Name":"Lillian Jelagat",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"M\u00fcnster",
     "Date":"2022-09-11",
     "Year":2022,
@@ -750,29 +670,9 @@
     "Record Count":20
   },
   {
-    "Time":"2:09:10",
-    "Name":"Silas Kipngetich Sang",
-    "Country":"KEN",
-    "City":"Nagano",
-    "Date":"2012-04-15",
-    "Year":2012,
-    "Gender":"Men",
-    "Record Count":23
-  },
-  {
-    "Time":"2:26:26",
-    "Name":"Valentina Yegorova",
-    "Country":"RUS",
-    "City":"Nagano",
-    "Date":"2000-04-09",
-    "Year":2000,
-    "Gender":"Women",
-    "Record Count":23
-  },
-  {
     "Time":"2:20:29",
     "Name":"Mao Ichiyama",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Nagoya",
     "Date":"2020-03-08",
     "Year":2020,
@@ -782,7 +682,7 @@
   {
     "Time":"2:10:12",
     "Name":"Moses Kigen",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Nairobi",
     "Date":"2009-10-25",
     "Year":2009,
@@ -792,7 +692,7 @@
   {
     "Time":"2:27:16",
     "Name":"Sheila Chepkech",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Nairobi",
     "Date":"2023-10-29",
     "Year":2023,
@@ -802,7 +702,7 @@
   {
     "Time":"2:06:57",
     "Name":"Albert Korir",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"New York",
     "Date":"2023-11-05",
     "Year":2023,
@@ -812,7 +712,7 @@
   {
     "Time":"2:22:44",
     "Name":"Violah Cheptoo",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"New York",
     "Date":"2021-11-07",
     "Year":2021,
@@ -820,19 +720,9 @@
     "Record Count":30
   },
   {
-    "Time":"2:09:26",
-    "Name":"Yota Ifuku",
-    "Country":"JPN",
-    "City":"Nobeoka",
-    "Date":"2024-02-11",
-    "Year":2024,
-    "Gender":"Men",
-    "Record Count":48
-  },
-  {
     "Time":"2:06:07",
     "Name":"Hiroki Wakabayasi",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Oita",
     "Date":"2025-02-02",
     "Year":2025,
@@ -842,7 +732,7 @@
   {
     "Time":"2:06:18",
     "Name":"Kiyoto Hirabayashi",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Osaka",
     "Date":"2024-02-25",
     "Year":2024,
@@ -852,7 +742,7 @@
   {
     "Time":"2:18:59",
     "Name":"Honami Maeda",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Osaka",
     "Date":"2024-01-28",
     "Year":2024,
@@ -862,7 +752,7 @@
   {
     "Time":"2:08:12",
     "Name":"Luka Rotich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Ottawa",
     "Date":"2013-05-26",
     "Year":2013,
@@ -872,7 +762,7 @@
   {
     "Time":"2:25:45",
     "Name":"Misikir Demisse",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Ottawa",
     "Date":"2013-05-26",
     "Year":2013,
@@ -882,7 +772,7 @@
   {
     "Time":"2:04:21",
     "Name":"Elisha Rotich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Paris",
     "Date":"2021-10-17",
     "Year":2021,
@@ -892,7 +782,7 @@
   {
     "Time":"2:20:48",
     "Name":"Enatnesh Alamrew Tirusew",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Paris",
     "Date":"2024-04-07",
     "Year":2024,
@@ -902,7 +792,7 @@
   {
     "Time":"2:06:07",
     "Name":"Galen Rupp",
-    "Country":"USA",
+    "Country":"us",
     "City":"Praha",
     "Date":"2018-05-06",
     "Year":2018,
@@ -912,7 +802,7 @@
   {
     "Time":"2:20:14",
     "Name":"Purity Cherotich Rionoripo",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Praha",
     "Date":"2021-05-30",
     "Year":2021,
@@ -922,7 +812,7 @@
   {
     "Time":"2:08:42",
     "Name":"Emmanuel Kibet",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Rabat",
     "Date":"2019-04-21",
     "Year":2019,
@@ -932,7 +822,7 @@
   {
     "Time":"2:25:35",
     "Name":"Kaoutar Farkoussi",
-    "Country":"MAR",
+    "Country":"ma",
     "City":"Rabat",
     "Date":"2024-04-21",
     "Year":2024,
@@ -942,7 +832,7 @@
   {
     "Time":"2:06:24",
     "Name":"Asbel Rutto",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Roma",
     "Date":"2024-03-17",
     "Year":2024,
@@ -952,7 +842,7 @@
   {
     "Time":"2:23:02",
     "Name":"Betty Chepkwony",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Roma",
     "Date":"2023-03-19",
     "Year":2023,
@@ -962,7 +852,7 @@
   {
     "Time":"2:03:36",
     "Name":"Bashir Abdi",
-    "Country":"BEL",
+    "Country":"be",
     "City":"Rotterdam",
     "Date":"2021-10-24",
     "Year":2021,
@@ -972,7 +862,7 @@
   {
     "Time":"2:18:58",
     "Name":"Tiki Gelana",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Rotterdam",
     "Date":"2012-04-15",
     "Year":2012,
@@ -982,7 +872,7 @@
   {
     "Time":"2:10:49",
     "Name":"Luka Musembi",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Sapporo",
     "Date":"2022-08-28",
     "Year":2022,
@@ -992,7 +882,7 @@
   {
     "Time":"2:25:10",
     "Name":"Kiyoko Shimahara",
-    "Country":"JPN",
+    "Country":"jp",
     "City":"Sapporo",
     "Date":"2009-08-30",
     "Year":2009,
@@ -1002,7 +892,7 @@
   {
     "Time":"2:04:51",
     "Name":"Daniel Do Nascimento",
-    "Country":"BRA",
+    "Country":"br",
     "City":"Seoul",
     "Date":"2022-04-17",
     "Year":2022,
@@ -1012,7 +902,7 @@
   {
     "Time":"2:18:04",
     "Name":"Joan Chelimo Melly",
-    "Country":"ROU",
+    "Country":"ro",
     "City":"Seoul",
     "Date":"2022-04-17",
     "Year":2022,
@@ -1020,29 +910,9 @@
     "Record Count":152
   },
   {
-    "Time":"2:03:47",
-    "Name":"Morhad Amdouni",
-    "Country":"FRA",
-    "City":"Sevilla",
-    "Date":"2024-02-18",
-    "Year":2024,
-    "Gender":"Men",
-    "Record Count":199
-  },
-  {
-    "Time":"2:20:29",
-    "Name":"Jackline Chelal",
-    "Country":"KEN",
-    "City":"Sevilla",
-    "Date":"2023-02-19",
-    "Year":2023,
-    "Gender":"Women",
-    "Record Count":199
-  },
-  {
     "Time":"2:05:35",
     "Name":"Philimon Kiptoo Kipchumba",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Shanghai",
     "Date":"2023-11-26",
     "Year":2023,
@@ -1052,7 +922,7 @@
   {
     "Time":"2:21:52",
     "Name":"Tigist Tufa",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Shanghai",
     "Date":"2014-11-02",
     "Year":2014,
@@ -1062,7 +932,7 @@
   {
     "Time":"2:10:05",
     "Name":"Phil Coppess",
-    "Country":"USA",
+    "Country":"us",
     "City":"St. Paul",
     "Date":"1985-10-06",
     "Year":1985,
@@ -1072,7 +942,7 @@
   {
     "Time":"2:26:51",
     "Name":"Zinayida Semyonova",
-    "Country":"RUS",
+    "Country":"ru",
     "City":"St. Paul",
     "Date":"2001-10-07",
     "Year":2001,
@@ -1082,7 +952,7 @@
   {
     "Time":"2:02:16",
     "Name":"Benson Kipruto",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Tokyo",
     "Date":"2024-03-03",
     "Year":2024,
@@ -1092,7 +962,7 @@
   {
     "Time":"2:15:55",
     "Name":"Sutume Asefa Kebede",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Tokyo",
     "Date":"2024-03-03",
     "Year":2024,
@@ -1102,7 +972,7 @@
   {
     "Time":"2:07:45",
     "Name":"Simretu Alemayehu",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Torino",
     "Date":"2001-04-01",
     "Year":2001,
@@ -1112,7 +982,7 @@
   {
     "Time":"2:27:04",
     "Name":"Jane Salum\u00e4e",
-    "Country":"EST",
+    "Country":"ee",
     "City":"Torino",
     "Date":"1997-05-11",
     "Year":1997,
@@ -1122,7 +992,7 @@
   {
     "Time":"2:05:00",
     "Name":"Philemon Rono",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Toronto",
     "Date":"2019-10-20",
     "Year":2019,
@@ -1132,7 +1002,7 @@
   {
     "Time":"2:20:44",
     "Name":"Waganesh Mekasha",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Toronto",
     "Date":"2024-10-20",
     "Year":2024,
@@ -1142,7 +1012,7 @@
   {
     "Time":"2:01:48",
     "Name":"Sisay Lemma",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Valencia",
     "Date":"2023-12-03",
     "Year":2023,
@@ -1152,7 +1022,7 @@
   {
     "Time":"2:14:58",
     "Name":"Amane Beriso Shankule",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Valencia",
     "Date":"2022-12-04",
     "Year":2022,
@@ -1162,7 +1032,7 @@
   {
     "Time":"2:07:41",
     "Name":"Solomon Mutai",
-    "Country":"UGA",
+    "Country":"ug",
     "City":"Venezia",
     "Date":"2023-10-22",
     "Year":2023,
@@ -1172,7 +1042,7 @@
   {
     "Time":"2:26:39",
     "Name":"Kebene Chala",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Venezia",
     "Date":"2023-10-22",
     "Year":2023,
@@ -1182,7 +1052,7 @@
   {
     "Time":"2:08:05",
     "Name":"Robert Chemosin",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Warszawa",
     "Date":"2015-04-26",
     "Year":2015,
@@ -1192,7 +1062,7 @@
   {
     "Time":"2:28:23",
     "Name":"Milka Jerotich",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Warszawa",
     "Date":"2013-04-21",
     "Year":2013,
@@ -1202,7 +1072,7 @@
   {
     "Time":"2:05:08",
     "Name":"Samwel Nyamai Mailu",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Wien",
     "Date":"2023-04-23",
     "Year":2023,
@@ -1212,7 +1082,7 @@
   {
     "Time":"2:20:59",
     "Name":"Vibian Chepkurui",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Wien",
     "Date":"2022-04-24",
     "Year":2022,
@@ -1222,7 +1092,7 @@
   {
     "Time":"2:06:50",
     "Name":"Abay Alemu",
-    "Country":"ETH",
+    "Country":"et",
     "City":"Wuxi",
     "Date":"2024-03-24",
     "Year":2024,
@@ -1232,7 +1102,7 @@
   {
     "Time":"2:24:46",
     "Name":"Veronica Maina",
-    "Country":"KEN",
+    "Country":"ke",
     "City":"Wuxi",
     "Date":"2024-03-24",
     "Year":2024,
@@ -1242,7 +1112,7 @@
   {
     "Time":"2:06:18",
     "Name":"Tebello Ramakongoana",
-    "Country":"LES",
+    "Country":null,
     "City":"Xiamen",
     "Date":"2025-01-05",
     "Year":2025,
@@ -1252,7 +1122,7 @@
   {
     "Time":"2:22:38",
     "Name":"Yingying Zhang",
-    "Country":"CHN",
+    "Country":"cn",
     "City":"Xiamen",
     "Date":"2008-01-05",
     "Year":2008,
@@ -1262,7 +1132,7 @@
   {
     "Time":"2:07:13",
     "Name":"Olivier Irabaruta",
-    "Country":"BDI",
+    "Country":"bi",
     "City":"Z\u00fcrich",
     "Date":"2022-04-10",
     "Year":2022,
@@ -1272,7 +1142,7 @@
   {
     "Time":"2:25:44",
     "Name":"Lisa Christina Nemec",
-    "Country":"CRO",
+    "Country":null,
     "City":"Z\u00fcrich",
     "Date":"2013-04-07",
     "Year":2013,

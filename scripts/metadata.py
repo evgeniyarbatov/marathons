@@ -6,9 +6,9 @@ import pandas as pd
 from functools import reduce
 from datetime import datetime, timedelta
 
-from utils import get_country_code
+from utils import get_country_code, get_athlete_country
 
-TIME_CUTOFF_DAYS = 2 * 365
+TIME_CUTOFF_DAYS = 365
 RECORD_LIMIT_CUTOFF = 20
 
 def format_date(dates):
@@ -32,15 +32,15 @@ def filter_df(df, dfs):
     return merged_df
 
 def get_metadata(df, metadata_output_file):
-    count_by_gender = df.groupby(['City', 'Gender'])\
-        .agg(unique_count=('Name', 'nunique'))\
+    count_by_gender = df.groupby(["City", "Gender"])\
+        .agg(unique_count=("Name", "nunique"))\
         .reset_index()\
-        .rename(columns={'unique_count': 'People Count By Gender'})
+        .rename(columns={"unique_count": "People Count By Gender"})
 
     gender_count = count_by_gender.pivot(
-        index='City', 
-        columns='Gender', 
-        values='People Count By Gender'
+        index="City", 
+        columns="Gender", 
+        values="People Count By Gender"
     ).reset_index()
     gender_count.columns.name = None
     
@@ -68,6 +68,7 @@ def get_latest_times(df, latest_times_output):
     latest_times["Date"] = format_date(df["Date"])
     
     latest_times = filter_df(df, [latest_times])
+    latest_times["Country"] = latest_times["Country"].apply(get_athlete_country)
     
     latest_times.to_json(
         latest_times_output, 
@@ -83,6 +84,7 @@ def get_best_times(df, best_times_output):
     best_times["Date"] = format_date(df["Date"])
     
     best_times = filter_df(df, [best_times])
+    best_times["Country"] = best_times["Country"].apply(get_athlete_country)
     
     best_times.to_json(
         best_times_output, 

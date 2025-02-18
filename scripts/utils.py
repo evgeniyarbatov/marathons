@@ -1,5 +1,7 @@
 import json
 
+import pycountry
+
 from geopy.geocoders import Nominatim
 
 def cache(file_name):
@@ -33,4 +35,15 @@ def get_country_code(city_name):
     address = location['address']
     country_code = address.get('country_code', None)
     
-    return country_code.upper()
+    return country_code.lower()
+
+def get_athlete_country(alpha3):
+    if alpha3 == None:
+        return None
+    if len(alpha3) == 2: 
+        return alpha3.lower()
+    try:
+        country = pycountry.countries.get(alpha_3=alpha3)
+        return country.alpha_2.lower() if country else None
+    except AttributeError:
+        return None

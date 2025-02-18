@@ -32,7 +32,7 @@ defineProps({
           <div class="marathon-date">{{ formatDate(daysParsed[index]) }}</div>
           <span>{{ marathon.City }}</span>
           <div class="flag">
-            <span class="fi fi-gr"></span>
+            <span :class="`fi fi-${marathon.Country}`"></span>
           </div>
           <small>{{ getDaysMessage(daysParsed[index]) }}</small>
         </div>
@@ -65,7 +65,7 @@ defineProps({
             <ul>
               <li v-for="(bestTime, index) in getCityInfo(marathon.City, bestTimes)" :key="index">
                 {{ bestTime.Time }} - {{ bestTime.Name }}
-                <span class="fi fi-gr"></span>
+                <span :class="`fi fi-${bestTime.Country}`"></span>
                 ({{ bestTime.Year }})
               </li>
             </ul>
@@ -74,7 +74,7 @@ defineProps({
             <ul>
               <li v-for="(latestTime, index) in getCityInfo(marathon.City, latestTimes)" :key="index">
                 {{ latestTime.Time }} - {{ latestTime.Name }}
-                <span :class="`fi fi-${countryCode}`"></span>
+                <span :class="`fi fi-${latestTime.Country}`"></span>
                 ({{ latestTime.Year }})
               </li>
             </ul>
