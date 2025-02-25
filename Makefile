@@ -20,7 +20,7 @@ data:
 	$(KAGGLE) datasets download -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
 
-update:
+metadata:
 	@source $(VENV_PATH)/bin/activate && \
 	python3 scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json 
 
@@ -28,4 +28,4 @@ deploy:
 	cd $(SITE_DIR) && npm run build
 	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
 
-.PHONY: venv install data update deploy
+.PHONY: venv install data metadata deploy

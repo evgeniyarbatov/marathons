@@ -4,32 +4,13 @@ import json
 import pandas as pd 
 
 from functools import reduce
-from datetime import datetime, timedelta
-
 from utils import get_country_code, get_athlete_country
 
-TIME_CUTOFF_DAYS = 365
-RECORD_LIMIT_CUTOFF = 20
-
 def format_date(dates):
-    return dates.dt.strftime("%Y-%m-%d")
-
-def filter_df(df, dfs):
-    # Only get marathons with enough records
-    record_count = df.groupby("City").size().reset_index(name="Record Count")
-    record_count = record_count[record_count["Record Count"] >= RECORD_LIMIT_CUTOFF]
-
-    # Make sure we get marathons that are still happening
-    date_cutoff = datetime.today() - timedelta(days=TIME_CUTOFF_DAYS)
-    last_record = df.groupby("City")["Date"].max().reset_index(name="Last Record")
-    last_record = last_record[last_record["Last Record"] >= date_cutoff]   
-
-    dfs = dfs + [record_count, last_record]    
-    merged_df = reduce(lambda left, right: pd.merge(left, right, on="City", how="inner"), dfs)
-    
-    merged_df.drop("Last Record", axis=1, inplace=True)
-    
-    return merged_df
+    try:
+        return dates.dt.strftime("%Y-%m-%d")
+    except:
+        return None
 
 def get_metadata(df, metadata_output_file):
     count_by_gender = df.groupby(["City", "Gender"])\
@@ -47,12 +28,9 @@ def get_metadata(df, metadata_output_file):
     country_count = df.groupby("City")["Country"].nunique().reset_index(name="Country Count")
     people_count = df.groupby("City")["Name"].nunique().reset_index(name="People Count")
 
-    df = filter_df(df, [people_count, country_count, gender_count])
+    dfs = [people_count, country_count, gender_count]
+    df = reduce(lambda left, right: pd.merge(left, right, on='City', how='inner'), dfs)
     
-    with open(r"data/marathon_dates.json", "r") as f:
-        marathon_dates = json.load(f)
-        
-    df["Date"] = df["City"].map(marathon_dates)
     df["Country"] = df["City"].apply(lambda x: get_country_code(x))
 
     df.to_json(
@@ -65,9 +43,8 @@ def get_latest_times(df, latest_times_output):
     idx = df.groupby(["City", "Gender"])["Date"].idxmax()
     
     latest_times = df.loc[idx][["Time", "Name", "Country", "City", "Date", "Year", "Gender"]]
-    latest_times["Date"] = format_date(df["Date"])
     
-    latest_times = filter_df(df, [latest_times])
+    latest_times["Date"] = format_date(latest_times["Date"])
     latest_times["Country"] = latest_times["Country"].apply(get_athlete_country)
     
     latest_times.to_json(
@@ -81,9 +58,8 @@ def get_best_times(df, best_times_output):
     idx = df.groupby(["City", "Gender"])["Running Time"].idxmin()
     
     best_times = df.loc[idx][["Time", "Name", "Country", "City", "Date", "Year", "Gender"]]
-    best_times["Date"] = format_date(df["Date"])
     
-    best_times = filter_df(df, [best_times])
+    best_times["Date"] = format_date(best_times["Date"])
     best_times["Country"] = best_times["Country"].apply(get_athlete_country)
     
     best_times.to_json(

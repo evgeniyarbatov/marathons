@@ -8,10 +8,9 @@ import MarathonsTable from './components/MarathonsTable.vue'
   <header>
     <div class="wrapper">
       <MarathonsTable 
-        :marathons="sortedMarathons" 
+        :marathons="marathons" 
         :bestTimes="bestTimes"
-        :latestTimes="latestTimes"
-        :daysParsed="daysParsed" />
+        :latestTimes="latestTimes" />
     </div>
   </header>
 </template>
@@ -37,28 +36,5 @@ export default {
       axios.get('/latest_times.json'),
     ]);
   },
-  methods: {
-    parseDate(date) {
-      const parts = date.split('/')
-      const year = new Date().getFullYear()
-      const month = parseInt(parts[1]) - 1
-      const day = parseInt(parts[0])
-      return new Date(year, month, day)
-    }
-  },
-  computed: {
-    sortedMarathons: function () {
-      const self = this
-      return this.marathons.sort(
-        (a, b) => self.parseDate(a.Date) - self.parseDate(b.Date)
-      );
-    },
-    daysParsed: function () {
-      const self = this
-      return this.marathons.map(function (marathon) {
-        return self.parseDate(marathon.Date)
-      })
-    }
-  }
 }
 </script>

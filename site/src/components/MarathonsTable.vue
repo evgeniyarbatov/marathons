@@ -25,16 +25,15 @@ defineProps({
       <li
         v-for="(marathon, index) in marathons"
         :key="marathon.city"
-        :class="{ 'disabled': isDateInPast(daysParsed[index]) }"
         class="list-group-item"
       >
         <div class="item-header">
-          <div class="marathon-date">{{ formatDate(daysParsed[index]) }}</div>
-          <span>{{ marathon.City }}</span>
-          <div class="flag">
-            <span :class="`fi fi-${marathon.Country}`"></span>
-          </div>
-          <small>{{ getDaysMessage(daysParsed[index]) }}</small>
+          <span>
+            {{ marathon.City }}
+            <div class="flag">
+              <span :class="`fi fi-${marathon.Country}`"></span>
+            </div>
+          </span>
         </div>
         
         <div class="table-container">
@@ -88,26 +87,6 @@ defineProps({
 <script>
 export default {
   methods: {
-    isDateInPast(date) {
-      return date < new Date()
-    },
-    formatDate(date) {
-      return date.toLocaleDateString('en-US', {
-        month: 'long',
-        day: 'numeric'
-      })
-    },
-    getDaysMessage: function (date) {
-      const difference = new Date() - date
-      const daysDifference = Math.floor(difference / (1000 * 60 * 60 * 24))
-      if (daysDifference > 0) {
-        return daysDifference + ' days ago'
-      } else if (daysDifference < 0) {
-        return Math.abs(daysDifference) + ' days to go'
-      } else {
-        return 'today on'
-      }
-    },
     getCityInfo: function (city, info) {
       return info.filter(time => time.City === city)
     },
