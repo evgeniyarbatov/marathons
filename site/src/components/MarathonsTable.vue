@@ -61,6 +61,7 @@ defineProps({
         
         <div class="row">
           <div class="col">
+            <h3 class="section-heading">Best</h3>
             <ul>
               <li v-for="(bestTime, index) in getCityInfo(marathon.City, bestTimes)" :key="index">
                 {{ bestTime.Time }} - {{ bestTime.Name }}
@@ -70,6 +71,7 @@ defineProps({
             </ul>
           </div>
           <div class="col">
+            <h3 class="section-heading">Latest</h3>
             <ul>
               <li v-for="(latestTime, index) in getCityInfo(marathon.City, latestTimes)" :key="index">
                 {{ latestTime.Time }} - {{ latestTime.Name }}
@@ -157,5 +159,14 @@ ul {
 
 li {
   margin-bottom: 5px;
+}
+
+.section-heading {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 5px;
 }
 </style>
