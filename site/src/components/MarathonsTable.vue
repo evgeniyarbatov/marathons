@@ -20,30 +20,31 @@ defineProps({
 </script>
 
 <template>
-  <div class="marathons-table">
-    <ul class="list-group">
+  <section class="marathons-table" role="main" aria-label="Marathon records by city">
+    <ul class="list-group" role="list">
       <li
         v-for="(marathon, index) in marathons"
         :key="marathon.city"
         class="list-group-item"
       >
-        <div class="item-header">
-          <span>
+        <header class="item-header">
+          <h2>
             {{ marathon.City }}
-            <div class="flag">
+            <div class="flag" role="img" :aria-label="`${marathon.City} country flag`">
               <span :class="`fi fi-${marathon.Country}`"></span>
             </div>
-          </span>
-        </div>
+          </h2>
+        </header>
         
         <div class="table-container">
-          <table>
+          <table role="table" :aria-label="`Statistics for ${marathon.City} marathon`">
+            <caption class="sr-only">Marathon statistics for {{ marathon.City }}</caption>
             <thead>
               <tr>
-                <th>Countries</th>
-                <th>Athletes</th>
-                <th>Men</th>
-                <th>Women</th>
+                <th scope="col">Countries</th>
+                <th scope="col">Athletes</th>
+                <th scope="col">Men</th>
+                <th scope="col">Women</th>
               </tr>
             </thead>
             <tbody>
@@ -114,7 +115,7 @@ defineProps({
         </div>
       </li>
     </ul>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -161,6 +162,16 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px;
+}
+
+.item-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .flag {
@@ -220,5 +231,17 @@ li {
   color: #333;
   border-bottom: 2px solid #667eea;
   padding-bottom: 5px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 </style>

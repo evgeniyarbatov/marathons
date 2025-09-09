@@ -5,38 +5,47 @@ import MarathonsTable from './components/MarathonsTable.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <div class="site-header">
-        <h1>Marathon Records</h1>
-        <p>Best and latest times from marathons worldwide.</p>
-        <div class="last-updated">
-          Last updated: {{ lastUpdated }}
+  <div>
+    <header>
+      <div class="wrapper">
+        <div class="site-header">
+          <h1>Marathon Records</h1>
+          <p>Best and latest times from marathons worldwide.</p>
+          <time class="last-updated" :datetime="lastUpdatedISO">
+            Last updated: {{ lastUpdated }}
+          </time>
         </div>
       </div>
-      <MarathonsTable 
-        :marathons="marathons" 
-        :bestTimes="bestTimes"
-        :latestTimes="latestTimes" />
-    </div>
-  </header>
+    </header>
+    
+    <main>
+      <div class="wrapper">
+        <MarathonsTable 
+          :marathons="marathons" 
+          :bestTimes="bestTimes"
+          :latestTimes="latestTimes" />
+      </div>
+    </main>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'app',
   data() {
+    const now = new Date();
     return {
       marathons: [],
       bestTimes: [],
       latestTimes: [],
-      lastUpdated: new Date().toLocaleDateString('en-US', {
+      lastUpdated: now.toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'long', 
         day: 'numeric',
         hour: '2-digit',
         minute: '2-digit'
-      })
+      }),
+      lastUpdatedISO: now.toISOString()
     }
   },
   async created() {
