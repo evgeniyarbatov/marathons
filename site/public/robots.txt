@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://https://marathons.gritcuriosityandperseverance.org/sitemap.xml
+Sitemap: https://marathons.gritcuriosityandperseverance.org/sitemap.xml
 
 # Allow access to static assets
 Allow: /assets/

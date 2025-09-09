@@ -33,19 +33,19 @@ import MarathonsTable from './components/MarathonsTable.vue'
 export default {
   name: 'app',
   data() {
-    const now = new Date();
+    const lastDeployTime = new Date('2025-09-09T08:40:10Z');
     return {
       marathons: [],
       bestTimes: [],
       latestTimes: [],
-      lastUpdated: now.toLocaleDateString('en-US', {
+      lastUpdated: lastDeployTime.toLocaleDateString('en-US', {
         year: 'numeric',
         month: 'long', 
         day: 'numeric',
         hour: '2-digit',
         minute: '2-digit'
       }),
-      lastUpdatedISO: now.toISOString()
+      lastUpdatedISO: lastDeployTime.toISOString()
     }
   },
   async created() {
