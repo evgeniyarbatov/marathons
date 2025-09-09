@@ -41,7 +41,6 @@ defineProps({
             <thead>
               <tr>
                 <th>Countries</th>
-                <th>Records</th>
                 <th>Athletes</th>
                 <th>Men</th>
                 <th>Women</th>
@@ -50,7 +49,6 @@ defineProps({
             <tbody>
               <tr v-for="item in getCityInfo(marathon.City, marathons)" :key="item.id">
                 <td>{{ item['Country Count'] }}</td>
-                <td>{{ item['Record Count'] }}</td>
                 <td>{{ item['People Count'] }}</td>
                 <td>{{ item.Men }}</td>
                 <td>{{ item.Women }}</td>
@@ -59,26 +57,59 @@ defineProps({
           </table>
         </div>
         
-        <div class="row">
-          <div class="col">
-            <h3 class="section-heading">Best</h3>
-            <ul>
-              <li v-for="(bestTime, index) in getCityInfo(marathon.City, bestTimes)" :key="index">
-                {{ bestTime.Time }} - {{ bestTime.Name }}
-                <span :class="`fi fi-${bestTime.Country}`"></span>
-                ({{ bestTime.Year }})
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h3 class="section-heading">Latest</h3>
-            <ul>
-              <li v-for="(latestTime, index) in getCityInfo(marathon.City, latestTimes)" :key="index">
-                {{ latestTime.Time }} - {{ latestTime.Name }}
-                <span :class="`fi fi-${latestTime.Country}`"></span>
-                ({{ latestTime.Year }})
-              </li>
-            </ul>
+        <div class="times-section">
+          <div class="times-row">
+            <div class="times-col">
+              <h3 class="section-heading">Best</h3>
+              
+              <div class="gender-section" v-if="getCityInfoByGender(marathon.City, bestTimes, 'Men').length > 0">
+                <h4 class="gender-heading">Men</h4>
+                <ul>
+                  <li v-for="(bestTime, index) in getCityInfoByGender(marathon.City, bestTimes, 'Men')" :key="`best-men-${index}`">
+                    {{ bestTime.Time }} - {{ bestTime.Name }}
+                    <span :class="`fi fi-${bestTime.Country}`"></span>
+                    ({{ bestTime.Year }})
+                  </li>
+                </ul>
+              </div>
+
+              <div class="gender-section" v-if="getCityInfoByGender(marathon.City, bestTimes, 'Women').length > 0">
+                <h4 class="gender-heading">Women</h4>
+                <ul>
+                  <li v-for="(bestTime, index) in getCityInfoByGender(marathon.City, bestTimes, 'Women')" :key="`best-women-${index}`">
+                    {{ bestTime.Time }} - {{ bestTime.Name }}
+                    <span :class="`fi fi-${bestTime.Country}`"></span>
+                    ({{ bestTime.Year }})
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="times-col">
+              <h3 class="section-heading">Latest</h3>
+              
+              <div class="gender-section" v-if="getCityInfoByGender(marathon.City, latestTimes, 'Men').length > 0">
+                <h4 class="gender-heading">Men</h4>
+                <ul>
+                  <li v-for="(latestTime, index) in getCityInfoByGender(marathon.City, latestTimes, 'Men')" :key="`latest-men-${index}`">
+                    {{ latestTime.Time }} - {{ latestTime.Name }}
+                    <span :class="`fi fi-${latestTime.Country}`"></span>
+                    ({{ latestTime.Year }})
+                  </li>
+                </ul>
+              </div>
+
+              <div class="gender-section" v-if="getCityInfoByGender(marathon.City, latestTimes, 'Women').length > 0">
+                <h4 class="gender-heading">Women</h4>
+                <ul>
+                  <li v-for="(latestTime, index) in getCityInfoByGender(marathon.City, latestTimes, 'Women')" :key="`latest-women-${index}`">
+                    {{ latestTime.Time }} - {{ latestTime.Name }}
+                    <span :class="`fi fi-${latestTime.Country}`"></span>
+                    ({{ latestTime.Year }})
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </li>
@@ -91,6 +122,9 @@ export default {
   methods: {
     getCityInfo: function (city, info) {
       return info.filter(time => time.City === city)
+    },
+    getCityInfoByGender: function (city, info, gender) {
+      return info.filter(time => time.City === city && time.Gender === gender)
     },
   }
 }
@@ -143,13 +177,31 @@ export default {
   text-align: center;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
+.times-section {
+  margin-top: 15px;
 }
 
-.col {
-  width: 48%;
+.times-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.times-col {
+  flex: 1;
+}
+
+.gender-section {
+  margin-bottom: 15px;
+}
+
+.gender-heading {
+  margin: 0 0 8px 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 ul {
