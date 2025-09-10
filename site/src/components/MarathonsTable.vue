@@ -1,5 +1,5 @@
 <script setup>
-defineProps({
+const props = defineProps({
   marathons: {
     type: Object,
     required: true
@@ -23,7 +23,7 @@ defineProps({
   <section class="marathons-table" role="main" aria-label="Marathon records by city">
     <ul class="list-group" role="list">
       <li
-        v-for="(marathon, index) in marathons"
+        v-for="(marathon, index) in sortedMarathons"
         :key="marathon.city"
         class="list-group-item"
       >
@@ -120,6 +120,20 @@ defineProps({
 
 <script>
 export default {
+  computed: {
+    sortedMarathons() {
+      return [...this.marathons].sort((a, b) => {
+        const aBestTime = this.getBestTimeForCity(a.City);
+        const bBestTime = this.getBestTimeForCity(b.City);
+        
+        if (!aBestTime && !bBestTime) return 0;
+        if (!aBestTime) return 1;
+        if (!bBestTime) return -1;
+        
+        return this.timeToSeconds(aBestTime) - this.timeToSeconds(bBestTime);
+      });
+    }
+  },
   methods: {
     getCityInfo: function (city, info) {
       return info.filter(time => time.City === city)
@@ -127,6 +141,30 @@ export default {
     getCityInfoByGender: function (city, info, gender) {
       return info.filter(time => time.City === city && time.Gender === gender)
     },
+    getBestTimeForCity(city) {
+      const menTimes = this.getCityInfoByGender(city, this.bestTimes, 'Men');
+      const womenTimes = this.getCityInfoByGender(city, this.bestTimes, 'Women');
+      const allTimes = [...menTimes, ...womenTimes];
+      
+      if (allTimes.length === 0) return null;
+      
+      return allTimes.reduce((best, current) => {
+        const bestSeconds = this.timeToSeconds(best.Time);
+        const currentSeconds = this.timeToSeconds(current.Time);
+        return currentSeconds < bestSeconds ? current : best;
+      }).Time;
+    },
+    timeToSeconds(timeString) {
+      if (!timeString) return Infinity;
+      const parts = timeString.split(':');
+      if (parts.length === 3) {
+        const hours = parseInt(parts[0], 10);
+        const minutes = parseInt(parts[1], 10);
+        const seconds = parseInt(parts[2], 10);
+        return hours * 3600 + minutes * 60 + seconds;
+      }
+      return Infinity;
+    }
   }
 }
 </script>

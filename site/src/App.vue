@@ -10,10 +10,6 @@ import MarathonsTable from './components/MarathonsTable.vue'
       <div class="wrapper">
         <div class="site-header">
           <h1>Marathon Records</h1>
-          <p>Best and latest times from marathons worldwide.</p>
-          <time class="last-updated" :datetime="lastUpdatedISO">
-            Last updated: {{ lastUpdated }}
-          </time>
         </div>
       </div>
     </header>
@@ -26,6 +22,14 @@ import MarathonsTable from './components/MarathonsTable.vue'
           :latestTimes="latestTimes" />
       </div>
     </main>
+    
+    <footer>
+      <div class="wrapper">
+        <time class="last-updated" :datetime="lastUpdatedISO">
+          Last updated: {{ lastUpdated }}
+        </time>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -33,19 +37,12 @@ import MarathonsTable from './components/MarathonsTable.vue'
 export default {
   name: 'app',
   data() {
-    const lastDeployTime = new Date('2025-09-09T08:40:10Z');
     return {
       marathons: [],
       bestTimes: [],
       latestTimes: [],
-      lastUpdated: lastDeployTime.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long', 
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      }),
-      lastUpdatedISO: lastDeployTime.toISOString()
+      lastUpdated: '',
+      lastUpdatedISO: ''
     }
   },
   async created() {
@@ -58,6 +55,22 @@ export default {
       axios.get('/best_times.json'),
       axios.get('/latest_times.json'),
     ]);
+
+    // Load last updated timestamp
+    try {
+      const response = await axios.get('/last_update.txt');
+      const lastDeployTime = new Date(response.data.trim());
+      this.lastUpdated = lastDeployTime.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long', 
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+      this.lastUpdatedISO = lastDeployTime.toISOString();
+    } catch (error) {
+      console.warn('Could not load last update timestamp:', error);
+    }
   },
 }
 </script>
@@ -87,10 +100,18 @@ export default {
   margin: 0 auto 1rem auto;
 }
 
+footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
 .last-updated {
   font-size: 0.9rem;
   opacity: 0.8;
   font-style: italic;
+  color: #666;
 }
 
 .wrapper {
