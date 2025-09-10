@@ -6,30 +6,41 @@ import MarathonsTable from './components/MarathonsTable.vue'
 
 <template>
   <div>
-    <header>
-      <div class="wrapper">
-        <div class="site-header">
-          <h1>Marathon Records</h1>
+    <!-- Loading State -->
+    <div v-if="isLoading" class="loading-container">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <h1>Marathon Records</h1>
+      </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div v-else>
+      <header>
+        <div class="wrapper">
+          <div class="site-header">
+            <h1>Marathon Records</h1>
+          </div>
         </div>
-      </div>
-    </header>
-    
-    <main>
-      <div class="wrapper">
-        <MarathonsTable 
-          :marathons="marathons" 
-          :bestTimes="bestTimes"
-          :latestTimes="latestTimes" />
-      </div>
-    </main>
-    
-    <footer>
-      <div class="wrapper">
-        <time class="last-updated" :datetime="lastUpdatedISO">
-          Last updated: {{ lastUpdated }}
-        </time>
-      </div>
-    </footer>
+      </header>
+      
+      <main>
+        <div class="wrapper">
+          <MarathonsTable 
+            :marathons="marathons" 
+            :bestTimes="bestTimes"
+            :latestTimes="latestTimes" />
+        </div>
+      </main>
+      
+      <footer>
+        <div class="wrapper">
+          <time class="last-updated" :datetime="lastUpdatedISO">
+            Last updated: {{ lastUpdated }}
+          </time>
+        </div>
+      </footer>
+    </div>
   </div>
 </template>
 
@@ -42,44 +53,98 @@ export default {
       bestTimes: [],
       latestTimes: [],
       lastUpdated: '',
-      lastUpdatedISO: ''
+      lastUpdatedISO: '',
+      isLoading: true
     }
   },
   async created() {
-    [
-      { data: this.marathons }, 
-      { data: this.bestTimes },
-      { data: this.latestTimes },
-    ] = await axios.all([
-      axios.get('/marathons.json'), 
-      axios.get('/best_times.json'),
-      axios.get('/latest_times.json'),
-    ]);
-
-    // Load last updated timestamp
     try {
-      const response = await axios.get('/last_update.txt');
-      const lastDeployTime = new Date(response.data.trim());
-      this.lastUpdated = lastDeployTime.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long', 
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-      this.lastUpdatedISO = lastDeployTime.toISOString();
+      [
+        { data: this.marathons }, 
+        { data: this.bestTimes },
+        { data: this.latestTimes },
+      ] = await axios.all([
+        axios.get('/marathons.json'), 
+        axios.get('/best_times.json'),
+        axios.get('/latest_times.json'),
+      ]);
+
+      // Load last updated timestamp
+      try {
+        const response = await axios.get('/last_update.txt');
+        const lastDeployTime = new Date(response.data.trim());
+        this.lastUpdated = lastDeployTime.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long', 
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+        this.lastUpdatedISO = lastDeployTime.toISOString();
+      } catch (error) {
+        console.warn('Could not load last update timestamp:', error);
+      }
     } catch (error) {
-      console.warn('Could not load last update timestamp:', error);
+      console.error('Failed to load marathon data:', error);
+    } finally {
+      this.isLoading = false;
     }
   },
 }
 </script>
 
 <style scoped>
+/* Loading styles */
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.loading-content {
+  text-align: center;
+  color: white;
+}
+
+.loading-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.loading-content p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top: 3px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Site styles */
 .site-header {
   text-align: center;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border-radius: 10px;
@@ -87,8 +152,8 @@ export default {
 }
 
 .site-header h1 {
-  margin: 0 0 0.5rem 0;
-  font-size: 2.5rem;
+  margin: 0;
+  font-size: 2rem;
   font-weight: 700;
 }
 
