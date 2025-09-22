@@ -3081,9 +3081,9 @@
   },
   {
     "City":"Tallinn",
-    "People Count":2,
+    "People Count":3,
     "Country Count":2,
-    "Men":null,
+    "Men":1.0,
     "Women":2.0,
     "Country":"ee"
   },
