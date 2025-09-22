@@ -28,6 +28,7 @@ metadata: install
 deploy:
 	./scripts/update_timestamp.sh
 	cd $(SITE_DIR) && npm install --force && npm run build
-	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
+	cd $(TERRAFORM_DIR) && terraform init -reconfigure -input=false && \
+	terraform apply -auto-approve
 
 .PHONY: venv install data metadata deploy
