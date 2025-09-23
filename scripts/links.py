@@ -1,20 +1,15 @@
 #!/usr/bin/env python3
 """
 Script to fetch Wikipedia page links for marathon athletes.
-Usage: python3 fetch_wikipedia_links.py <input_csv> <output_json>
+Usage: python3 links.py <input_json1> <input_json2> ... <output_json>
 """
 
 import sys
-import csv
 import json
 import requests
 import time
 import os
 from urllib.parse import quote
-
-import requests
-from urllib.parse import quote
-import time
 
 def search_wikipedia(athlete_name):
     base_url = "https://en.wikipedia.org/api/rest_v1/page/summary/"
@@ -52,13 +47,8 @@ def search_wikipedia(athlete_name):
 
     return None
 
-def main(csv_file, output_file):
-    """Main function to process marathon data and fetch Wikipedia links."""
-
-    # Check if input file exists
-    if not os.path.exists(csv_file):
-        print(f"Error: {csv_file} not found")
-        return
+def main(input_files, output_file):
+    """Main function to process marathon JSON data and fetch Wikipedia links."""
 
     # Create output directory if it doesn't exist
     output_dir = os.path.dirname(output_file)
@@ -77,15 +67,23 @@ def main(csv_file, output_file):
 
     processed_athletes = set()
 
-    print("Reading marathon data...")
+    print("Reading marathon data from JSON files...")
 
-    try:
-        with open(csv_file, 'r', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
+    # Process each input JSON file
+    for json_file in input_files:
+        print(f"Processing {json_file}...")
 
-            for row in reader:
-                name = row.get('Name', '').strip()
-                country = row.get('Country', '').strip()
+        # Check if input file exists
+        if not os.path.exists(json_file):
+            print(f"Warning: {json_file} not found, skipping")
+            continue
+
+        try:
+            with open(json_file, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+
+            for entry in data:
+                name = entry.get('Name', '').strip()
 
                 if not name or name in processed_athletes:
                     continue
@@ -117,9 +115,9 @@ def main(csv_file, output_file):
                 # Be respectful to Wikipedia's servers
                 time.sleep(0.2)
 
-    except Exception as e:
-        print(f"Error reading CSV file: {e}")
-        return
+        except Exception as e:
+            print(f"Error reading JSON file {json_file}: {e}")
+            continue
 
     # Final save
     try:
@@ -132,13 +130,19 @@ def main(csv_file, output_file):
         # Print summary
         found_count = len(wikipedia_links)
         total_count = len(processed_athletes)
-        print(f"Success rate: {found_count}/{total_count} ({found_count/total_count*100:.1f}%)")
+        if total_count > 0:
+            print(f"Success rate: {found_count}/{total_count} ({found_count/total_count*100:.1f}%)")
 
     except Exception as e:
         print(f"Error saving results: {e}")
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3:
+        print("Usage: python3 links.py <input_json1> [input_json2] ... <output_json>")
         sys.exit(1)
 
-    main(sys.argv[1], sys.argv[2])
+    # All arguments except the last one are input files
+    input_files = sys.argv[1:-1]
+    output_file = sys.argv[-1]
+
+    main(input_files, output_file)
