@@ -40,9 +40,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
             Last updated: {{ lastUpdated }}
           </time>
           <div class="buy-me-coffee">
-            <a href="https://buymeacoffee.com/arbatov" target="_blank" rel="noopener noreferrer">
-              ☕ Buy me a coffee
-            </a>
+            <a href="https://www.buymeacoffee.com/arbatov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
           </div>
         </div>
       </footer>
@@ -193,20 +191,7 @@ footer {
 
 .buy-me-coffee a {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
-  color: white;
   text-decoration: none;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.buy-me-coffee a:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .wrapper {
