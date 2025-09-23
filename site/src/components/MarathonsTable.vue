@@ -15,6 +15,11 @@ const props = defineProps({
   daysParsed: {
     type: Object,
     required: true
+  },
+  links: {
+    type: Object,
+    required: false,
+    default: () => ({})
   }
 })
 </script>
@@ -67,8 +72,12 @@ const props = defineProps({
                 <h4 class="gender-heading">Men</h4>
                 <ul>
                   <li v-for="(bestTime, index) in getCityInfoByGender(marathon.City, bestTimes, 'Men')" :key="`best-men-${index}`">
-                    {{ bestTime.Time }} - {{ bestTime.Name }}
-                    <span :class="`fi fi-${bestTime.Country}`"></span>
+                    {{ bestTime.Time }} -
+                    <a v-if="links[bestTime.Name]" :href="links[bestTime.Name]" target="_blank" rel="noopener noreferrer" class="wikipedia-link">
+                      {{ bestTime.Name }}
+                    </a>
+                    <span v-else>{{ bestTime.Name }}</span>
+                    {{ ' ' }}<span :class="`fi fi-${bestTime.Country}`"></span>
                     ({{ bestTime.Year }})
                   </li>
                 </ul>
@@ -78,8 +87,12 @@ const props = defineProps({
                 <h4 class="gender-heading">Women</h4>
                 <ul>
                   <li v-for="(bestTime, index) in getCityInfoByGender(marathon.City, bestTimes, 'Women')" :key="`best-women-${index}`">
-                    {{ bestTime.Time }} - {{ bestTime.Name }}
-                    <span :class="`fi fi-${bestTime.Country}`"></span>
+                    {{ bestTime.Time }} -
+                    <a v-if="links[bestTime.Name]" :href="links[bestTime.Name]" target="_blank" rel="noopener noreferrer" class="wikipedia-link">
+                      {{ bestTime.Name }}
+                    </a>
+                    <span v-else>{{ bestTime.Name }}</span>
+                    {{ ' ' }}<span :class="`fi fi-${bestTime.Country}`"></span>
                     ({{ bestTime.Year }})
                   </li>
                 </ul>
@@ -93,8 +106,12 @@ const props = defineProps({
                 <h4 class="gender-heading">Men</h4>
                 <ul>
                   <li v-for="(latestTime, index) in getCityInfoByGender(marathon.City, latestTimes, 'Men')" :key="`latest-men-${index}`">
-                    {{ latestTime.Time }} - {{ latestTime.Name }}
-                    <span :class="`fi fi-${latestTime.Country}`"></span>
+                    {{ latestTime.Time }} -
+                    <a v-if="links[latestTime.Name]" :href="links[latestTime.Name]" target="_blank" rel="noopener noreferrer" class="wikipedia-link">
+                      {{ latestTime.Name }}
+                    </a>
+                    <span v-else>{{ latestTime.Name }}</span>
+                    {{ ' ' }}<span :class="`fi fi-${latestTime.Country}`"></span>
                     ({{ latestTime.Year }})
                   </li>
                 </ul>
@@ -104,8 +121,12 @@ const props = defineProps({
                 <h4 class="gender-heading">Women</h4>
                 <ul>
                   <li v-for="(latestTime, index) in getCityInfoByGender(marathon.City, latestTimes, 'Women')" :key="`latest-women-${index}`">
-                    {{ latestTime.Time }} - {{ latestTime.Name }}
-                    <span :class="`fi fi-${latestTime.Country}`"></span>
+                    {{ latestTime.Time }} -
+                    <a v-if="links[latestTime.Name]" :href="links[latestTime.Name]" target="_blank" rel="noopener noreferrer" class="wikipedia-link">
+                      {{ latestTime.Name }}
+                    </a>
+                    <span v-else>{{ latestTime.Name }}</span>
+                    {{ ' ' }}<span :class="`fi fi-${latestTime.Country}`"></span>
                     ({{ latestTime.Year }})
                   </li>
                 </ul>
@@ -281,5 +302,18 @@ li {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+.wikipedia-link {
+  color: #667eea;
+  text-decoration: none;
+  border-bottom: 1px dotted #667eea;
+  transition: color 0.2s ease;
+}
+
+.wikipedia-link:hover {
+  color: #5a67d8;
+  text-decoration: none;
+  border-bottom-style: solid;
 }
 </style>

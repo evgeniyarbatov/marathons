@@ -23,7 +23,10 @@ data:
 
 metadata: install
 	@source $(VENV_PATH)/bin/activate && \
-	python3 scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json 
+	python3 scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json
+
+links: install
+	python3 scripts/links.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/links.json 
 
 deploy:
 	./scripts/update_timestamp.sh

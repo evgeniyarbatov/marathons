@@ -26,10 +26,11 @@ import MarathonsTable from './components/MarathonsTable.vue'
       
       <main>
         <div class="wrapper">
-          <MarathonsTable 
-            :marathons="marathons" 
+          <MarathonsTable
+            :marathons="marathons"
             :bestTimes="bestTimes"
-            :latestTimes="latestTimes" />
+            :latestTimes="latestTimes"
+            :links="links" />
         </div>
       </main>
       
@@ -52,6 +53,7 @@ export default {
       marathons: [],
       bestTimes: [],
       latestTimes: [],
+      links: {},
       lastUpdated: '',
       lastUpdatedISO: '',
       isLoading: true
@@ -60,13 +62,15 @@ export default {
   async created() {
     try {
       [
-        { data: this.marathons }, 
+        { data: this.marathons },
         { data: this.bestTimes },
         { data: this.latestTimes },
+        { data: this.links },
       ] = await axios.all([
-        axios.get('/marathons.json'), 
+        axios.get('/marathons.json'),
         axios.get('/best_times.json'),
         axios.get('/latest_times.json'),
+        axios.get('/links.json'),
       ]);
 
       // Load last updated timestamp
