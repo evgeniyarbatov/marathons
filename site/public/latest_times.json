@@ -450,21 +450,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:03:17",
-    "Name":"Milkesa Mengesha",
-    "Country":"et",
+    "Time":"2:06:15",
+    "Name":"Akira Akasaki",
+    "Country":"jp",
     "City":"Berlin",
-    "Date":"2024-09-29",
-    "Year":2024,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Men"
   },
   {
-    "Time":"2:18:48",
-    "Name":"Mestawut Fikir",
-    "Country":"et",
+    "Time":"2:21:40",
+    "Name":"Violah Cheptoo",
+    "Country":"ke",
     "City":"Berlin",
-    "Date":"2024-09-29",
-    "Year":2024,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -702,21 +702,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:12:51",
-    "Name":"Hillary Kering",
-    "Country":"ke",
+    "Time":"2:09:24",
+    "Name":"Habtamu Birlew",
+    "Country":"et",
     "City":"Buenos Aires",
-    "Date":"2024-09-22",
-    "Year":2024,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Men"
   },
   {
-    "Time":"2:30:37",
-    "Name":"Tigist Bikila",
+    "Time":"2:29:07",
+    "Name":"Alemitu Tariku",
     "Country":"et",
     "City":"Buenos Aires",
-    "Date":"2023-09-24",
-    "Year":2023,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -2043,21 +2043,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:10:25",
-    "Name":"Zhongrui Guo",
+    "Time":"2:12:58",
+    "Name":"Yunce Xie",
     "Country":"cn",
     "City":"Hengshui",
-    "Date":"2024-09-22",
-    "Year":2024,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Men"
   },
   {
-    "Time":"2:26:47",
-    "Name":"Cuomu Ciren",
+    "Time":"2:32:44",
+    "Name":"Jiali Wang",
     "Country":"cn",
     "City":"Hengshui",
-    "Date":"2024-09-22",
-    "Year":2024,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -2151,8 +2151,8 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:33:26",
-    "Name":"Ayana Demilew Zemenay",
+    "Time":"2:33:35",
+    "Name":"Ashumar Zebenay",
     "Country":"et",
     "City":"Huai'an",
     "Date":"2025-04-13",
@@ -2412,12 +2412,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:33:22",
-    "Name":"Natalya Leontyeva",
+    "Time":"2:32:06",
+    "Name":"Alena Tatarinova",
     "Country":"ru",
     "City":"Kazan",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2024-05-12",
+    "Year":2024,
     "Gender":"Women"
   },
   {
@@ -3330,12 +3330,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:30:10",
-    "Name":"Natalya Sokolova",
+    "Time":"2:28:32",
+    "Name":"Luiza Lega",
     "Country":"ru",
     "City":"Moskva",
-    "Date":"2012-09-09",
-    "Year":2012,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -3933,12 +3933,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:28:35",
-    "Name":"Luiza Dmitriyeva",
+    "Time":"2:34:44",
+    "Name":"Anastasya Slepneva",
     "Country":"ru",
     "City":"Perm",
-    "Date":"2020-09-06",
-    "Year":2020,
+    "Date":"2018-09-09",
+    "Year":2018,
     "Gender":"Women"
   },
   {
@@ -4109,6 +4109,24 @@
     "Country":"et",
     "City":"Praha",
     "Date":"2025-05-04",
+    "Year":2025,
+    "Gender":"Women"
+  },
+  {
+    "Time":"2:09:20",
+    "Name":"Samuel Naibei Kiplimo",
+    "Country":"ke",
+    "City":"Prinzipalmarkt",
+    "Date":"2025-09-21",
+    "Year":2025,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:32:31",
+    "Name":"Caroline Biwott",
+    "Country":"ke",
+    "City":"Prinzipalmarkt",
+    "Date":"2025-09-21",
     "Year":2025,
     "Gender":"Women"
   },
@@ -4581,12 +4599,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:59",
-    "Name":"Yudai Fukuda",
-    "Country":"jp",
+    "Time":"2:10:49",
+    "Name":"Luka Musembi",
+    "Country":"ke",
     "City":"Sapporo",
-    "Date":"2025-08-31",
-    "Year":2025,
+    "Date":"2022-08-28",
+    "Year":2022,
     "Gender":"Men"
   },
   {
@@ -4995,9 +5013,9 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:07:32",
-    "Name":"Akira Akasaki",
-    "Country":"jp",
+    "Time":"2:11:41",
+    "Name":"Yaseen Abdalla",
+    "Country":null,
     "City":"Stade de France",
     "Date":"2024-08-10",
     "Year":2024,
@@ -5139,21 +5157,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:12:46",
-    "Name":"Aman Kedi",
+    "Time":"2:13:00",
+    "Name":"Birhanu Semachew",
     "Country":"et",
     "City":"Taiyuan",
-    "Date":"2024-09-22",
-    "Year":2024,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Men"
   },
   {
-    "Time":"2:25:45",
-    "Name":"Fantu Zewude",
+    "Time":"2:28:07",
+    "Name":"Ayana Demilew Zemenay",
     "Country":"et",
     "City":"Taiyuan",
-    "Date":"2023-05-21",
-    "Year":2023,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {

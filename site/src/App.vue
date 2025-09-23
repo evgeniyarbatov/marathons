@@ -39,6 +39,11 @@ import MarathonsTable from './components/MarathonsTable.vue'
           <time class="last-updated" :datetime="lastUpdatedISO">
             Last updated: {{ lastUpdated }}
           </time>
+          <div class="buy-me-coffee">
+            <a href="https://buymeacoffee.com/arbatov" target="_blank" rel="noopener noreferrer">
+              ☕ Buy me a coffee
+            </a>
+          </div>
         </div>
       </footer>
     </div>
@@ -170,9 +175,8 @@ export default {
 }
 
 footer {
-  margin-top: 3rem;
-  padding: 2rem 0;
-  border-top: 1px solid #e5e5e5;
+  margin-top: 1rem;
+  padding: 1rem 0 0 0;
   text-align: center;
 }
 
@@ -181,6 +185,28 @@ footer {
   opacity: 0.8;
   font-style: italic;
   color: #666;
+}
+
+.buy-me-coffee {
+  margin-top: 1rem;
+}
+
+.buy-me-coffee a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buy-me-coffee a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .wrapper {

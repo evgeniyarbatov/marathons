@@ -702,21 +702,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:32",
-    "Name":"Edwin Kiptoo",
-    "Country":"ke",
+    "Time":"2:09:24",
+    "Name":"Habtamu Birlew",
+    "Country":"et",
     "City":"Buenos Aires",
-    "Date":"2022-09-18",
-    "Year":2022,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Men"
   },
   {
-    "Time":"2:30:37",
-    "Name":"Tigist Bikila",
+    "Time":"2:29:07",
+    "Name":"Alemitu Tariku",
     "Country":"et",
     "City":"Buenos Aires",
-    "Date":"2023-09-24",
-    "Year":2023,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -2151,8 +2151,8 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:33:26",
-    "Name":"Ayana Demilew Zemenay",
+    "Time":"2:33:35",
+    "Name":"Ashumar Zebenay",
     "Country":"et",
     "City":"Huai'an",
     "Date":"2025-04-13",
@@ -3330,12 +3330,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:30:10",
-    "Name":"Natalya Sokolova",
+    "Time":"2:28:32",
+    "Name":"Luiza Lega",
     "Country":"ru",
     "City":"Moskva",
-    "Date":"2012-09-09",
-    "Year":2012,
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -3636,12 +3636,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:22:44",
-    "Name":"Violah Cheptoo",
-    "Country":"ke",
+    "Time":"2:23:15",
+    "Name":"Firehiwot Tesfaye Dado",
+    "Country":"et",
     "City":"New York",
-    "Date":"2021-11-07",
-    "Year":2021,
+    "Date":"2011-11-06",
+    "Year":2011,
     "Gender":"Women"
   },
   {
@@ -3933,12 +3933,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:28:35",
-    "Name":"Luiza Dmitriyeva",
+    "Time":"2:34:44",
+    "Name":"Anastasya Slepneva",
     "Country":"ru",
     "City":"Perm",
-    "Date":"2020-09-06",
-    "Year":2020,
+    "Date":"2018-09-09",
+    "Year":2018,
     "Gender":"Women"
   },
   {
@@ -4110,6 +4110,24 @@
     "City":"Praha",
     "Date":"2021-05-30",
     "Year":2021,
+    "Gender":"Women"
+  },
+  {
+    "Time":"2:09:20",
+    "Name":"Samuel Naibei Kiplimo",
+    "Country":"ke",
+    "City":"Prinzipalmarkt",
+    "Date":"2025-09-21",
+    "Year":2025,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:32:31",
+    "Name":"Caroline Biwott",
+    "Country":"ke",
+    "City":"Prinzipalmarkt",
+    "Date":"2025-09-21",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -4960,11 +4978,11 @@
   },
   {
     "Time":"2:26:51",
-    "Name":"Zinayida Semyonova",
+    "Name":"Irina Permitina",
     "Country":"ru",
     "City":"St. Paul",
-    "Date":"2001-10-07",
-    "Year":2001,
+    "Date":"2004-10-03",
+    "Year":2004,
     "Gender":"Women"
   },
   {
@@ -4995,12 +5013,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:07:32",
-    "Name":"Akira Akasaki",
-    "Country":"jp",
+    "Time":"2:09:25",
+    "Name":"Alberto Chaica",
+    "Country":null,
     "City":"Stade de France",
-    "Date":"2024-08-10",
-    "Year":2024,
+    "Date":"2003-08-30",
+    "Year":2003,
     "Gender":"Men"
   },
   {
