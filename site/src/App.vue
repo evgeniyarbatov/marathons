@@ -108,7 +108,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,7 +117,7 @@ export default {
 
 .loading-content {
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .loading-content h1 {
@@ -135,8 +135,8 @@ export default {
 .loading-spinner {
   width: 50px;
   height: 50px;
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  border-top: 3px solid white;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid black;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto 1rem auto;
@@ -150,17 +150,16 @@ export default {
 /* Site styles */
 .site-header {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: white;
+  color: black;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .site-header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
