@@ -1,0 +1,7 @@
+- add videos of each marathon from Youtube
+- add videos of specific runners from Youtube videos
+- add search bar on top to search for specific city of athlete
+- fix airflow pipeline for deploying this site
+- get GPX files from each marathon
+- get dates of each marathon and weather in those locations
+- use OSM maps to see what can be seen from the marathon course
