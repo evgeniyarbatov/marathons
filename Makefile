@@ -23,8 +23,6 @@ SITE_DIR = site
 PUBLIC_DIR = $(SITE_DIR)/public
 TERRAFORM_DIR = terraform
 
-
-
 data:
 	kaggle datasets download --force -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
