@@ -81,12 +81,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:03:39",
-    "Name":"Tamirat Tola",
-    "Country":"et",
+    "Time":"2:03:30",
+    "Name":"Geoffrey Toroitich Kipchumba",
+    "Country":"ke",
     "City":"Amsterdam",
-    "Date":"2021-10-17",
-    "Year":2021,
+    "Date":"2025-10-19",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -675,12 +675,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:13:16",
-    "Name":"Patrick Kimeli",
-    "Country":"ke",
+    "Time":"2:11:58",
+    "Name":"Nicolae Alexandru Soare",
+    "Country":"ro",
     "City":"Bucure\u015fti",
-    "Date":"2015-10-04",
-    "Year":2015,
+    "Date":"2025-10-12",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -1152,12 +1152,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:34:27",
-    "Name":"Rebecca Lowe",
+    "Time":"2:30:26",
+    "Name":"Caitlin Adams",
     "Country":"au",
     "City":"Cricket Ground",
-    "Date":"2024-10-13",
-    "Year":2024,
+    "Date":"2025-10-12",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -1431,12 +1431,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:25:23",
-    "Name":"Leah Jeruto",
-    "Country":"ke",
+    "Time":"2:27:24",
+    "Name":"Nastassia Ivanova",
+    "Country":"by",
     "City":"D\u00fcsseldorf",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2012-04-29",
+    "Year":2012,
     "Gender":"Women"
   },
   {
@@ -1692,8 +1692,8 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:12:45",
-    "Name":"Tom Thurley",
+    "Time":"2:13:23",
+    "Name":"Lorenz Baum",
     "Country":null,
     "City":"Friedrichswall",
     "Date":"2025-04-06",
@@ -1926,12 +1926,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:10:28",
-    "Name":"Timothy Kimeli",
-    "Country":"ke",
+    "Time":"2:07:54",
+    "Name":"Fearghal Curtin",
+    "Country":"ie",
     "City":"Gyeongju",
-    "Date":"2019-10-20",
-    "Year":2019,
+    "Date":"2025-10-18",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -2151,15 +2151,6 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:33:35",
-    "Name":"Ashumar Zebenay",
-    "Country":"et",
-    "City":"Huai'an",
-    "Date":"2025-04-13",
-    "Year":2025,
-    "Gender":"Women"
-  },
-  {
     "Time":"2:09:27",
     "Name":"Yimer Getahun",
     "Country":"il",
@@ -2223,6 +2214,15 @@
     "Gender":"Men"
   },
   {
+    "Time":"2:12:29",
+    "Name":"Joseph Whelan",
+    "Country":"us",
+    "City":"Indianapolis",
+    "Date":"2025-11-08",
+    "Year":2025,
+    "Gender":"Men"
+  },
+  {
     "Time":"2:31:49",
     "Name":"Lindsey Bradley",
     "Country":"us",
@@ -2259,12 +2259,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:10:59",
-    "Name":"Bernard Sang",
-    "Country":"ke",
+    "Time":"2:10:58",
+    "Name":"H\u00fcseyin Can",
+    "Country":"tr",
     "City":"Istanbul",
-    "Date":"2021-11-07",
-    "Year":2021,
+    "Date":"2025-11-02",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -2502,12 +2502,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:07:01",
-    "Name":"Lawrence Kimayo",
+    "Time":"2:06:47",
+    "Name":"Moses Kemei",
     "Country":"ke",
     "City":"Ko\u0161ice",
-    "Date":"2012-10-07",
-    "Year":2012,
+    "Date":"2025-10-05",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -2601,21 +2601,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:07:53",
-    "Name":"Duncan Cheruiyot Koech",
+    "Time":"2:06:54",
+    "Name":"Barnaba Kipkoech",
     "Country":"ke",
     "City":"K\u00f6ln",
-    "Date":"2012-10-14",
-    "Year":2012,
+    "Date":"2025-10-05",
+    "Year":2025,
     "Gender":"Men"
   },
   {
-    "Time":"2:31:07",
-    "Name":"Judy Kiplimo",
-    "Country":"ke",
+    "Time":"2:29:12",
+    "Name":"Fantu Shugi",
+    "Country":"et",
     "City":"K\u00f6ln",
-    "Date":"2001-10-07",
-    "Year":2001,
+    "Date":"2025-10-05",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -2754,12 +2754,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:12:53",
-    "Name":"Manazot Siyum",
-    "Country":"et",
+    "Time":"2:14:08",
+    "Name":"Simon Rugut Kipngetich",
+    "Country":"ke",
     "City":"Leiden",
-    "Date":"2025-05-11",
-    "Year":2025,
+    "Date":"2009-05-17",
+    "Year":2009,
     "Gender":"Men"
   },
   {
@@ -3120,6 +3120,24 @@
     "City":"Mersin",
     "Date":"2023-12-10",
     "Year":2023,
+    "Gender":"Women"
+  },
+  {
+    "Time":"2:12:24",
+    "Name":"Godfrey Musanga",
+    "Country":"ke",
+    "City":"Mestsk\u00fd Stadion",
+    "Date":"2025-10-25",
+    "Year":2025,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:34:29",
+    "Name":"Mary Munanu",
+    "Country":"ke",
+    "City":"Mestsk\u00fd Stadion",
+    "Date":"2025-10-25",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -3636,12 +3654,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:23:15",
-    "Name":"Firehiwot Tesfaye Dado",
-    "Country":"et",
+    "Time":"2:19:51",
+    "Name":"Hellen Obiri",
+    "Country":"ke",
     "City":"New York",
-    "Date":"2011-11-06",
-    "Year":2011,
+    "Date":"2025-11-02",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -4941,12 +4959,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:34:30",
-    "Name":"Tubay Erdal",
-    "Country":"tr",
+    "Time":"2:33:09",
+    "Name":"Chelangat Sang",
+    "Country":"ke",
     "City":"Sofia",
-    "Date":"2021-10-10",
-    "Year":2021,
+    "Date":"2025-10-12",
+    "Year":2025,
     "Gender":"Women"
   },
   {
@@ -4978,11 +4996,11 @@
   },
   {
     "Time":"2:26:51",
-    "Name":"Irina Permitina",
+    "Name":"Zinayida Semyonova",
     "Country":"ru",
     "City":"St. Paul",
-    "Date":"2004-10-03",
-    "Year":2004,
+    "Date":"2001-10-07",
+    "Year":2001,
     "Gender":"Women"
   },
   {
@@ -5022,12 +5040,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:23:10",
-    "Name":"Hellen Obiri",
-    "Country":"ke",
+    "Time":"2:25:31",
+    "Name":"Bong-Sil Ham",
+    "Country":"kp",
     "City":"Stade de France",
-    "Date":"2024-08-11",
-    "Year":2024,
+    "Date":"2003-08-31",
+    "Year":2003,
     "Gender":"Women"
   },
   {
@@ -5283,8 +5301,8 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:20:44",
-    "Name":"Waganesh Mekasha",
+    "Time":"2:21:50",
+    "Name":"Afera Godfay",
     "Country":"et",
     "City":"Toronto",
     "Date":"2024-10-20",
@@ -5401,7 +5419,7 @@
   },
   {
     "Time":"2:34:28",
-    "Name":"Mildred Chepkemei",
+    "Name":"Mildred Kinyanja",
     "Country":"ke",
     "City":"Tunis",
     "Date":"2024-12-01",
@@ -5533,6 +5551,15 @@
     "Date":"2012-10-14",
     "Year":2012,
     "Gender":"Men"
+  },
+  {
+    "Time":"2:23:06",
+    "Name":"Alisa Vainio",
+    "Country":"fi",
+    "City":"Vantaa",
+    "Date":"2025-10-04",
+    "Year":2025,
+    "Gender":"Women"
   },
   {
     "Time":"2:07:41",
