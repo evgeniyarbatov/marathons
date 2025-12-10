@@ -46,4 +46,4 @@ deploy:
 .PHONY: venv install data metadata links update-timestamp site-build deploy 
 
 cleanvenv:
-	@rm -rf .venv
+	@rm -rf $(VENV_PATH)
