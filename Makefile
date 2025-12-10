@@ -44,3 +44,6 @@ deploy:
 	terraform apply -auto-approve
 
 .PHONY: venv install data metadata links update-timestamp site-build deploy 
+
+cleanvenv:
+	@rm -rf .venv
