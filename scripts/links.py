@@ -11,6 +11,7 @@ import time
 import os
 from urllib.parse import quote
 
+
 def search_wikipedia(athlete_name):
     base_url = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 
@@ -19,26 +20,31 @@ def search_wikipedia(athlete_name):
         encoded_query = quote(athlete_name.replace(" ", "_"))
         url = f"{base_url}{encoded_query}"
 
-        headers = {
-            "User-Agent": "MarathonRunners"
-        }
+        headers = {"User-Agent": "MarathonRunners"}
 
         response = requests.get(url, headers=headers, timeout=10)
 
         if response.status_code == 200:
             data = response.json()
 
-            if data.get('type') == 'standard':
-                description = data.get('description', '').lower()
-                extract = data.get('extract', '').lower()
+            if data.get("type") == "standard":
+                description = data.get("description", "").lower()
+                extract = data.get("extract", "").lower()
 
                 athletic_keywords = [
-                    'runner', 'athlete', 'marathon',
-                    'distance', 'olympic', 'championship'
+                    "runner",
+                    "athlete",
+                    "marathon",
+                    "distance",
+                    "olympic",
+                    "championship",
                 ]
 
-                if any(keyword in description or keyword in extract for keyword in athletic_keywords):
-                    return data.get('content_urls', {}).get('desktop', {}).get('page')
+                if any(
+                    keyword in description or keyword in extract
+                    for keyword in athletic_keywords
+                ):
+                    return data.get("content_urls", {}).get("desktop", {}).get("page")
 
         time.sleep(0.1)
 
@@ -46,6 +52,7 @@ def search_wikipedia(athlete_name):
         print(f"Error searching for {athlete_name}: {e}")
 
     return None
+
 
 def main(input_files, output_file):
     """Main function to process marathon JSON data and fetch Wikipedia links."""
@@ -59,7 +66,7 @@ def main(input_files, output_file):
     wikipedia_links = {}
     if os.path.exists(output_file):
         try:
-            with open(output_file, 'r', encoding='utf-8') as file:
+            with open(output_file, "r", encoding="utf-8") as file:
                 wikipedia_links = json.load(file)
             print(f"Loaded {len(wikipedia_links)} existing Wikipedia links")
         except Exception as e:
@@ -79,11 +86,11 @@ def main(input_files, output_file):
             continue
 
         try:
-            with open(json_file, 'r', encoding='utf-8') as file:
+            with open(json_file, "r", encoding="utf-8") as file:
                 data = json.load(file)
 
             for entry in data:
-                name = entry.get('Name', '').strip()
+                name = entry.get("Name", "").strip()
 
                 if not name or name in processed_athletes:
                     continue
@@ -105,8 +112,10 @@ def main(input_files, output_file):
 
                     # Save immediately after finding a link
                     try:
-                        with open(output_file, 'w', encoding='utf-8') as file:
-                            json.dump(wikipedia_links, file, indent=2, ensure_ascii=False)
+                        with open(output_file, "w", encoding="utf-8") as file:
+                            json.dump(
+                                wikipedia_links, file, indent=2, ensure_ascii=False
+                            )
                     except Exception as e:
                         print(f"Error saving after finding link: {e}")
                 else:
@@ -121,20 +130,25 @@ def main(input_files, output_file):
 
     # Final save
     try:
-        with open(output_file, 'w', encoding='utf-8') as file:
+        with open(output_file, "w", encoding="utf-8") as file:
             json.dump(wikipedia_links, file, indent=2, ensure_ascii=False)
 
         print(f"\nWikipedia links saved to: {output_file}")
-        print(f"Found links for {len(wikipedia_links)} out of {len(processed_athletes)} unique athletes")
+        print(
+            f"Found links for {len(wikipedia_links)} out of {len(processed_athletes)} unique athletes"
+        )
 
         # Print summary
         found_count = len(wikipedia_links)
         total_count = len(processed_athletes)
         if total_count > 0:
-            print(f"Success rate: {found_count}/{total_count} ({found_count/total_count*100:.1f}%)")
+            print(
+                f"Success rate: {found_count}/{total_count} ({found_count/total_count*100:.1f}%)"
+            )
 
     except Exception as e:
         print(f"Error saving results: {e}")
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
