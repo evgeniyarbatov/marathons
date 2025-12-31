@@ -51,10 +51,11 @@ links:
 update-timestamp:
 	./scripts/update_timestamp.sh
 
-site-build:
-	cd $(SITE_DIR) && rm -rf node_modules && npm ci && npm run build
+run:
+	cd $(SITE_DIR) && npm run dev
 
 deploy:
+	cd $(SITE_DIR) && npm run build
 	cd $(TERRAFORM_DIR) && terraform init -reconfigure -input=false && \
 	terraform apply -auto-approve
 
