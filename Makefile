@@ -56,8 +56,7 @@ run:
 
 deploy:
 	cd $(SITE_DIR) && npm run build
-	cd $(TERRAFORM_DIR) && terraform init -reconfigure -input=false && \
-	terraform apply -auto-approve
+	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
 
 cleanvenv:
 	@rm -rf $(VENV_PATH)
