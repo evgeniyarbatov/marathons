@@ -1,6 +1,6 @@
 pandas
 requests
 geopy
-pycountry-e 
+pycountry
 black
 flake8
