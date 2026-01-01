@@ -21,12 +21,6 @@ const readJson = async (filename) => {
   return JSON.parse(raw);
 };
 
-const readText = async (filename) => {
-  const distPath = resolve(distRoot, filename);
-  const publicPath = resolve(siteRoot, 'public', filename);
-  return readFile(distPath, 'utf8').catch(() => readFile(publicPath, 'utf8'));
-};
-
 const timeToSeconds = (timeString) => {
   if (!timeString) return Infinity;
   const parts = timeString.split(':');
@@ -105,7 +99,10 @@ const renderCity = (marathon, marathons, bestTimes, latestTimes, links) => {
   const latestMen = getCityInfoByGender(city, latestTimes, 'Men');
   const latestWomen = getCityInfoByGender(city, latestTimes, 'Women');
 
-  const tableRows = cityInfo.map((item) => renderTableRow(item)).join('');
+  const tableRows = cityInfo
+    .slice(0, 1)
+    .map((item) => renderTableRow(item))
+    .join('');
 
   return `
     <li class="list-group-item">
@@ -154,7 +151,7 @@ const renderCity = (marathon, marathons, bestTimes, latestTimes, links) => {
   `;
 };
 
-const renderApp = (marathons, bestTimes, latestTimes, links, lastUpdated) => {
+const renderApp = (marathons, bestTimes, latestTimes, links) => {
   const sortedMarathons = [...marathons].sort((a, b) => {
     const aBestTime = getBestTimeForCity(a.City, bestTimes);
     const bBestTime = getBestTimeForCity(b.City, bestTimes);
@@ -167,19 +164,9 @@ const renderApp = (marathons, bestTimes, latestTimes, links, lastUpdated) => {
   });
 
   const listItems = sortedMarathons
+    .slice(0, 1)
     .map((marathon) => renderCity(marathon, marathons, bestTimes, latestTimes, links))
     .join('');
-
-  const lastUpdatedISO = lastUpdated?.toISOString?.() ?? '';
-  const lastUpdatedText = lastUpdated
-    ? lastUpdated.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-      })
-    : '';
 
   return `
     <div>
@@ -200,38 +187,22 @@ const renderApp = (marathons, bestTimes, latestTimes, links, lastUpdated) => {
           </section>
         </div>
       </main>
-
-      <footer>
-        <div class="wrapper">
-          <time class="last-updated" datetime="${escapeHtml(lastUpdatedISO)}">
-            ${lastUpdatedText ? `Last updated: ${escapeHtml(lastUpdatedText)}` : ''}
-          </time>
-          <div class="buy-me-coffee">
-            <a href="https://www.buymeacoffee.com/arbatov" target="_blank">
-              <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" />
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   `;
 };
 
 const run = async () => {
-  const [marathons, bestTimes, latestTimes, links, lastUpdatedRaw] = await Promise.all([
+  const [marathons, bestTimes, latestTimes, links] = await Promise.all([
     readJson('marathons.json'),
     readJson('best_times.json'),
     readJson('latest_times.json'),
     readJson('links.json'),
-    readText('last_update.txt').catch(() => ''),
   ]);
-
-  const lastUpdated = lastUpdatedRaw ? new Date(lastUpdatedRaw.trim()) : null;
 
   const indexPath = resolve(distRoot, 'index.html');
   const indexHtml = await readFile(indexPath, 'utf8');
 
-  const appHtml = renderApp(marathons, bestTimes, latestTimes, links, lastUpdated);
+  const appHtml = renderApp(marathons, bestTimes, latestTimes, links);
   const updatedHtml = indexHtml.replace(
     /<div id="app"><\/div>/,
     `<div id="app">${appHtml}</div>`
