@@ -17,6 +17,8 @@ SITE_DIR = site
 PUBLIC_DIR = $(SITE_DIR)/public
 TERRAFORM_DIR = terraform
 
+default: deploy
+
 venv:
 	@python3 -m venv $(VENV_PATH)
 
