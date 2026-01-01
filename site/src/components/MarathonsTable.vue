@@ -204,11 +204,11 @@ export default {
 }
 
 .list-group-item {
-  border: 1px solid #ccc;
+  border: 1px solid var(--color-border);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: var(--color-background-soft);
 }
 
 .list-group-item.disabled {
@@ -227,7 +227,7 @@ export default {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333;
+  color: var(--color-heading);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -269,7 +269,7 @@ export default {
   margin: 0 0 8px 0;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #555;
+  color: var(--color-text);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -287,7 +287,7 @@ li {
   margin: 0 0 10px 0;
   font-size: 1rem;
   font-weight: 600;
-  color: #333;
+  color: var(--color-heading);
   border-bottom: 2px solid #667eea;
   padding-bottom: 5px;
 }

@@ -108,7 +108,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: var(--color-background);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,7 +117,7 @@ export default {
 
 .loading-content {
   text-align: center;
-  color: black;
+  color: var(--color-heading);
 }
 
 .loading-content h1 {
@@ -135,8 +135,8 @@ export default {
 .loading-spinner {
   width: 50px;
   height: 50px;
-  border: 3px solid rgba(0, 0, 0, 0.1);
-  border-top: 3px solid black;
+  border: 3px solid var(--color-border);
+  border-top: 3px solid var(--color-heading);
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin: 0 auto 1rem auto;
@@ -152,8 +152,8 @@ export default {
   text-align: center;
   margin-bottom: 0.5rem;
   padding: 1rem;
-  background: white;
-  color: black;
+  background: var(--color-background-soft);
+  color: var(--color-heading);
   border-radius: 10px;
 }
 
@@ -181,7 +181,7 @@ footer {
   font-size: 0.9rem;
   opacity: 0.8;
   font-style: italic;
-  color: #666;
+  color: var(--color-text);
 }
 
 .buy-me-coffee {
