@@ -2,6 +2,7 @@ import json
 
 import pycountry
 
+from geopy.exc import GeocoderServiceError, GeocoderTimedOut, GeocoderUnavailable
 from geopy.geocoders import Nominatim
 
 
@@ -26,9 +27,12 @@ def cache(file_name):
 @cache("cache/nomimatim-api.json")
 def call_nominatim_api(city_name):
     geolocator = Nominatim(user_agent="get-country-codes")
-    location = geolocator.geocode(
-        city_name, exactly_one=True, language="en", addressdetails=True
-    )
+    try:
+        location = geolocator.geocode(
+            city_name, exactly_one=True, language="en", addressdetails=True
+        )
+    except (GeocoderServiceError, GeocoderTimedOut, GeocoderUnavailable):
+        return None
     return location.raw if location else None
 
 

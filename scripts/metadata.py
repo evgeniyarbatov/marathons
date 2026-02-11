@@ -13,6 +13,16 @@ def format_date(dates):
         return None
 
 
+def get_country_codes(cities):
+    total = len(cities)
+    country_codes = {}
+    for index, city in enumerate(cities, start=1):
+        country_codes[city] = get_country_code(city)
+        remaining = total - index
+        print(f"Processed {index}/{total} (remaining {remaining})")
+    return country_codes
+
+
 def get_metadata(df, metadata_output_file):
     count_by_gender = (
         df.groupby(["City", "Gender"])
@@ -34,7 +44,9 @@ def get_metadata(df, metadata_output_file):
     dfs = [people_count, country_count, gender_count]
     df = reduce(lambda left, right: pd.merge(left, right, on="City", how="inner"), dfs)
 
-    df["Country"] = df["City"].apply(lambda x: get_country_code(x))
+    cities = df["City"].drop_duplicates().tolist()
+    country_codes = get_country_codes(cities)
+    df["Country"] = df["City"].map(country_codes)
 
     df.to_json(
         metadata_output_file,
