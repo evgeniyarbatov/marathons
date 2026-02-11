@@ -1,10 +1,6 @@
 VENV_PATH := .venv
-
 PYTHON := $(VENV_PATH)/bin/python
-BLACK := $(VENV_PATH)/bin/black
-FLAKE8 := $(VENV_PATH)/bin/flake8
 PIP := $(VENV_PATH)/bin/pip
-
 REQUIREMENTS := requirements.txt
 
 SCRIPTS_DIR = scripts
@@ -26,20 +22,6 @@ install: venv
 	@$(PIP) install --disable-pip-version-check -q --upgrade pip
 	@$(PIP) install --disable-pip-version-check -q -r $(REQUIREMENTS)
 
-format:
-	@if [ -n "$(PYTHON_FILES)" ]; then \
-		$(BLACK) $(PYTHON_FILES); \
-	else \
-		echo "No Python files"; \
-	fi
-
-lint: format
-	@if [ -n "$(PYTHON_FILES)" ]; then \
-		$(FLAKE8) $(PYTHON_FILES); \
-	else \
-		echo "No Python files"; \
-	fi
-
 data:
 	kaggle datasets download --force -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
@@ -60,5 +42,4 @@ deploy:
 	cd $(SITE_DIR) && npm run build
 	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
 
-cleanvenv:
-	@rm -rf $(VENV_PATH)
+.PHONY: data
