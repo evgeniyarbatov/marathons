@@ -25,12 +25,10 @@ data:
 	kaggle datasets download --force -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
 
-metadata:
+metadata: install
 	@$(PYTHON) scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json
-
-links:
+links: install
 	@$(PYTHON) scripts/links.py $(PUBLIC_DIR)/latest_times.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/links.json
-
 update-timestamp:
 	./scripts/update_timestamp.sh
 
