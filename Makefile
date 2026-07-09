@@ -1,7 +1,4 @@
-VENV_PATH := .venv
-PYTHON := $(VENV_PATH)/bin/python
-PIP := $(VENV_PATH)/bin/pip
-REQUIREMENTS := requirements.txt
+# Uses uv (https://docs.astral.sh/uv) for dependency management — uv sync creates/updates .venv; run commands via uv run, no manual activation.
 
 SCRIPTS_DIR = scripts
 PYTHON_FILES := $(shell find $(SCRIPTS_DIR) -name "*.py")
@@ -15,20 +12,22 @@ TERRAFORM_DIR = terraform
 
 default: deploy
 
-venv:
-	@uv venv $(VENV_PATH)
+install:
+	@uv sync --dev
 
-install: venv
-	@uv pip install -q -r $(REQUIREMENTS)
+lock:
+	@uv lock
 
 data:
 	kaggle datasets download --force -d $(KAGGLE_DATASET) -p $(DATA_DIR)
 	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
 
 metadata: install
-	@$(PYTHON) scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json
+	@uv run python scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json
+
 links: install
-	@$(PYTHON) scripts/links.py $(PUBLIC_DIR)/latest_times.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/links.json
+	@uv run python scripts/links.py $(PUBLIC_DIR)/latest_times.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/links.json
+
 update-timestamp:
 	./scripts/update_timestamp.sh
 
@@ -39,4 +38,18 @@ deploy:
 	cd $(SITE_DIR) && npm run build
 	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
 
-.PHONY: data
+clean:
+	rm -rf .venv
+
+help:
+	@echo "install           - uv sync deps into .venv"
+	@echo "lock              - refresh uv.lock"
+	@echo "data              - download and unzip Kaggle dataset"
+	@echo "metadata          - build marathons/best_times/latest_times JSON"
+	@echo "links             - build links.json"
+	@echo "update-timestamp  - update site timestamp"
+	@echo "run               - run site dev server"
+	@echo "deploy            - build site and apply terraform"
+	@echo "clean             - remove .venv"
+
+.PHONY: data clean help
