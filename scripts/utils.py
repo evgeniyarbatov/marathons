@@ -1,7 +1,6 @@
 import json
 
 import pycountry
-
 from geopy.exc import GeocoderServiceError, GeocoderTimedOut, GeocoderUnavailable
 from geopy.geocoders import Nominatim
 
@@ -9,8 +8,8 @@ from geopy.geocoders import Nominatim
 def cache(file_name):
     def decorator(original_func):
         try:
-            cache = json.load(open(file_name, "r"))
-        except (IOError, ValueError):
+            cache = json.load(open(file_name))
+        except (OSError, ValueError):
             cache = {}
 
         def new_func(param):

@@ -4,12 +4,13 @@ Script to fetch Wikipedia page links for marathon athletes.
 Usage: python3 links.py <input_json1> <input_json2> ... <output_json>
 """
 
-import sys
 import json
-import requests
-import time
 import os
+import sys
+import time
 from urllib.parse import quote
+
+import requests
 
 
 def search_wikipedia(athlete_name):
@@ -41,8 +42,7 @@ def search_wikipedia(athlete_name):
                 ]
 
                 if any(
-                    keyword in description or keyword in extract
-                    for keyword in athletic_keywords
+                    keyword in description or keyword in extract for keyword in athletic_keywords
                 ):
                     return data.get("content_urls", {}).get("desktop", {}).get("page")
 
@@ -66,7 +66,7 @@ def main(input_files, output_file):
     wikipedia_links = {}
     if os.path.exists(output_file):
         try:
-            with open(output_file, "r", encoding="utf-8") as file:
+            with open(output_file, encoding="utf-8") as file:
                 wikipedia_links = json.load(file)
             print(f"Loaded {len(wikipedia_links)} existing Wikipedia links")
         except Exception as e:
@@ -86,7 +86,7 @@ def main(input_files, output_file):
             continue
 
         try:
-            with open(json_file, "r", encoding="utf-8") as file:
+            with open(json_file, encoding="utf-8") as file:
                 data = json.load(file)
 
             for entry in data:
@@ -113,13 +113,11 @@ def main(input_files, output_file):
                     # Save immediately after finding a link
                     try:
                         with open(output_file, "w", encoding="utf-8") as file:
-                            json.dump(
-                                wikipedia_links, file, indent=2, ensure_ascii=False
-                            )
+                            json.dump(wikipedia_links, file, indent=2, ensure_ascii=False)
                     except Exception as e:
                         print(f"Error saving after finding link: {e}")
                 else:
-                    print(f"  ✗ Not found")
+                    print("  ✗ Not found")
 
                 # Be respectful to Wikipedia's servers
                 time.sleep(0.2)
@@ -143,7 +141,7 @@ def main(input_files, output_file):
         total_count = len(processed_athletes)
         if total_count > 0:
             print(
-                f"Success rate: {found_count}/{total_count} ({found_count/total_count*100:.1f}%)"
+                f"Success rate: {found_count}/{total_count} ({found_count / total_count * 100:.1f}%)"
             )
 
     except Exception as e:

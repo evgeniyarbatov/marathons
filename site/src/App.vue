@@ -13,7 +13,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
         <h1>Marathon Records</h1>
       </div>
     </div>
-    
+
     <!-- Main Content -->
     <div v-else>
       <header>
@@ -23,7 +23,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
           </div>
         </div>
       </header>
-      
+
       <main>
         <div class="wrapper">
           <MarathonsTable
@@ -33,7 +33,7 @@ import MarathonsTable from './components/MarathonsTable.vue'
             :links="links" />
         </div>
       </main>
-      
+
       <footer>
         <div class="wrapper">
           <time class="last-updated" :datetime="lastUpdatedISO">
@@ -82,7 +82,7 @@ export default {
         const lastDeployTime = new Date(response.data.trim());
         this.lastUpdated = lastDeployTime.toLocaleDateString('en-US', {
           year: 'numeric',
-          month: 'long', 
+          month: 'long',
           day: 'numeric',
           hour: '2-digit',
           minute: '2-digit'

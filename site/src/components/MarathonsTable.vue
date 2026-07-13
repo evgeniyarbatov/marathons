@@ -40,7 +40,7 @@ const props = defineProps({
             </div>
           </h2>
         </header>
-        
+
         <div class="table-container">
           <table role="table" :aria-label="`Statistics for ${marathon.City} marathon`">
             <caption class="sr-only">Marathon statistics for {{ marathon.City }}</caption>
@@ -62,12 +62,12 @@ const props = defineProps({
             </tbody>
           </table>
         </div>
-        
+
         <div class="times-section">
           <div class="times-row">
             <div class="times-col">
               <h3 class="section-heading">Best</h3>
-              
+
               <div class="gender-section" v-if="getCityInfoByGender(marathon.City, bestTimes, 'Men').length > 0">
                 <h4 class="gender-heading">Men</h4>
                 <ul>
@@ -101,7 +101,7 @@ const props = defineProps({
 
             <div class="times-col">
               <h3 class="section-heading">Latest</h3>
-              
+
               <div class="gender-section" v-if="getCityInfoByGender(marathon.City, latestTimes, 'Men').length > 0">
                 <h4 class="gender-heading">Men</h4>
                 <ul>
@@ -146,11 +146,11 @@ export default {
       return [...this.marathons].sort((a, b) => {
         const aBestTime = this.getBestTimeForCity(a.City);
         const bBestTime = this.getBestTimeForCity(b.City);
-        
+
         if (!aBestTime && !bBestTime) return 0;
         if (!aBestTime) return 1;
         if (!bBestTime) return -1;
-        
+
         return this.timeToSeconds(aBestTime) - this.timeToSeconds(bBestTime);
       });
     }
@@ -166,9 +166,9 @@ export default {
       const menTimes = this.getCityInfoByGender(city, this.bestTimes, 'Men');
       const womenTimes = this.getCityInfoByGender(city, this.bestTimes, 'Women');
       const allTimes = [...menTimes, ...womenTimes];
-      
+
       if (allTimes.length === 0) return null;
-      
+
       return allTimes.reduce((best, current) => {
         const bestSeconds = this.timeToSeconds(best.Time);
         const currentSeconds = this.timeToSeconds(current.Time);
