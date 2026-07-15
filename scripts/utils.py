@@ -1,22 +1,28 @@
 import json
+from collections.abc import Callable
+from typing import Any, TypeVar
 
 import pycountry
 from geopy.exc import GeocoderServiceError, GeocoderTimedOut, GeocoderUnavailable
 from geopy.geocoders import Nominatim
 
+T = TypeVar("T")
 
-def cache(file_name):
-    def decorator(original_func):
+
+def cache(file_name: str) -> Callable[[Callable[[str], T]], Callable[[str], T]]:
+    def decorator(original_func: Callable[[str], T]) -> Callable[[str], T]:
         try:
-            cache = json.load(open(file_name))
+            with open(file_name) as f:
+                cached: dict[str, T] = json.load(f)
         except (OSError, ValueError):
-            cache = {}
+            cached = {}
 
-        def new_func(param):
-            if param not in cache:
-                cache[param] = original_func(param)
-                json.dump(cache, open(file_name, "w"))
-            return cache[param]
+        def new_func(param: str) -> T:
+            if param not in cached:
+                cached[param] = original_func(param)
+                with open(file_name, "w") as f:
+                    json.dump(cached, f)
+            return cached[param]
 
         return new_func
 
@@ -24,7 +30,7 @@ def cache(file_name):
 
 
 @cache("cache/nomimatim-api.json")
-def call_nominatim_api(city_name):
+def call_nominatim_api(city_name: str) -> dict[str, Any] | None:
     geolocator = Nominatim(user_agent="get-country-codes")
     try:
         location = geolocator.geocode(
@@ -32,10 +38,11 @@ def call_nominatim_api(city_name):
         )
     except (GeocoderServiceError, GeocoderTimedOut, GeocoderUnavailable):
         return None
-    return location.raw if location else None
+    result: dict[str, Any] | None = location.raw if location else None
+    return result
 
 
-def get_country_code(city_name):
+def get_country_code(city_name: str) -> str | None:
     location = call_nominatim_api(city_name)
     if not location:
         return None
@@ -43,11 +50,11 @@ def get_country_code(city_name):
     address = location["address"]
     country_code = address.get("country_code", None)
 
-    return country_code.lower()
+    return country_code.lower() if country_code else None
 
 
-def get_athlete_country(alpha3):
-    if alpha3 == None:
+def get_athlete_country(alpha3: str | None) -> str | None:
+    if alpha3 is None:
         return None
     if len(alpha3) == 2:
         return alpha3.lower()

@@ -13,7 +13,7 @@ from urllib.parse import quote
 import requests
 
 
-def search_wikipedia(athlete_name):
+def search_wikipedia(athlete_name: str) -> str | None:
     base_url = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 
     try:
@@ -44,7 +44,8 @@ def search_wikipedia(athlete_name):
                 if any(
                     keyword in description or keyword in extract for keyword in athletic_keywords
                 ):
-                    return data.get("content_urls", {}).get("desktop", {}).get("page")
+                    page: str | None = data.get("content_urls", {}).get("desktop", {}).get("page")
+                    return page
 
         time.sleep(0.1)
 
@@ -54,7 +55,7 @@ def search_wikipedia(athlete_name):
     return None
 
 
-def main(input_files, output_file):
+def main(input_files: list[str], output_file: str) -> None:
     """Main function to process marathon JSON data and fetch Wikipedia links."""
 
     # Create output directory if it doesn't exist

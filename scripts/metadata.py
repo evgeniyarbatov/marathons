@@ -5,16 +5,17 @@ import pandas as pd
 from utils import get_athlete_country, get_country_code
 
 
-def format_date(dates):
+def format_date(dates: pd.Series) -> pd.Series | None:
     try:
-        return dates.dt.strftime("%Y-%m-%d")
-    except:
+        result: pd.Series = dates.dt.strftime("%Y-%m-%d")
+        return result
+    except AttributeError:
         return None
 
 
-def get_country_codes(cities):
+def get_country_codes(cities: list[str]) -> dict[str, str | None]:
     total = len(cities)
-    country_codes = {}
+    country_codes: dict[str, str | None] = {}
     for index, city in enumerate(cities, start=1):
         country_codes[city] = get_country_code(city)
         remaining = total - index
@@ -22,7 +23,7 @@ def get_country_codes(cities):
     return country_codes
 
 
-def get_metadata(df, metadata_output_file):
+def get_metadata(df: pd.DataFrame, metadata_output_file: str) -> None:
     count_by_gender = (
         df.groupby(["City", "Gender"])
         .agg(unique_count=("Name", "nunique"))
@@ -52,7 +53,7 @@ def get_metadata(df, metadata_output_file):
     )
 
 
-def get_latest_times(df, latest_times_output):
+def get_latest_times(df: pd.DataFrame, latest_times_output: str) -> None:
     idx = df.groupby(["City", "Gender"])["Date"].idxmax()
 
     latest_times = df.loc[idx][["Time", "Name", "Country", "City", "Date", "Year", "Gender"]]
@@ -67,7 +68,7 @@ def get_latest_times(df, latest_times_output):
     )
 
 
-def get_best_times(df, best_times_output):
+def get_best_times(df: pd.DataFrame, best_times_output: str) -> None:
     df["Running Time"] = df["Time"].apply(pd.to_datetime, errors="coerce")
     idx = df.groupby(["City", "Gender"])["Running Time"].idxmin()
 
@@ -79,7 +80,12 @@ def get_best_times(df, best_times_output):
     best_times.to_json(best_times_output, orient="records", indent=2)
 
 
-def main(marathon_data, metadata_output_file, best_times_output, latest_times_output):
+def main(
+    marathon_data: str,
+    metadata_output_file: str,
+    best_times_output: str,
+    latest_times_output: str,
+) -> None:
     df = pd.read_csv(marathon_data)
 
     df = df[df["Event"] == "Marathon"]
