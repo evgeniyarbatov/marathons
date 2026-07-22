@@ -28,6 +28,9 @@ metadata: install
 links: install
 	@uv run python scripts/links.py $(PUBLIC_DIR)/latest_times.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/links.json
 
+test: install
+	@uv run python -m unittest discover -s tests -p 'test_*.py' -v
+
 update-timestamp:
 	./scripts/update_timestamp.sh
 
@@ -47,6 +50,7 @@ help:
 	@echo "data              - download and unzip Kaggle dataset"
 	@echo "metadata          - build marathons/best_times/latest_times JSON"
 	@echo "links             - build links.json"
+	@echo "test              - run unit tests"
 	@echo "update-timestamp  - update site timestamp"
 	@echo "run               - run site dev server"
 	@echo "deploy            - build site and apply terraform"
