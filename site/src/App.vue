@@ -16,14 +16,6 @@ import MarathonsTable from './components/MarathonsTable.vue'
 
     <!-- Main Content -->
     <div v-else>
-      <header>
-        <div class="wrapper">
-          <div class="site-header">
-            <h1>Marathon Records</h1>
-          </div>
-        </div>
-      </header>
-
       <main>
         <div class="wrapper">
           <MarathonsTable
@@ -148,28 +140,6 @@ export default {
 }
 
 /* Site styles */
-.site-header {
-  text-align: center;
-  margin-bottom: 0.5rem;
-  padding: 1rem;
-  background: var(--color-background-soft);
-  color: var(--color-heading);
-  border-radius: 10px;
-}
-
-.site-header h1 {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-.site-header p {
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
-  max-width: 600px;
-  margin: 0 auto 1rem auto;
-}
 
 footer {
   margin-top: 1rem;
