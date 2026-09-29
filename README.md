@@ -1,23 +1,30 @@
 # Marathons
 
-Static site to render marathon records with Wiki links to each athlete.
+Best and latest winning times for marathons worldwide, with Wikipedia links to each athlete.
 
-Data comes from Kaggle dataset of marathon records scraped from World Athletics.
+**Site:** https://evgeniyarbatov.github.io/marathons/
 
-Site - [https://evgeniyarbatov.github.io/marathons/](https://evgeniyarbatov.github.io/marathons/)
+## How it works
+
+1. [Kaggle dataset](https://www.kaggle.com/datasets/evgenyarbatov/marathon-running-times) of World Athletics marathon results.
+2. `scripts/metadata.py` aggregates per-city stats, best and latest times; cities are geocoded via Nominatim.
+3. `scripts/links.py` looks up each athlete on Wikipedia.
+4. The Vue + Vite site in `site/` renders the resulting JSON.
+
+The `refresh-data` GitHub Actions workflow runs this daily, commits any changed data and deploys to GitHub Pages.
 
 ## How to run
 
 ```bash
 make install    # uv sync deps
-make data       # download and unzip Kaggle dataset
+make data       # download Kaggle dataset (needs KAGGLE_API_TOKEN or `kaggle auth login`)
 make metadata   # build marathons/best_times/latest_times JSON
-make links      # build links.json (Wikipedia links per athlete)
-make run        # site dev server (site/, npm run dev)
+make links      # build links.json
+make test       # unit tests
+make run        # site dev server
 make build      # build site into site/dist
 ```
 
-`make data` needs `KAGGLE_API_TOKEN` (or `kaggle auth login`).
+## License
 
-The `refresh-data` workflow runs this pipeline daily, commits any changed JSON and
-deploys to GitHub Pages.
+[MIT](LICENSE.md)
