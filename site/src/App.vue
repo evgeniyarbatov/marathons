@@ -25,14 +25,6 @@ import MarathonsTable from './components/MarathonsTable.vue'
             :links="links" />
         </div>
       </main>
-
-      <footer>
-        <div class="wrapper">
-          <time class="last-updated" :datetime="lastUpdatedISO">
-            Last updated: {{ lastUpdated }}
-          </time>
-        </div>
-      </footer>
     </div>
   </div>
 </template>
@@ -46,8 +38,6 @@ export default {
       bestTimes: [],
       latestTimes: [],
       links: {},
-      lastUpdated: '',
-      lastUpdatedISO: '',
       isLoading: true
     }
   },
@@ -64,22 +54,6 @@ export default {
         axios.get(`${import.meta.env.BASE_URL}latest_times.json`),
         axios.get(`${import.meta.env.BASE_URL}links.json`),
       ]);
-
-      // Load last updated timestamp
-      try {
-        const response = await axios.get(`${import.meta.env.BASE_URL}last_update.txt`);
-        const lastDeployTime = new Date(response.data.trim());
-        this.lastUpdated = lastDeployTime.toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        });
-        this.lastUpdatedISO = lastDeployTime.toISOString();
-      } catch (error) {
-        console.warn('Could not load last update timestamp:', error);
-      }
     } catch (error) {
       console.error('Failed to load marathon data:', error);
     } finally {
@@ -137,19 +111,6 @@ export default {
 }
 
 /* Site styles */
-
-footer {
-  margin-top: 1rem;
-  padding: 1rem 0 0 0;
-  text-align: center;
-}
-
-.last-updated {
-  font-size: 0.9rem;
-  opacity: 0.8;
-  font-style: italic;
-  color: var(--color-text);
-}
 
 .wrapper {
   max-width: 1200px;
