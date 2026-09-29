@@ -115,6 +115,7 @@ def main(input_files: list[str], output_file: str) -> None:
                     try:
                         with open(output_file, "w", encoding="utf-8") as file:
                             json.dump(wikipedia_links, file, indent=2, ensure_ascii=False)
+                            file.write("\n")
                     except Exception as e:
                         print(f"Error saving after finding link: {e}")
                 else:
@@ -131,6 +132,7 @@ def main(input_files: list[str], output_file: str) -> None:
     try:
         with open(output_file, "w", encoding="utf-8") as file:
             json.dump(wikipedia_links, file, indent=2, ensure_ascii=False)
+            file.write("\n")
 
         print(f"\nWikipedia links saved to: {output_file}")
         print(

@@ -8,7 +8,9 @@ from unittest import mock
 
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts"))
+sys.path.insert(
+    0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts")
+)
 
 from metadata import format_date, get_best_times, get_latest_times, get_metadata
 
@@ -44,16 +46,17 @@ RACE_ROWS = [
 
 
 class FormatDateTests(unittest.TestCase):
-    def test_formats_datetime_series(self):
+    def test_formats_datetime_series(self) -> None:
         result = format_date(pd.to_datetime(pd.Series(["2026-01-05"])))
+        assert result is not None
         self.assertEqual(result.iloc[0], "2026-01-05")
 
-    def test_non_datetime_series_returns_none(self):
+    def test_non_datetime_series_returns_none(self) -> None:
         self.assertIsNone(format_date(pd.Series(["not-a-date"])))
 
 
 class GetMetadataTests(unittest.TestCase):
-    def test_writes_counts_per_city(self):
+    def test_writes_counts_per_city(self) -> None:
         df = pd.DataFrame(RACE_ROWS)
         with tempfile.TemporaryDirectory() as tmp:
             out_path = Path(tmp) / "metadata.json"
@@ -69,7 +72,7 @@ class GetMetadataTests(unittest.TestCase):
 
 
 class GetLatestTimesTests(unittest.TestCase):
-    def test_keeps_most_recent_row_per_city_and_gender(self):
+    def test_keeps_most_recent_row_per_city_and_gender(self) -> None:
         df = pd.DataFrame(RACE_ROWS)
         with tempfile.TemporaryDirectory() as tmp:
             out_path = Path(tmp) / "latest.json"
@@ -83,7 +86,7 @@ class GetLatestTimesTests(unittest.TestCase):
 
 
 class GetBestTimesTests(unittest.TestCase):
-    def test_keeps_fastest_row_per_city_and_gender(self):
+    def test_keeps_fastest_row_per_city_and_gender(self) -> None:
         df = pd.DataFrame(RACE_ROWS)
         with tempfile.TemporaryDirectory() as tmp:
             out_path = Path(tmp) / "best.json"
