@@ -46,11 +46,13 @@ def get_metadata(df: pd.DataFrame, metadata_output_file: str) -> None:
     country_codes = get_country_codes(cities)
     df["Country"] = df["City"].map(country_codes)
 
-    df.to_json(
-        metadata_output_file,
-        orient="records",
-        indent=2,
-    )
+    write_records(df, metadata_output_file)
+
+
+def write_records(df: pd.DataFrame, output_file: str) -> None:
+    # Trailing newline keeps generated files stable under pre-commit's end-of-file-fixer.
+    with open(output_file, "w") as f:
+        f.write(df.to_json(orient="records", indent=2) + "\n")
 
 
 def get_latest_times(df: pd.DataFrame, latest_times_output: str) -> None:
@@ -61,11 +63,7 @@ def get_latest_times(df: pd.DataFrame, latest_times_output: str) -> None:
     latest_times["Date"] = format_date(latest_times["Date"])
     latest_times["Country"] = latest_times["Country"].apply(get_athlete_country)
 
-    latest_times.to_json(
-        latest_times_output,
-        orient="records",
-        indent=2,
-    )
+    write_records(latest_times, latest_times_output)
 
 
 def get_best_times(df: pd.DataFrame, best_times_output: str) -> None:
@@ -77,7 +75,7 @@ def get_best_times(df: pd.DataFrame, best_times_output: str) -> None:
     best_times["Date"] = format_date(best_times["Date"])
     best_times["Country"] = best_times["Country"].apply(get_athlete_country)
 
-    best_times.to_json(best_times_output, orient="records", indent=2)
+    write_records(best_times, best_times_output)
 
 
 def main(
