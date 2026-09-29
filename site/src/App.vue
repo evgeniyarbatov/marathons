@@ -31,9 +31,6 @@ import MarathonsTable from './components/MarathonsTable.vue'
           <time class="last-updated" :datetime="lastUpdatedISO">
             Last updated: {{ lastUpdated }}
           </time>
-          <div class="buy-me-coffee">
-            <a href="https://www.buymeacoffee.com/arbatov" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-          </div>
         </div>
       </footer>
     </div>
@@ -152,15 +149,6 @@ footer {
   opacity: 0.8;
   font-style: italic;
   color: var(--color-text);
-}
-
-.buy-me-coffee {
-  margin-top: 1rem;
-}
-
-.buy-me-coffee a {
-  display: inline-block;
-  text-decoration: none;
 }
 
 .wrapper {
