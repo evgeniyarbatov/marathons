@@ -27,6 +27,24 @@
     "Gender":"Men"
   },
   {
+    "Time":"2:09:11",
+    "Name":"Amanal Petros",
+    "Country":null,
+    "City":"Alexander Stadium",
+    "Date":"2026-08-16",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:22:26",
+    "Name":"Alisa Vainio",
+    "Country":"fi",
+    "City":"Alexander Stadium",
+    "Date":"2026-08-16",
+    "Year":2026,
+    "Gender":"Women"
+  },
+  {
     "Time":"2:11:34",
     "Name":"Shume Hailu Legese",
     "Country":"et",
@@ -153,12 +171,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:20",
-    "Name":"Mohamed Chaaboud",
-    "Country":"ma",
+    "Time":"2:10:05",
+    "Name":"Birhanu Semachew",
+    "Country":"et",
     "City":"Aveiro",
-    "Date":"2024-04-28",
-    "Year":2024,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -169,6 +187,15 @@
     "Date":"2025-04-27",
     "Year":2025,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:11:56",
+    "Name":"Julius Kipyego Keter",
+    "Country":"ke",
+    "City":"Baltimore",
+    "Date":"2008-10-11",
+    "Year":2008,
+    "Gender":"Men"
   },
   {
     "Time":"2:29:11",
@@ -189,30 +216,30 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:04:13",
-    "Name":"Tesfaye Deriba",
-    "Country":"et",
+    "Time":"2:04:56",
+    "Name":"Abel Chelangat",
+    "Country":"ug",
     "City":"Barcelona",
-    "Date":"2025-03-16",
-    "Year":2025,
+    "Date":"2026-03-15",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:19:33",
-    "Name":"Sharon Chelimo",
-    "Country":"ke",
+    "Time":"2:10:51",
+    "Name":"Fotyen Tesfay",
+    "Country":"et",
     "City":"Barcelona",
-    "Date":"2025-03-16",
-    "Year":2025,
+    "Date":"2026-03-15",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:08:10",
-    "Name":"Lemi Berhanu",
+    "Time":"2:10:36",
+    "Name":"Tadele Demise",
     "Country":"et",
     "City":"Beijing",
-    "Date":"2025-11-02",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -279,18 +306,27 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:23",
-    "Name":"Gilbert Chumba",
+    "Time":"2:11:52",
+    "Name":"Daniel Cheruiyot Yegon",
     "Country":"ke",
-    "City":"Beograd",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "City":"Bengaluru",
+    "Date":"2013-12-14",
+    "Year":2013,
     "Gender":"Men"
   },
   {
-    "Time":"2:26:51",
-    "Name":"Deborah Sang",
-    "Country":"ke",
+    "Time":"2:09:11",
+    "Name":"Gada Gemsisa",
+    "Country":"et",
+    "City":"Beograd",
+    "Date":"2026-04-19",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:26:55",
+    "Name":"Lensa Debele",
+    "Country":"et",
     "City":"Beograd",
     "Date":"2025-04-06",
     "Year":2025,
@@ -450,12 +486,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:10:51",
-    "Name":"Hosea Kipkemboi",
-    "Country":"ke",
+    "Time":"2:11:58",
+    "Name":"Nicolae Alexandru Soare",
+    "Country":"ro",
     "City":"Bucure\u015fti",
-    "Date":"2019-10-13",
-    "Year":2019,
+    "Date":"2025-10-12",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -522,21 +558,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:04",
-    "Name":"Evans Mayaka",
-    "Country":"ke",
+    "Time":"2:11:49",
+    "Name":"Challa Gossa",
+    "Country":"et",
     "City":"Cali",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:26",
-    "Name":"Emmah Cheruto Ndiwa",
+    "Time":"2:29:55",
+    "Name":"Stacey Chepkemboi Ndiwa",
     "Country":"ke",
     "City":"Cali",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -621,12 +657,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:41",
-    "Name":"Wesley Ledama",
+    "Time":"2:07:36",
+    "Name":"Leonard Bor",
     "Country":"ke",
     "City":"Castell\u00f3n",
-    "Date":"2025-02-16",
-    "Year":2025,
+    "Date":"2026-02-22",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -801,12 +837,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:39",
-    "Name":"Ernest Tjela",
-    "Country":null,
+    "Time":"2:11:59",
+    "Name":"Sam Ngatia",
+    "Country":"ke",
     "City":"Columbus",
-    "Date":"1987-11-08",
-    "Year":1987,
+    "Date":"1989-11-12",
+    "Year":1989,
     "Gender":"Men"
   },
   {
@@ -828,21 +864,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:08:25",
-    "Name":"Berhane Tesfay",
-    "Country":"er",
+    "Time":"2:08:26",
+    "Name":"Tadesse Kassa",
+    "Country":"et",
     "City":"Copenhagen",
-    "Date":"2025-05-11",
-    "Year":2025,
+    "Date":"2026-05-10",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:23:19",
-    "Name":"Sharon Kiptugen",
+    "Time":"2:22:08",
+    "Name":"Mercy Chepwogen",
     "Country":"ke",
     "City":"Copenhagen",
-    "Date":"2025-05-11",
-    "Year":2025,
+    "Date":"2026-05-10",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -891,39 +927,39 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:05:20",
+    "Time":"2:08:11",
     "Name":"Gabriel Gerald Geay",
     "Country":null,
     "City":"Daegu",
-    "Date":"2025-02-23",
-    "Year":2025,
+    "Date":"2026-02-22",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:24:08",
-    "Name":"Meseret Belete",
-    "Country":"et",
+    "Time":"2:19:35",
+    "Name":"Lilian Kasait Rengeruk",
+    "Country":"ke",
     "City":"Daegu",
-    "Date":"2025-02-23",
-    "Year":2025,
+    "Date":"2026-02-22",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:10:33",
-    "Name":"Abebaw Muniye",
-    "Country":"et",
+    "Time":"2:09:29",
+    "Name":"Francis Kipkorir Langat",
+    "Country":"ke",
     "City":"Dalian",
-    "Date":"2025-05-11",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:20",
-    "Name":"Martha Akeno",
-    "Country":"ke",
+    "Time":"2:29:02",
+    "Name":"Qing Zhu",
+    "Country":"cn",
     "City":"Dalian",
-    "Date":"2025-05-11",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -934,6 +970,15 @@
     "Date":"2006-12-10",
     "Year":2006,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:11:58",
+    "Name":"Dereje Tadesse",
+    "Country":"et",
+    "City":"Danzhou",
+    "Date":"2010-12-18",
+    "Year":2010,
+    "Gender":"Men"
   },
   {
     "Time":"2:26:12",
@@ -978,6 +1023,24 @@
     "City":"Dhaka",
     "Date":"2021-01-10",
     "Year":2021,
+    "Gender":"Women"
+  },
+  {
+    "Time":"2:11:18",
+    "Name":"Michael Kimani Kamau",
+    "Country":"ke",
+    "City":"Dodger Stadium",
+    "Date":"2026-03-07",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:25:20",
+    "Name":"Priscah Jepleting Cherono",
+    "Country":"ke",
+    "City":"Dodger Stadium",
+    "Date":"2026-03-07",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -1027,7 +1090,7 @@
   },
   {
     "Time":"2:26:36",
-    "Name":"Muluhabt Tsega",
+    "Name":"Afera Godfay",
     "Country":"et",
     "City":"Dongying",
     "Date":"2025-10-19",
@@ -1072,7 +1135,7 @@
   },
   {
     "Time":"2:26:28",
-    "Name":"Ebisse Adugna",
+    "Name":"Eebbisee Addunyaa",
     "Country":"et",
     "City":"Dublin",
     "Date":"2025-10-26",
@@ -1080,57 +1143,57 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:14",
-    "Name":"Elisha Kiprop Barno",
-    "Country":"ke",
+    "Time":"2:11:21",
+    "Name":"Amanuel Mesel",
+    "Country":"er",
     "City":"Duluth",
-    "Date":"2023-06-17",
-    "Year":2023,
+    "Date":"2026-06-20",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:25:56",
-    "Name":"Lauren Paquette",
+    "Time":"2:28:51",
+    "Name":"Dakotah Popehn",
     "Country":"us",
     "City":"Duluth",
-    "Date":"2023-06-17",
-    "Year":2023,
+    "Date":"2026-06-20",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:11:02",
-    "Name":"Godwin Katakura",
+    "Time":"2:11:21",
+    "Name":"Regan Magwai",
     "Country":null,
     "City":"Durban",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:46",
-    "Name":"Cian Oldknow",
-    "Country":null,
+    "Time":"2:26:45",
+    "Name":"Alemitu Lema",
+    "Country":"et",
     "City":"Durban",
-    "Date":"2024-04-28",
-    "Year":2024,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:08:33",
-    "Name":"Alex Maier",
-    "Country":"us",
+    "Time":"2:08:54",
+    "Name":"Dmitriy Nedelin",
+    "Country":"ru",
     "City":"D\u00fcsseldorf",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:25:23",
-    "Name":"Leah Jeruto",
+    "Time":"2:25:15",
+    "Name":"Tecla Kibet",
     "Country":"ke",
     "City":"D\u00fcsseldorf",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -1188,21 +1251,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:09:34",
-    "Name":"Patrick Keter",
+    "Time":"2:08:49",
+    "Name":"Alfred Barkach",
     "Country":"ke",
     "City":"Enschede",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:25:09",
-    "Name":"Medina Deme Armino",
+    "Time":"2:25:38",
+    "Name":"Abersh Minsewo",
     "Country":"et",
     "City":"Enschede",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -1332,21 +1395,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:06:29",
-    "Name":"Samuel Fitwi Sibhatu",
-    "Country":null,
+    "Time":"2:07:53",
+    "Name":"Thomas Kibet Maru",
+    "Country":"ke",
     "City":"Friedrichswall",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:24:22",
+    "Time":"2:21:26",
     "Name":"Domenika Mayer",
     "Country":null,
     "City":"Friedrichswall",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -1413,12 +1476,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:11:37",
+    "Time":"2:08:53",
     "Name":"Collins Kemboi",
     "Country":"ke",
     "City":"Gen\u00e8ve",
-    "Date":"2025-05-11",
-    "Year":2025,
+    "Date":"2026-05-10",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -1431,21 +1494,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:07:33",
-    "Name":"Yuki Takei",
-    "Country":"jp",
+    "Time":"2:06:20",
+    "Name":"Haftu Strintzos",
+    "Country":"au",
     "City":"Gold Coast",
-    "Date":"2025-07-06",
-    "Year":2025,
+    "Date":"2026-07-05",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:27",
-    "Name":"Tegest Ayalew",
+    "Time":"2:24:53",
+    "Name":"Almaz Kebebe",
     "Country":"et",
     "City":"Gold Coast",
-    "Date":"2025-07-06",
-    "Year":2025,
+    "Date":"2026-07-05",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -1465,6 +1528,24 @@
     "Date":"2021-10-10",
     "Year":2021,
     "Gender":"Men"
+  },
+  {
+    "Time":"2:04:55",
+    "Name":"Mohamed Esa",
+    "Country":"et",
+    "City":"Green Point Stadium",
+    "Date":"2026-05-24",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:23:18",
+    "Name":"Dera Dida",
+    "Country":"et",
+    "City":"Green Point Stadium",
+    "Date":"2026-05-24",
+    "Year":2026,
+    "Gender":"Women"
   },
   {
     "Time":"2:09:14",
@@ -1521,12 +1602,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:03",
-    "Name":"Tadele Demise",
+    "Time":"2:29:04",
+    "Name":"Fikrte Wereta",
     "Country":"et",
+    "City":"Guiyang",
+    "Date":"2026-06-14",
+    "Year":2026,
+    "Gender":"Women"
+  },
+  {
+    "Time":"2:07:15",
+    "Name":"Isaac Kipkemboi Too",
+    "Country":"ke",
     "City":"Gunsan",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-05",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -1548,21 +1638,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:03:46",
-    "Name":"Amos Kipruto",
-    "Country":"ke",
+    "Time":"2:04:24",
+    "Name":"Othmane El Goumri",
+    "Country":"ma",
     "City":"Hamburg",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:17:55",
-    "Name":"Workenesh Edesa",
-    "Country":"et",
+    "Time":"2:17:05",
+    "Name":"Brillian Jepkorir Kipkoech",
+    "Country":"ke",
     "City":"Hamburg",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -1585,8 +1675,8 @@
   },
   {
     "Time":"2:11:15",
-    "Name":"Boniface Kimutai",
-    "Country":"ke",
+    "Name":"Chalu Deso",
+    "Country":"et",
     "City":"Hangzhou",
     "Date":"2025-11-02",
     "Year":2025,
@@ -1728,12 +1818,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:08:00",
-    "Name":"Titus Ekiru",
-    "Country":"ke",
+    "Time":"2:11:59",
+    "Name":"Yemane Haileselassie",
+    "Country":"er",
     "City":"Honolulu",
-    "Date":"2019-12-08",
-    "Year":2019,
+    "Date":"2024-12-08",
+    "Year":2024,
     "Gender":"Men"
   },
   {
@@ -1935,6 +2025,15 @@
     "Gender":"Women"
   },
   {
+    "Time":"2:12:00",
+    "Name":"Shivnath Singh",
+    "Country":"in",
+    "City":"Jullundur",
+    "Date":"1978-05-28",
+    "Year":1978,
+    "Gender":"Men"
+  },
+  {
     "Time":"2:11:17",
     "Name":"Waldemar Cierpinski",
     "Country":null,
@@ -1953,21 +2052,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:09:38",
-    "Name":"Dmitriy Nedelin",
+    "Time":"2:08:07",
+    "Name":"Vladimir Nikitin",
     "Country":"ru",
     "City":"Kazan",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:23",
-    "Name":"Judith Cherono",
-    "Country":"ke",
+    "Time":"2:26:07",
+    "Name":"Luiza Lega",
+    "Country":"ru",
     "City":"Kazan",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -2196,31 +2295,40 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:10:23",
-    "Name":"David Barmasai Tumo",
+    "Time":"2:11:55",
+    "Name":"Ezra Kipchumba Kering",
     "Country":"ke",
     "City":"Lagos",
-    "Date":"2020-02-08",
-    "Year":2020,
+    "Date":"2026-02-14",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:11:45",
-    "Name":"Getaneh Molla",
+    "Time":"2:11:52",
+    "Name":"Gerba Dibaba",
     "Country":"et",
     "City":"Lanzhou",
-    "Date":"2025-05-25",
-    "Year":2025,
+    "Date":"2026-05-24",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:24:12",
-    "Name":"Degitu Azimeraw",
+    "Time":"2:29:54",
+    "Name":"Haven Hailu Desse",
     "Country":"et",
     "City":"Lanzhou",
-    "Date":"2025-05-25",
-    "Year":2025,
+    "Date":"2026-05-24",
+    "Year":2026,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:11:58",
+    "Name":"Stephen Kiogora",
+    "Country":"ke",
+    "City":"Las Vegas",
+    "Date":"2005-12-04",
+    "Year":2005,
+    "Gender":"Men"
   },
   {
     "Time":"2:29:47",
@@ -2304,39 +2412,39 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:11:48",
-    "Name":"Dominic Letting",
+    "Time":"2:10:21",
+    "Name":"John Mburu Muiruri",
     "Country":"ke",
     "City":"Lima",
-    "Date":"2024-05-19",
-    "Year":2024,
+    "Date":"2026-05-24",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:28:29",
-    "Name":"Aberash Demisse",
+    "Time":"2:27:30",
+    "Name":"Aberash Fayesa",
     "Country":"et",
     "City":"Lima",
-    "Date":"2025-05-25",
-    "Year":2025,
+    "Date":"2026-05-24",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:07:58",
-    "Name":"Amos Kiplagat",
+    "Time":"2:08:53",
+    "Name":"Abednego Cheruiyot",
     "Country":"ke",
     "City":"Linz",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:24:58",
-    "Name":"Gladys Kimaina",
+    "Time":"2:26:01",
+    "Name":"Jackline Chepngeno",
     "Country":"ke",
     "City":"Linz",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -2376,21 +2484,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:02:27",
+    "Time":"1:59:30",
     "Name":"Sabastian Kimaru Sawe",
     "Country":"ke",
     "City":"London",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:15:50",
+    "Time":"2:15:41",
     "Name":"Tigst Assefa",
     "Country":"et",
     "City":"London",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -2457,21 +2565,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:11",
-    "Name":"Derara Hurisa",
-    "Country":"et",
+    "Time":"2:08:46",
+    "Name":"Mike Chematot",
+    "Country":"ke",
     "City":"Madrid",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:25:55",
-    "Name":"Maritu Ketema",
+    "Time":"2:26:00",
+    "Name":"Kena Girma",
     "Country":"et",
     "City":"Madrid",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -2637,21 +2745,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:08:38",
-    "Name":"Leonard Langat",
+    "Time":"2:06:35",
+    "Name":"Vitalis Kibiwott",
     "Country":"ke",
     "City":"Milano",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:23:31",
-    "Name":"Shure Demise",
+    "Time":"2:20:15",
+    "Name":"Yeshi Kalayu Chekole",
     "Country":"et",
     "City":"Milano",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -2835,12 +2943,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:20:40",
+    "Time":"2:21:54",
     "Name":"Sheila Chepkirui",
     "Country":"ke",
     "City":"Nagoya",
-    "Date":"2025-03-09",
-    "Year":2025,
+    "Date":"2026-03-08",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -2880,12 +2988,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:10:35",
-    "Name":"Abebaw Muniye",
-    "Country":"et",
+    "Time":"2:12:00",
+    "Name":"Boaz Kipkemei",
+    "Country":"ke",
     "City":"Nanjing",
-    "Date":"2024-11-17",
-    "Year":2024,
+    "Date":"2025-11-16",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -2926,7 +3034,7 @@
   },
   {
     "Time":"2:09:48",
-    "Name":"Alphonce Felix Simbu",
+    "Name":"Amanal Petros",
     "Country":null,
     "City":"National Stadium",
     "Date":"2025-09-15",
@@ -3177,20 +3285,20 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:05:37",
-    "Name":"Yihunilign Adane",
-    "Country":"et",
+    "Time":"2:05:20",
+    "Name":"Ibrahim Hassan",
+    "Country":"dj",
     "City":"Osaka",
-    "Date":"2025-02-24",
-    "Year":2025,
+    "Date":"2026-02-22",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:19:31",
-    "Name":"Stella Chesang",
-    "Country":"ug",
+    "Time":"2:21:44",
+    "Name":"Mare Dibaba",
+    "Country":"et",
     "City":"Osaka",
-    "Date":"2026-01-25",
+    "Date":"2026-02-22",
     "Year":2026,
     "Gender":"Women"
   },
@@ -3204,30 +3312,30 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:08:22",
-    "Name":"Albert Korir",
+    "Time":"2:09:22",
+    "Name":"Elvis Kipchoge Cheboi",
     "Country":"ke",
     "City":"Ottawa",
-    "Date":"2025-05-25",
-    "Year":2025,
+    "Date":"2026-05-24",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:23:33",
-    "Name":"Mercy Chelangat",
-    "Country":"ke",
+    "Time":"2:23:12",
+    "Name":"Abeba Aregawi",
+    "Country":"se",
     "City":"Ottawa",
-    "Date":"2025-05-25",
-    "Year":2025,
+    "Date":"2026-05-24",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:11:48",
-    "Name":"Enock Onchari",
-    "Country":"ke",
+    "Time":"2:09:35",
+    "Name":"Victor Kwemboi",
+    "Country":"ug",
     "City":"Padova",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -3258,21 +3366,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:05:25",
-    "Name":"Benard Biwott",
-    "Country":"ke",
+    "Time":"2:05:18",
+    "Name":"Yemaneberhan Crippa",
+    "Country":"it",
     "City":"Paris",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:20:45",
-    "Name":"Bedatu Hirpa",
+    "Time":"2:18:34",
+    "Name":"Shure Demise",
     "Country":"et",
     "City":"Paris",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -3321,12 +3429,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:41",
-    "Name":"Petko Stefanov",
-    "Country":null,
+    "Time":"2:11:51",
+    "Name":"Dmitriy Safronov",
+    "Country":"ru",
     "City":"Podgorica",
-    "Date":"1997-10-05",
-    "Year":1997,
+    "Date":"2009-11-01",
+    "Year":2009,
     "Gender":"Men"
   },
   {
@@ -3366,6 +3474,15 @@
     "Gender":"Women"
   },
   {
+    "Time":"2:08:52",
+    "Name":"Ouria Zineddine",
+    "Country":"ma",
+    "City":"Porto Alegre",
+    "Date":"2026-07-12",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
     "Time":"2:29:48",
     "Name":"Tiringo Mulu",
     "Country":"et",
@@ -3393,21 +3510,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:05:14",
-    "Name":"Lemi Berhanu",
+    "Time":"2:05:51",
+    "Name":"Berehanu Tsegu",
     "Country":"et",
     "City":"Praha",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:20:55",
-    "Name":"Bertukan Welde",
-    "Country":"et",
+    "Time":"2:24:19",
+    "Name":"Millicent Jelimo",
+    "Country":"ke",
     "City":"Praha",
-    "Date":"2025-05-04",
-    "Year":2025,
+    "Date":"2026-05-03",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -3436,6 +3553,15 @@
     "Date":"2002-10-13",
     "Year":2002,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:11:32",
+    "Name":"Jiahao Wang",
+    "Country":"cn",
+    "City":"Pukou",
+    "Date":"2026-03-08",
+    "Year":2026,
+    "Gender":"Men"
   },
   {
     "Time":"2:11:00",
@@ -3492,21 +3618,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:09:25",
-    "Name":"Abel Chelangat",
-    "Country":"ug",
+    "Time":"2:07:52",
+    "Name":"Boki Diriba",
+    "Country":"et",
     "City":"Rabat",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-05-10",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:25:02",
-    "Name":"Rahma Tahiri",
-    "Country":"ma",
+    "Time":"2:25:03",
+    "Name":"Alemtsehay Asefa",
+    "Country":"et",
     "City":"Rabat",
-    "Date":"2025-04-27",
-    "Year":2025,
+    "Date":"2026-05-10",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -3573,21 +3699,39 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:08:51",
-    "Name":"Andualem Belay",
-    "Country":"et",
+    "Time":"2:08:58",
+    "Name":"Kelvin Kiptoo Kororia",
+    "Country":"ke",
     "City":"Riga",
-    "Date":"2019-05-19",
-    "Year":2019,
+    "Date":"2026-05-17",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:28:24",
+    "Time":"2:26:40",
     "Name":"Ayantu Kumela",
     "Country":"et",
     "City":"Riga",
-    "Date":"2025-05-18",
-    "Year":2025,
+    "Date":"2026-05-17",
+    "Year":2026,
+    "Gender":"Women"
+  },
+  {
+    "Time":"2:10:22",
+    "Name":"Tsegaye Getachew",
+    "Country":"et",
+    "City":"Rio de Janeiro",
+    "Date":"2026-06-07",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:25:47",
+    "Name":"Gadise Mulu",
+    "Country":"et",
+    "City":"Rio de Janeiro",
+    "Date":"2026-06-07",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -3609,12 +3753,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:29",
-    "Name":"Justin Kent",
+    "Time":"2:09:25",
+    "Name":"Thomas Nobbs",
     "Country":"ca",
     "City":"Rockland Lake State Park",
-    "Date":"2025-03-30",
-    "Year":2025,
+    "Date":"2026-03-29",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -3627,48 +3771,48 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:07:35",
-    "Name":"Robert Ngeno",
+    "Time":"2:06:32",
+    "Name":"Asbel Rutto",
     "Country":"ke",
     "City":"Roma",
-    "Date":"2025-03-16",
-    "Year":2025,
+    "Date":"2026-03-22",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:26:16",
-    "Name":"Betty Chepkwony",
+    "Time":"2:22:44",
+    "Name":"Pasacline Jelagat",
     "Country":"ke",
     "City":"Roma",
-    "Date":"2025-03-16",
-    "Year":2025,
+    "Date":"2026-03-22",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:04:33",
-    "Name":"Geoffrey Kamworor",
-    "Country":"ke",
+    "Time":"2:03:54",
+    "Name":"Guye Idemo Adola",
+    "Country":"et",
     "City":"Rotterdam",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:21:14",
-    "Name":"Jackline Cherono",
-    "Country":"ke",
+    "Time":"2:18:56",
+    "Name":"Mekides Shimeles",
+    "Country":"et",
     "City":"Rotterdam",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:10:27",
-    "Name":"Jerry Lawson",
-    "Country":"us",
+    "Time":"2:11:56",
+    "Name":"Elly Rono",
+    "Country":"ke",
     "City":"Sacramento",
-    "Date":"1993-12-05",
-    "Year":1993,
+    "Date":"2002-12-08",
+    "Year":2002,
     "Gender":"Men"
   },
   {
@@ -3735,12 +3879,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:11:10",
-    "Name":"David Kiprono",
+    "Time":"2:11:57",
+    "Name":"Collins Cheboi",
     "Country":"ke",
     "City":"San Sebasti\u00e1n",
-    "Date":"2018-11-25",
-    "Year":2018,
+    "Date":"2019-11-24",
+    "Year":2019,
     "Gender":"Men"
   },
   {
@@ -3754,20 +3898,20 @@
   },
   {
     "Time":"2:09:49",
-    "Name":"Carlos D\u00edaz",
-    "Country":null,
+    "Name":"Cornelius Kibiwott Chepkok",
+    "Country":"ke",
     "City":"Santiago de Chile",
-    "Date":"2025-05-18",
-    "Year":2025,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:27:12",
-    "Name":"Citlali Cristian Moscote",
-    "Country":"mx",
+    "Time":"2:27:58",
+    "Name":"Tigist Getnet",
+    "Country":"et",
     "City":"Santiago de Chile",
-    "Date":"2023-10-22",
-    "Year":2023,
+    "Date":"2026-04-26",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -3825,39 +3969,39 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:05:32",
-    "Name":"Nicholas Kitundu",
-    "Country":"ke",
+    "Time":"2:04:22",
+    "Name":"Haftu Teklu",
+    "Country":"et",
     "City":"Seoul",
-    "Date":"2025-11-02",
-    "Year":2025,
+    "Date":"2026-03-15",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:12",
-    "Name":"Ye-Jin Lim",
-    "Country":"kr",
+    "Time":"2:19:09",
+    "Name":"Haven Hailu Desse",
+    "Country":"et",
     "City":"Seoul",
-    "Date":"2025-11-02",
-    "Year":2025,
+    "Date":"2026-03-15",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:05:15",
-    "Name":"Selemon Barega",
+    "Time":"2:03:59",
+    "Name":"Shura Kitata",
     "Country":"et",
     "City":"Sevilla",
-    "Date":"2025-02-23",
-    "Year":2025,
+    "Date":"2026-02-15",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:22:17",
-    "Name":"Anchinalu Dessie",
-    "Country":"et",
+    "Time":"2:20:39",
+    "Name":"Alisa Vainio",
+    "Country":"fi",
     "City":"Sevilla",
-    "Date":"2025-02-23",
-    "Year":2025,
+    "Date":"2026-02-15",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -3904,6 +4048,15 @@
     "Date":"2025-12-07",
     "Year":2025,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:11:49",
+    "Name":"Mingyao Wu",
+    "Country":"cn",
+    "City":"Shijiazhuang",
+    "Date":"2026-03-29",
+    "Year":2026,
+    "Gender":"Men"
   },
   {
     "Time":"2:11:40",
@@ -4005,21 +4158,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:46",
-    "Name":"Nikolay Kerimov",
-    "Country":"ru",
+    "Time":"2:10:46",
+    "Name":"Sylas Chebii",
+    "Country":"ke",
     "City":"St. Petersburg",
-    "Date":"2003-06-21",
-    "Year":2003,
+    "Date":"2026-07-04",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:05",
-    "Name":"Lensa Debele",
-    "Country":"et",
+    "Time":"2:25:35",
+    "Name":"Soukaina Atanane",
+    "Country":"ma",
     "City":"St. Petersburg",
-    "Date":"2025-07-05",
-    "Year":2025,
+    "Date":"2026-07-04",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -4059,6 +4212,15 @@
     "Gender":"Women"
   },
   {
+    "Time":"2:11:58",
+    "Name":"Leonid Moseyev",
+    "Country":null,
+    "City":"Stadion Ev\u017eena Ro\u0161ick\u00e9ho",
+    "Date":"1978-09-03",
+    "Year":1978,
+    "Gender":"Men"
+  },
+  {
     "Time":"2:10:51",
     "Name":"Zithulele Sinqe",
     "Country":null,
@@ -4068,12 +4230,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:11:34",
-    "Name":"Onesmus Kiplagat Kiplimo",
+    "Time":"2:10:46",
+    "Name":"Edwin Kiptoo",
     "Country":"ke",
     "City":"Stockholm",
-    "Date":"2025-05-31",
-    "Year":2025,
+    "Date":"2026-05-30",
+    "Year":2026,
     "Gender":"Men"
   },
   {
@@ -4084,6 +4246,15 @@
     "Date":"2021-10-09",
     "Year":2021,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:11:57",
+    "Name":"Molalign Fantahun",
+    "Country":"et",
+    "City":"Suzhou",
+    "Date":"2024-12-01",
+    "Year":2024,
+    "Gender":"Men"
   },
   {
     "Time":"2:10:01",
@@ -4113,12 +4284,12 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:11:19",
-    "Name":"Stanley Kipleting Biwott",
+    "Time":"2:11:53",
+    "Name":"David Kemboi Kiyeng",
     "Country":"ke",
     "City":"S\u00e3o Paulo",
-    "Date":"2010-05-02",
-    "Year":2010,
+    "Date":"2011-06-19",
+    "Year":2011,
     "Gender":"Men"
   },
   {
@@ -4176,30 +4347,30 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:10:11",
-    "Name":"Dominic Mibei",
+    "Time":"2:10:14",
+    "Name":"Dickson Nyakundi",
     "Country":"ke",
     "City":"Tel Aviv",
-    "Date":"2023-02-24",
-    "Year":2023,
+    "Date":"2026-02-27",
+    "Year":2026,
     "Gender":"Men"
   },
   {
     "Time":"2:10:36",
-    "Name":"Moses Kigen Kipkosgei",
-    "Country":"ke",
+    "Name":"Tekeste Kebede",
+    "Country":"et",
     "City":"Tempe",
     "Date":"2009-01-18",
     "Year":2009,
     "Gender":"Men"
   },
   {
-    "Time":"2:11:10",
-    "Name":"Fukui Zhang",
+    "Time":"2:11:56",
+    "Name":"Xianhui Meng",
     "Country":"cn",
     "City":"Tianjin",
-    "Date":"1993-04-04",
-    "Year":1993,
+    "Date":"1996-04-14",
+    "Year":1996,
     "Gender":"Men"
   },
   {
@@ -4212,21 +4383,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:03:23",
-    "Name":"Tadese Takele",
-    "Country":"et",
+    "Time":"2:03:37",
+    "Name":"Geofry Toroitich Kipchumba",
+    "Country":"ke",
     "City":"Tokyo",
-    "Date":"2025-03-02",
-    "Year":2025,
+    "Date":"2026-03-01",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:16:31",
-    "Name":"Sutume Asefa Kebede",
-    "Country":"et",
+    "Time":"2:14:29",
+    "Name":"Brigid Kosgei",
+    "Country":"ke",
     "City":"Tokyo",
-    "Date":"2025-03-02",
-    "Year":2025,
+    "Date":"2026-03-01",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -4347,12 +4518,12 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:10:55",
-    "Name":"Elisha Kiprop Barno",
-    "Country":"ke",
+    "Time":"2:11:58",
+    "Name":"Joel Reichow",
+    "Country":"us",
     "City":"Two Harbors to Duluth",
-    "Date":"2024-06-22",
-    "Year":2024,
+    "Date":"2025-06-21",
+    "Year":2025,
     "Gender":"Men"
   },
   {
@@ -4363,6 +4534,15 @@
     "Date":"2025-06-21",
     "Year":2025,
     "Gender":"Women"
+  },
+  {
+    "Time":"2:12:00",
+    "Name":"Morio Shigematu",
+    "Country":"jp",
+    "City":"Tyswik",
+    "Date":"1965-06-12",
+    "Year":1965,
+    "Gender":"Men"
   },
   {
     "Time":"2:11:32",
@@ -4563,21 +4743,21 @@
     "Gender":"Men"
   },
   {
-    "Time":"2:08:28",
-    "Name":"Haftamu Gebresilase",
-    "Country":"et",
+    "Time":"2:06:53",
+    "Name":"Fanny Kiprotich Bungei",
+    "Country":"ke",
     "City":"Wien",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-19",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:24:14",
-    "Name":"Betty Chepkemoi Kibet",
-    "Country":"ke",
+    "Time":"2:20:06",
+    "Name":"Tigist Gezahagn",
+    "Country":"et",
     "City":"Wien",
-    "Date":"2025-04-06",
-    "Year":2025,
+    "Date":"2026-04-19",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -4599,39 +4779,39 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:08:51",
-    "Name":"Asefa Mengstu",
-    "Country":"et",
+    "Time":"2:10:16",
+    "Name":"John Mburu Muiruri",
+    "Country":"ke",
     "City":"Wuhan",
-    "Date":"2025-03-23",
-    "Year":2025,
+    "Date":"2026-03-22",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:24:47",
-    "Name":"Gutemi Shone Imana",
-    "Country":"et",
+    "Time":"2:24:14",
+    "Name":"Veronica Maina",
+    "Country":"ke",
     "City":"Wuhan",
-    "Date":"2025-03-23",
-    "Year":2025,
+    "Date":"2026-03-22",
+    "Year":2026,
     "Gender":"Women"
   },
   {
-    "Time":"2:07:00",
-    "Name":"Samsom Amare",
-    "Country":"er",
+    "Time":"2:07:07",
+    "Name":"Kemal Husen",
+    "Country":"et",
     "City":"Wuxi",
-    "Date":"2025-03-23",
-    "Year":2025,
+    "Date":"2026-03-22",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:23:42",
-    "Name":"Kuftu Tahir",
+    "Time":"2:24:14",
+    "Name":"Amid Fozya Jemal",
     "Country":"et",
     "City":"Wuxi",
-    "Date":"2025-03-23",
-    "Year":2025,
+    "Date":"2026-03-22",
+    "Year":2026,
     "Gender":"Women"
   },
   {
@@ -4717,8 +4897,8 @@
   },
   {
     "Time":"2:11:38",
-    "Name":"Birhan Nebebew",
-    "Country":"et",
+    "Name":"Solomon Suter",
+    "Country":"ke",
     "City":"Yingkou",
     "Date":"2024-05-26",
     "Year":2024,
@@ -4779,21 +4959,21 @@
     "Gender":"Women"
   },
   {
-    "Time":"2:09:16",
-    "Name":"Mark Kosgei Kiptoo",
+    "Time":"2:09:03",
+    "Name":"Davis Kiplangat",
     "Country":"ke",
     "City":"Z\u00fcrich",
-    "Date":"2025-04-13",
-    "Year":2025,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Men"
   },
   {
-    "Time":"2:29:00",
-    "Name":"Dina Aleksandrova",
-    "Country":"ru",
+    "Time":"2:28:25",
+    "Name":"Lydia Cheruto",
+    "Country":"ke",
     "City":"Z\u00fcrich",
-    "Date":"2024-04-21",
-    "Year":2024,
+    "Date":"2026-04-12",
+    "Year":2026,
     "Gender":"Women"
   },
   {
