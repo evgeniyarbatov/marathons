@@ -14,6 +14,7 @@ https://evgeniyarbatov.github.io/marathons/ via GitHub Pages.
 - `site/` — Vue 3 + Vite frontend, prerendered at build time (`site/scripts/prerender.mjs`).
 - `.github/workflows/refresh-data.yml` — daily Kaggle pull; commits changed JSON and calls `deploy.yml`.
 - `.github/workflows/deploy.yml` — builds `site/` and publishes to GitHub Pages.
+- `.github/workflows/ci.yml` — tests, pre-commit and site build on PRs and main.
 - `cache/` — committed Nominatim geocoding cache; keeps CI from re-geocoding every city.
 
 ## How to run
@@ -33,4 +34,6 @@ make build      # build site into site/dist
 - `make data` requires `KAGGLE_API_TOKEN` (repo secret in CI) or `kaggle auth login` locally.
 - Site is served under `/marathons/` (Vite `base`); fetch public files via `import.meta.env.BASE_URL`, not `/`.
 - `site/public/*.json` and `cache/` are committed on purpose: `links.py` and geocoding only look up entries missing from them.
-- Tests: `make test` (unittest, `tests/`).
+- `github-actions[bot]` commits data to `main` daily; pull before pushing.
+- Nominatim allows 1 request/second; geocoding failures must raise, never be cached as `None`.
+- Tests: `make test` (unittest, `tests/`); pre-commit runs mypy strict on `tests/` too.
