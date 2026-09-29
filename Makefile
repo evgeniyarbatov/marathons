@@ -8,9 +8,6 @@ KAGGLE_DATASET = evgenyarbatov/marathon-running-times
 DATA_DIR = data
 SITE_DIR = site
 PUBLIC_DIR = $(SITE_DIR)/public
-TERRAFORM_DIR = terraform
-
-default: deploy
 
 install:
 	@uv sync --dev
@@ -18,9 +15,8 @@ install:
 lock:
 	@uv lock
 
-data:
-	kaggle datasets download --force -d $(KAGGLE_DATASET) -p $(DATA_DIR)
-	find $(DATA_DIR) -name "*.zip" | xargs -I {} unzip -o {} -d $(DATA_DIR)
+data: install
+	@uv run kaggle datasets download --force --unzip -p $(DATA_DIR) $(KAGGLE_DATASET)
 
 metadata: install
 	@uv run python scripts/metadata.py $(DATA_DIR)/marathon.csv $(PUBLIC_DIR)/marathons.json $(PUBLIC_DIR)/best_times.json $(PUBLIC_DIR)/latest_times.json
@@ -37,9 +33,8 @@ update-timestamp:
 run:
 	cd $(SITE_DIR) && npm run dev
 
-deploy:
-	cd $(SITE_DIR) && npm run build
-	cd $(TERRAFORM_DIR) && terraform apply -auto-approve
+build:
+	cd $(SITE_DIR) && npm ci && npm run build
 
 clean:
 	rm -rf .venv
@@ -53,7 +48,7 @@ help:
 	@echo "test              - run unit tests"
 	@echo "update-timestamp  - update site timestamp"
 	@echo "run               - run site dev server"
-	@echo "deploy            - build site and apply terraform"
+	@echo "build             - build site into site/dist"
 	@echo "clean             - remove .venv"
 
-.PHONY: data clean help
+.PHONY: data build clean help

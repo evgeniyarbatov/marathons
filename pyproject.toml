@@ -13,6 +13,7 @@ dependencies = [
 dev = [
     "black",
     "flake8",
+    "kaggle>=2.2.4",
     "mypy>=2.3.0",
     "pandas-stubs>=3.0.3.260530",
     "ruff>=0.15.21",

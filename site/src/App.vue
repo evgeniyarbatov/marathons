@@ -70,15 +70,15 @@ export default {
         { data: this.latestTimes },
         { data: this.links },
       ] = await axios.all([
-        axios.get('/marathons.json'),
-        axios.get('/best_times.json'),
-        axios.get('/latest_times.json'),
-        axios.get('/links.json'),
+        axios.get(`${import.meta.env.BASE_URL}marathons.json`),
+        axios.get(`${import.meta.env.BASE_URL}best_times.json`),
+        axios.get(`${import.meta.env.BASE_URL}latest_times.json`),
+        axios.get(`${import.meta.env.BASE_URL}links.json`),
       ]);
 
       // Load last updated timestamp
       try {
-        const response = await axios.get('/last_update.txt');
+        const response = await axios.get(`${import.meta.env.BASE_URL}last_update.txt`);
         const lastDeployTime = new Date(response.data.trim());
         this.lastUpdated = lastDeployTime.toLocaleDateString('en-US', {
           year: 'numeric',
