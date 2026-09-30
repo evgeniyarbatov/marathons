@@ -201,10 +201,10 @@
   },
   {
     "City":"Berlin",
-    "People Count":476,
-    "Country Count":40,
-    "Men":280.0,
-    "Women":196.0,
+    "People Count":513,
+    "Country Count":41,
+    "Men":299.0,
+    "Women":214.0,
     "Country":"de"
   },
   {
@@ -305,10 +305,10 @@
   },
   {
     "City":"Buenos Aires",
-    "People Count":36,
-    "Country Count":6,
-    "Men":24.0,
-    "Women":12.0,
+    "People Count":44,
+    "Country Count":7,
+    "Men":29.0,
+    "Women":15.0,
     "Country":"ar"
   },
   {
@@ -1577,10 +1577,10 @@
   },
   {
     "City":"Moskva",
-    "People Count":15,
+    "People Count":20,
     "Country Count":5,
-    "Men":12.0,
-    "Women":3.0,
+    "Men":15.0,
+    "Women":5.0,
     "Country":"ru"
   },
   {
@@ -1961,10 +1961,10 @@
   },
   {
     "City":"Prinzipalmarkt",
-    "People Count":7,
+    "People Count":10,
     "Country Count":3,
-    "Men":6.0,
-    "Women":1.0,
+    "Men":8.0,
+    "Women":2.0,
     "Country":"de"
   },
   {
@@ -2022,6 +2022,14 @@
     "Men":45.0,
     "Women":24.0,
     "Country":"ma"
+  },
+  {
+    "City":"Rantaraitti",
+    "People Count":1,
+    "Country Count":1,
+    "Men":null,
+    "Women":1.0,
+    "Country":"fi"
   },
   {
     "City":"Ravenna",
@@ -2169,10 +2177,10 @@
   },
   {
     "City":"Sapporo",
-    "People Count":24,
+    "People Count":34,
     "Country Count":3,
-    "Men":12.0,
-    "Women":12.0,
+    "Men":17.0,
+    "Women":17.0,
     "Country":"jp"
   },
   {
@@ -2393,10 +2401,10 @@
   },
   {
     "City":"Taiyuan",
-    "People Count":46,
-    "Country Count":6,
-    "Men":31.0,
-    "Women":15.0,
+    "People Count":51,
+    "Country Count":7,
+    "Men":34.0,
+    "Women":17.0,
     "Country":"cn"
   },
   {
@@ -2609,10 +2617,10 @@
   },
   {
     "City":"Warszawa",
-    "People Count":64,
+    "People Count":68,
     "Country Count":8,
-    "Men":48.0,
-    "Women":16.0,
+    "Men":49.0,
+    "Women":19.0,
     "Country":"pl"
   },
   {

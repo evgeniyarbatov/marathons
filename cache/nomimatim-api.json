@@ -9939,5 +9939,39 @@
       "121.3829396"
     ]
   },
-  "Tyswik": null
+  "Tyswik": null,
+  "Rantaraitti": {
+    "place_id": 168574275,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1019183021,
+    "lat": "62.2289840",
+    "lon": "25.7896325",
+    "class": "landuse",
+    "type": "recreation_ground",
+    "place_rank": 24,
+    "importance": 0.08006663080796518,
+    "addresstype": "recreation_ground",
+    "name": "Rantaraitti",
+    "display_name": "Rantaraitti, Pirttimäki, Kuokkalanpelto, Kuokkala, Jyväskylä, Jyväskylä sub-region, Central Finland, Mainland Finland, Finland",
+    "address": {
+      "recreation_ground": "Rantaraitti",
+      "quarter": "Pirttimäki",
+      "suburb": "Kuokkalanpelto",
+      "city_district": "Kuokkala",
+      "city": "Jyväskylä",
+      "municipality": "Jyväskylä sub-region",
+      "state": "Central Finland",
+      "ISO3166-2-lvl4": "FI-08",
+      "region": "Mainland Finland",
+      "country": "Finland",
+      "country_code": "fi"
+    },
+    "boundingbox": [
+      "62.2284754",
+      "62.2296526",
+      "25.7812464",
+      "25.7930367"
+    ]
+  }
 }
