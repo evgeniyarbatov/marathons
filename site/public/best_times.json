@@ -1027,8 +1027,8 @@
   },
   {
     "Time":"2:11:18",
-    "Name":"Nathan Martin",
-    "Country":"us",
+    "Name":"Michael Kimani Kamau",
+    "Country":"ke",
     "City":"Dodger Stadium",
     "Date":"2026-03-07",
     "Year":2026,
@@ -1567,11 +1567,11 @@
   },
   {
     "Time":"2:10:19",
-    "Name":"Edwin Koech",
+    "Name":"Sammy Kigen Korir",
     "Country":"ke",
     "City":"Guadalajara",
-    "Date":"2022-11-06",
-    "Year":2022,
+    "Date":"2023-11-05",
+    "Year":2023,
     "Gender":"Men"
   },
   {
@@ -2871,6 +2871,24 @@
     "Gender":"Women"
   },
   {
+    "Time":"2:10:49",
+    "Name":"Ichitaka Yamashita",
+    "Country":"jp",
+    "City":"Municipal Mizuho Stadium",
+    "Date":"2026-09-26",
+    "Year":2026,
+    "Gender":"Men"
+  },
+  {
+    "Time":"2:27:31",
+    "Name":"Shitaye Eshete",
+    "Country":"bn",
+    "City":"Municipal Mizuho Stadium",
+    "Date":"2026-09-26",
+    "Year":2026,
+    "Gender":"Women"
+  },
+  {
     "Time":"2:06:08",
     "Name":"Mande Bushendich",
     "Country":"ug",
@@ -4159,11 +4177,11 @@
   },
   {
     "Time":"2:26:51",
-    "Name":"Irina Permitina",
+    "Name":"Zinayida Semyonova",
     "Country":"ru",
     "City":"St. Paul",
-    "Date":"2004-10-03",
-    "Year":2004,
+    "Date":"2001-10-07",
+    "Year":2001,
     "Gender":"Women"
   },
   {
@@ -4636,8 +4654,8 @@
   },
   {
     "Time":"2:07:41",
-    "Name":"Solomon Mutai",
-    "Country":"ug",
+    "Name":"Emmanuel Naibei",
+    "Country":"ke",
     "City":"Venezia",
     "Date":"2023-10-22",
     "Year":2023,
