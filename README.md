@@ -8,7 +8,7 @@ Best and latest winning times for marathons worldwide, with Wikipedia links to e
 
 | Folder | Status | Last touched | Next step |
 |---|---|---|---|
-| root | active | 2026-10-11 | — |
+| root | active | 2026-10-06 | — |
 
 ## How it works
 
