@@ -4,6 +4,12 @@ Best and latest winning times for marathons worldwide, with Wikipedia links to e
 
 **Site:** https://evgeniyarbatov.github.io/marathons/
 
+## Status
+
+| Folder | Status | Last touched | Next step |
+|---|---|---|---|
+| root | active | 2026-10-11 | — |
+
 ## How it works
 
 1. [Kaggle dataset](https://www.kaggle.com/datasets/evgenyarbatov/marathon-running-times) of World Athletics marathon results.
