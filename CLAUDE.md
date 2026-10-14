@@ -20,7 +20,7 @@ https://evgeniyarbatov.github.io/marathons/ via GitHub Pages.
 ## How to run
 
 ```bash
-make install    # uv sync deps
+make setup      # uv sync deps
 make data       # download and unzip Kaggle dataset -> data/
 make metadata   # regenerate the JSON files consumed by the site
 make links      # regenerate links.json

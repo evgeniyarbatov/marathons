@@ -16,7 +16,7 @@ The `refresh-data` GitHub Actions workflow runs this daily, commits any changed 
 ## How to run
 
 ```bash
-make install    # uv sync deps
+make setup      # uv sync deps
 make data       # download Kaggle dataset (needs KAGGLE_API_TOKEN or `kaggle auth login`)
 make metadata   # build marathons/best_times/latest_times JSON
 make links      # build links.json
