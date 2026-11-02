@@ -33,10 +33,10 @@
   },
   {
     "City":"Amsterdam",
-    "People Count":327,
-    "Country Count":36,
-    "Men":223.0,
-    "Women":104.0,
+    "People Count":361,
+    "Country Count":37,
+    "Men":247.0,
+    "Women":114.0,
     "Country":"nl"
   },
   {
@@ -129,10 +129,10 @@
   },
   {
     "City":"Beijing",
-    "People Count":173,
+    "People Count":190,
     "Country Count":17,
-    "Men":100.0,
-    "Women":73.0,
+    "Men":111.0,
+    "Women":79.0,
     "Country":"cn"
   },
   {
@@ -361,10 +361,10 @@
   },
   {
     "City":"Casablanca",
-    "People Count":22,
-    "Country Count":3,
-    "Men":18.0,
-    "Women":4.0,
+    "People Count":35,
+    "Country Count":4,
+    "Men":27.0,
+    "Women":8.0,
     "Country":"ma"
   },
   {
@@ -417,10 +417,10 @@
   },
   {
     "City":"Chicago",
-    "People Count":368,
-    "Country Count":40,
-    "Men":224.0,
-    "Women":144.0,
+    "People Count":396,
+    "Country Count":41,
+    "Men":244.0,
+    "Women":152.0,
     "Country":"us"
   },
   {
@@ -513,10 +513,10 @@
   },
   {
     "City":"Cricket Ground",
-    "People Count":2,
-    "Country Count":1,
-    "Men":1.0,
-    "Women":1.0,
+    "People Count":8,
+    "Country Count":4,
+    "Men":3.0,
+    "Women":5.0,
     "Country":"np"
   },
   {
@@ -601,10 +601,10 @@
   },
   {
     "City":"Dongying",
-    "People Count":46,
-    "Country Count":5,
-    "Men":29.0,
-    "Women":17.0,
+    "People Count":53,
+    "Country Count":6,
+    "Men":32.0,
+    "Women":21.0,
     "Country":"cn"
   },
   {
@@ -625,10 +625,10 @@
   },
   {
     "City":"Dublin",
-    "People Count":60,
+    "People Count":69,
     "Country Count":11,
-    "Men":36.0,
-    "Women":24.0,
+    "Men":39.0,
+    "Women":30.0,
     "Country":"ie"
   },
   {
@@ -673,9 +673,9 @@
   },
   {
     "City":"Eindhoven",
-    "People Count":159,
+    "People Count":161,
     "Country Count":9,
-    "Men":139.0,
+    "Men":141.0,
     "Women":20.0,
     "Country":"nl"
   },
@@ -761,10 +761,10 @@
   },
   {
     "City":"Frankfurt",
-    "People Count":302,
-    "Country Count":30,
-    "Men":167.0,
-    "Women":135.0,
+    "People Count":317,
+    "Country Count":31,
+    "Men":175.0,
+    "Women":142.0,
     "Country":"de"
   },
   {
@@ -841,9 +841,9 @@
   },
   {
     "City":"Graz",
-    "People Count":3,
+    "People Count":4,
     "Country Count":1,
-    "Men":3.0,
+    "Men":4.0,
     "Women":null,
     "Country":"at"
   },
@@ -905,9 +905,9 @@
   },
   {
     "City":"Gyeongju",
-    "People Count":20,
+    "People Count":33,
     "Country Count":4,
-    "Men":20.0,
+    "Men":33.0,
     "Women":null,
     "Country":"kr"
   },
@@ -1169,10 +1169,10 @@
   },
   {
     "City":"Ko\u0161ice",
-    "People Count":100,
-    "Country Count":6,
-    "Men":73.0,
-    "Women":27.0,
+    "People Count":109,
+    "Country Count":8,
+    "Men":79.0,
+    "Women":30.0,
     "Country":"sk"
   },
   {
@@ -1233,10 +1233,10 @@
   },
   {
     "City":"K\u00f6ln",
-    "People Count":60,
-    "Country Count":9,
-    "Men":49.0,
-    "Women":11.0,
+    "People Count":72,
+    "Country Count":10,
+    "Men":54.0,
+    "Women":18.0,
     "Country":"de"
   },
   {
@@ -1336,6 +1336,14 @@
     "Country":"fr"
   },
   {
+    "City":"Lille",
+    "People Count":9,
+    "Country Count":5,
+    "Men":8.0,
+    "Women":1.0,
+    "Country":"fr"
+  },
+  {
     "City":"Lima",
     "People Count":24,
     "Country Count":7,
@@ -1353,18 +1361,18 @@
   },
   {
     "City":"Lisboa",
-    "People Count":65,
+    "People Count":78,
     "Country Count":8,
-    "Men":41.0,
-    "Women":24.0,
+    "Men":49.0,
+    "Women":29.0,
     "Country":"pt"
   },
   {
     "City":"Ljubljana",
-    "People Count":99,
+    "People Count":107,
     "Country Count":8,
-    "Men":65.0,
-    "Women":34.0,
+    "Men":69.0,
+    "Women":38.0,
     "Country":"si"
   },
   {
@@ -1521,10 +1529,10 @@
   },
   {
     "City":"Minneapolis",
-    "People Count":1,
-    "Country Count":1,
+    "People Count":2,
+    "Country Count":2,
     "Men":1.0,
-    "Women":null,
+    "Women":1.0,
     "Country":"us"
   },
   {
@@ -1569,10 +1577,10 @@
   },
   {
     "City":"Montr\u00e9al",
-    "People Count":4,
+    "People Count":5,
     "Country Count":3,
     "Men":4.0,
-    "Women":null,
+    "Women":1.0,
     "Country":"ca"
   },
   {
@@ -1609,9 +1617,9 @@
   },
   {
     "City":"M\u00fcnchen",
-    "People Count":16,
+    "People Count":17,
     "Country Count":7,
-    "Men":8.0,
+    "Men":9.0,
     "Women":8.0,
     "Country":"de"
   },
@@ -1641,9 +1649,9 @@
   },
   {
     "City":"Nairobi",
-    "People Count":46,
+    "People Count":51,
     "Country Count":1,
-    "Men":35.0,
+    "Men":40.0,
     "Women":11.0,
     "Country":"ke"
   },
@@ -1897,10 +1905,10 @@
   },
   {
     "City":"Perth",
-    "People Count":1,
-    "Country Count":1,
+    "People Count":2,
+    "Country Count":2,
     "Men":null,
-    "Women":1.0,
+    "Women":2.0,
     "Country":"au"
   },
   {
@@ -1953,10 +1961,10 @@
   },
   {
     "City":"Poznan",
-    "People Count":11,
+    "People Count":14,
     "Country Count":4,
-    "Men":9.0,
-    "Women":2.0,
+    "Men":11.0,
+    "Women":3.0,
     "Country":"pl"
   },
   {
@@ -2297,10 +2305,10 @@
   },
   {
     "City":"Sofia",
-    "People Count":2,
+    "People Count":3,
     "Country Count":2,
     "Men":1.0,
-    "Women":1.0,
+    "Women":2.0,
     "Country":"bg"
   },
   {
@@ -2465,10 +2473,10 @@
   },
   {
     "City":"Toronto",
-    "People Count":139,
+    "People Count":151,
     "Country Count":14,
-    "Men":80.0,
-    "Women":59.0,
+    "Men":85.0,
+    "Women":66.0,
     "Country":"ca"
   },
   {
@@ -2577,10 +2585,10 @@
   },
   {
     "City":"Venezia",
-    "People Count":75,
+    "People Count":88,
     "Country Count":13,
-    "Men":53.0,
-    "Women":22.0,
+    "Men":63.0,
+    "Women":25.0,
     "Country":"it"
   },
   {
@@ -2681,10 +2689,10 @@
   },
   {
     "City":"Xi'an",
-    "People Count":2,
+    "People Count":4,
     "Country Count":2,
-    "Men":1.0,
-    "Women":1.0,
+    "Men":2.0,
+    "Women":2.0,
     "Country":"cn"
   },
   {
